@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor (Cursor/VS Code)
+.vscode/
+.cursor/
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.swp
+*~
+
+# Node (se usar npm no futuro)
+node_modules/
+
+# Build (se gerar builds no futuro)
+dist/
+build/

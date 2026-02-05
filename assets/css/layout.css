@@ -1,0 +1,329 @@
+/* ============================================
+   LAYOUT.CSS - Estrutura e Layout
+   Biblioteca de Anestesiologia - Academia MedTech
+   ============================================ */
+
+/* ==================== SKIP LINK (NOVO - ACESSIBILIDADE) ==================== */
+
+/* 
+   O QUE É: Link para pular navegação e ir direto ao conteúdo
+   POR QUÊ: Usuários de leitores de tela não querem ouvir navbar toda vez
+   
+   COMPORTAMENTO:
+   - Normalmente invisível
+   - Aparece quando ganha foco (Tab)
+   - Ao clicar, pula para #main-content
+*/
+.skip-link {
+    /* Esconde visualmente, mas mantém acessível */
+    position: absolute;
+    top: -40px;
+    left: 0;
+    
+    /* Estilo quando visível */
+    background: var(--primary-color);
+    color: var(--white);
+    padding: var(--spacing-sm) var(--spacing-md);
+    text-decoration: none;
+    border-radius: 0 0 var(--radius-md) 0;
+    z-index: calc(var(--z-navbar) + 1); /* Acima da navbar */
+    font-weight: var(--font-weight-semibold);
+}
+
+/* Aparece quando ganha foco (Tab) */
+.skip-link:focus {
+    top: 0;
+    outline: 3px solid var(--white);
+    outline-offset: 2px;
+}
+
+
+/* ==================== SITE HEADER (NOVO) ==================== */
+
+/* 
+   Wrapper para navbar
+   Permite adicionar elementos acima/abaixo da navbar no futuro
+*/
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: var(--z-navbar);
+    /* Por enquanto sem estilos, mas boa prática semântica */
+}
+
+/* ==================== NAVBAR ==================== */
+
+
+
+.navbar {
+    background: rgba(247, 247, 247, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: var(--shadow-sm);
+    padding: var(--spacing-md) 0;
+}
+
+/* Variação da navbar com margin-bottom (para páginas de conteúdo) */
+.navbar.with-margin {
+    margin-bottom: var(--spacing-2xl);
+}
+
+.nav-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ==================== LOGO (ATUALIZADO) ==================== */
+
+/* 
+   MUDANÇA: Logo agora é <a> em vez de <div>
+   Logo é link para página inicial
+*/
+.logo {
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-bold);
+    
+    /* Gradiente no texto */
+    background: linear-gradient(135deg, 
+        var(--primary-color) 0%, 
+        var(--secondary-color) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* ⭐ ADICIONADO: Padrão sem webkit */
+    
+    /* ⭐ ADICIONADO: Fallback para navegadores que não suportam */
+    color: var(--primary-color);
+    
+    /* Layout */
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    
+    /* Link sem sublinhado */
+    text-decoration: none;
+    
+    /* ⭐ REMOVIDO: cursor: pointer (redundante em <a>) */
+    
+    /* Transição suave */
+    transition: transform var(--transition-normal);
+}
+
+.logo:hover {
+    transform: scale(1.05); /* Leve zoom ao hover */
+}
+
+.logo:focus {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 3px;
+    border-radius: var(--radius-sm);
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+    border-radius: var(--radius-sm);
+}
+
+/* ==================== NAVEGAÇÃO (ATUALIZADO) ==================== */
+
+/* 
+   MUDANÇA IMPORTANTE:
+   Antes: <button class="nav-link">
+   Depois: <ul class="nav-links"><li><a class="nav-link">
+   
+   Precisamos remover bullets e estilizar lista
+*/
+
+.nav-links {
+    display: flex;
+    gap: var(--spacing-md);
+    align-items: center;
+    /* ⭐ NOVO: Remove bullets da lista */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* ⭐ NOVO: Estilo dos <li> */
+.nav-links li {
+    display: inline-block; /* Para flexbox funcionar */
+}
+
+
+.nav-link {
+    /*REMOVE SUBLINHADO*/
+    text-decoration: none;
+
+    /* Visual */
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    color: var(--gray-700);
+    font-weight: var(--font-weight-medium);
+    display: inline-block;
+}
+
+.nav-link:hover {
+    background: var(--gray-200);
+    color: var(--primary-color);
+}
+
+.nav-link.active {
+    background: var(--primary-color);
+    color: var(--white);
+}
+
+/* ⭐ ADICIONADO: Focus state para acessibilidade */
+.nav-link:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+/* Back Link (para páginas internas) */
+.back-link {
+    padding: 10px 20px;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    color: var(--gray-700);
+    font-weight: var(--font-weight-medium);
+    text-decoration: none;
+    background: var(--gray-200);
+}
+
+.back-link:hover {
+    background: var(--primary-color);
+    color: var(--white);
+    transform: translateY(-2px);
+}
+
+/* ==================== CONTAINER ==================== */
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: var(--spacing-2xl) var(--spacing-md);
+}
+
+/* ==================== PAGE HEADERS ==================== */
+
+/* ⭐ NOVO: Header wrapper da seção */
+.section-header {
+    text-align: center;
+    margin-bottom: var(--spacing-2xl);
+}
+
+.page-title {
+    text-align: center;
+    color: var(--white);
+    font-size: var(--font-size-3xl);
+    margin-bottom: var(--spacing-sm);
+    font-weight: var(--font-weight-bold);
+}
+
+.page-subtitle {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--spacing-2xl);
+    font-weight: var(--font-weight-light);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* ==================== GRID LAYOUTS ==================== */
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-2xl);
+}
+
+/* ==================== SECTIONS ==================== */
+
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
+
+/* About Section */
+.about-content {
+    background: rgba(247, 247, 247, 0.98);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-2xl);
+    box-shadow: var(--shadow-lg);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about-content h2 {
+    color: var(--dark-blue);
+    font-size: 2em;
+    margin-bottom: var(--spacing-md);
+}
+
+.about-content p {
+    color: var(--gray-700);
+    line-height: 1.8;
+    margin-bottom: var(--spacing-sm);
+}
+
+/* ==================== FOOTER (ATUALIZADO) ==================== */
+
+/* ⭐ NOVO: Classe específica para footer */
+.site-footer {
+    text-align: center;
+    padding: var(--spacing-xl);
+    color: rgba(255, 255, 255, 0.9);
+    font-size: var(--font-size-sm);
+}
+
+/* ⭐ NOVO: Subtítulo do footer */
+.footer-subtitle {
+    margin-top: 10px;
+    opacity: 0.7;
+    font-size: var(--font-size-sm);
+}
+
+/* ==================== RESPONSIVIDADE ==================== */
+
+@media (max-width: 768px) {
+    .site-header {
+    position: relative;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .page-title {
+        font-size: 2em;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* ⭐ ADICIONADO: Logo menor em mobile */
+
+    .logo {
+        font-size: var(--font-size-xl);
+    }
+    
+    .logo-img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
