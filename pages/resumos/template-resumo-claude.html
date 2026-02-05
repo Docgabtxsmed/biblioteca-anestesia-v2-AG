@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ============================================
+         TEMPLATE: RESUMO CIENTÍFICO
+         ============================================
+         
+         Este template é para páginas de RESUMO (Nível 3).
+         Diferente do template de páginas secundárias, este tem:
+         - Layout 2 colunas (sidebar + conteúdo)
+         - Navegação interna com âncoras
+         - Estrutura para conteúdo científico
+         - Highlight boxes para informações importantes
+         
+         LOCALIZAÇÃO: pages/resumos/[tema]-[subtema].html
+         
+         EXEMPLO DE USO:
+         - pages/resumos/cardiaca-cec.html
+         - pages/resumos/transplante-geral.html
+         
+         CAMINHOS RELATIVOS (de pages/resumos/):
+         - Raiz: ../../
+         - Assets: ../../assets/
+         - Página secundária: ../cardiaca.html
+         ============================================ -->
+    
+    <!-- SEO: PERSONALIZE PARA CADA RESUMO -->
+    <meta name="description" content="[DESCRIÇÃO DO RESUMO - máx 160 caracteres]">
+    <meta name="keywords" content="anestesiologia, [TEMA], [SUBTEMA], [PALAVRAS-CHAVE]">
+    <meta name="author" content="Academia MedTech - Medicina Perioperatória e Tecnologia">
+    
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalScholarlyArticle",
+      "name": "[TÍTULO DO RESUMO]",
+      "description": "[DESCRIÇÃO BREVE]",
+      "medicalAudience": "Anestesiologista"
+    }
+    </script>
+    
+    <!-- TÍTULO: PERSONALIZE -->
+    <title>[Tema - Subtema] - Biblioteca de Anestesiologia</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../assets/css/style-resumos.css">
+</head>
+<body>
+    <!-- Skip link para acessibilidade -->
+    <a class="skip-link" href="#main-content">Pular para o conteúdo</a>
+
+    <!-- ============================================
+         HEADER + NAVBAR
+         ============================================ -->
+    <header class="site-header">
+        <nav class="navbar" aria-label="Navegação principal">
+            <div class="nav-content">
+                <!-- Logo clicável (volta ao index) -->
+                <a class="logo" href="../../index.html" aria-label="Voltar para a página inicial">
+                    <span>📚 [TÍTULO DO SEU RESUMO]</span>
+                </a>
+                
+                <!-- Breadcrumb / Links de navegação -->
+                <div class="nav-breadcrumb">
+                    <a href="../../index.html" class="breadcrumb-link">Início</a>
+                    <span class="breadcrumb-separator">›</span>
+                    <a href="../[tema].html" class="breadcrumb-link">[Tema]</a>
+                    <span class="breadcrumb-separator">›</span>
+                    <span class="breadcrumb-current">[Subtema]</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ============================================
+         MAIN CONTENT - LAYOUT 2 COLUNAS
+         ============================================ -->
+    <main id="main-content" class="resumo-container">
+        
+        <!-- ==========================================
+             SIDEBAR DE NAVEGAÇÃO (Coluna Esquerda)
+             ========================================== -->
+        <aside class="resumo-sidebar" aria-label="Índice do resumo">
+            <div class="sidebar-sticky">
+                <h2 class="sidebar-title">Navegação</h2>
+                
+                <nav class="sidebar-nav">
+                    <ul class="sidebar-menu">
+                        <!-- 
+                            IMPORTANTE: Os href devem corresponder aos id das seções
+                            Exemplo: href="#introducao" → <section id="introducao">
+                        -->
+                        <li>
+                            <a href="#introducao" class="sidebar-link active">
+                                Introdução
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#epidemiologia" class="sidebar-link">
+                                Epidemiologia
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#fisiopatologia" class="sidebar-link">
+                                Fisiopatologia
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#avaliacao-preoperatoria" class="sidebar-link">
+                                Avaliação Pré-operatória
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#manejo-anestesico" class="sidebar-link">
+                                Manejo Anestésico
+                            </a>
+                            <!-- Subseções (opcional) -->
+                            <ul class="sidebar-submenu">
+                                <li><a href="#inducao" class="sidebar-sublink">Indução</a></li>
+                                <li><a href="#manutencao" class="sidebar-sublink">Manutenção</a></li>
+                                <li><a href="#monitorizacao" class="sidebar-sublink">Monitorização</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#complicacoes" class="sidebar-link">
+                                Complicações
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#referencias" class="sidebar-link">
+                                Referências
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <!-- Botão de voltar -->
+                <a href="../[tema].html" class="sidebar-back-btn">
+                    ← Voltar para [Tema]
+                </a>
+            </div>
+        </aside>
+
+        <!-- ==========================================
+             CONTEÚDO DO RESUMO (Coluna Direita)
+             ========================================== -->
+        <article class="resumo-content">
+            
+            <!-- HEADER DO RESUMO -->
+            <header class="resumo-header">
+                <h1 class="resumo-title">[Título do Resumo]</h1>
+                <p class="resumo-meta">
+                    <span class="resumo-author">Academia MedTech</span> • 
+                    <span class="resumo-date">Atualizado em: Fevereiro 2026</span> • 
+                    <span class="resumo-reading-time">⏱️ 15 min de leitura</span>
+                </p>
+            </header>
+
+            <!-- ==========================================
+                 SEÇÃO 1: INTRODUÇÃO
+                 ========================================== -->
+            <section id="introducao" class="resumo-section">
+                <h2 class="section-title">Introdução</h2>
+                
+                <p>
+                    [Texto introdutório sobre o tema. Use parágrafos para organizar ideias.]
+                </p>
+                
+                <p>
+                    [Segundo parágrafo complementando a introdução.]
+                </p>
+                
+                <!-- Highlight Box: Informação -->
+                <div class="highlight-box info">
+                    <strong>💡 Ponto-Chave:</strong>
+                    Informação importante para destacar.
+                </div>
+            </section>
+
+            <!-- ==========================================
+                 SEÇÃO 2: EPIDEMIOLOGIA
+                 ========================================== -->
+            <section id="epidemiologia" class="resumo-section">
+                <h2 class="section-title">Epidemiologia</h2>
+                
+                <p>
+                    [Texto sobre epidemiologia do tema.]
+                </p>
+                
+                <!-- Lista -->
+                <ul class="resumo-list">
+                    <li>Incidência: [dado]</li>
+                    <li>Prevalência: [dado]</li>
+                    <li>Mortalidade: [dado]</li>
+                </ul>
+                
+                <!-- Highlight Box: Dados Estatísticos -->
+                <div class="highlight-box stats">
+                    <strong>📊 Dados:</strong>
+                    Estatísticas relevantes sobre o tema.
+                </div>
+            </section>
+
+            <!-- ==========================================
+                 SEÇÃO 3: FISIOPATOLOGIA
+                 ========================================== -->
+            <section id="fisiopatologia" class="resumo-section">
+                <h2 class="section-title">Fisiopatologia</h2>
+                
+                <p>
+                    [Texto explicando a fisiopatologia.]
+                </p>
+                
+                <!-- Subseção -->
+                <h3 class="subsection-title">Mecanismo Principal</h3>
+                <p>
+                    [Detalhamento do mecanismo.]
+                </p>
+                
+                <!-- Highlight Box: Conceito Importante -->
+                <div class="highlight-box concept">
+                    <strong>🔬 Conceito:</strong>
+                    Definição ou mecanismo importante.
+                </div>
+            </section>
+
+            <!-- ==========================================
+                 SEÇÃO 4: AVALIAÇÃO PRÉ-OPERATÓRIA
+                 ========================================== -->
+            <section id="avaliacao-preoperatoria" class="resumo-section">
+                <h2 class="section-title">Avaliação Pré-operatória</h2>
+                
+                <p>
+                    [Texto sobre avaliação pré-operatória.]
+                </p>
+                
+                <!-- Lista numerada -->
+                <ol class="resumo-list">
+                    <li>História clínica completa</li>
+                    <li>Exame físico focado</li>
+                    <li>Exames complementares</li>
+                    <li>Estratificação de risco</li>
+                </ol>
+                
+                <!-- Highlight Box: Atenção -->
+                <div class="highlight-box warning">
+                    <strong>⚠️ Atenção:</strong>
+                    Pontos críticos na avaliação.
+                </div>
+            </section>
+
+            <!-- ==========================================
+                 SEÇÃO 5: MANEJO ANESTÉSICO
+                 ========================================== -->
+            <section id="manejo-anestesico" class="resumo-section">
+                <h2 class="section-title">Manejo Anestésico</h2>
+                
+                <p>
+                    [Introdução ao manejo anestésico.]
+                </p>
+                
+                <!-- SUBSEÇÃO: Indução -->
+                <h3 id="inducao" class="subsection-title">Indução Anestésica</h3>
+                <p>
+                    [Detalhes sobre indução.]
+                </p>
+                
+                <!-- Tabela de drogas (exemplo) -->
+                <div class="resumo-table-wrapper">
+                    <table class="resumo-table">
+                        <thead>
+                            <tr>
+                                <th>Droga</th>
+                                <th>Dose</th>
+                                <th>Observações</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Propofol</td>
+                                <td>1.5-2.5 mg/kg</td>
+                                <td>Titular conforme resposta</td>
+                            </tr>
+                            <tr>
+                                <td>Fentanil</td>
+                                <td>3-5 mcg/kg</td>
+                                <td>Analgesia intraoperatória</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <!-- SUBSEÇÃO: Manutenção -->
+                <h3 id="manutencao" class="subsection-title">Manutenção Anestésica</h3>
+                <p>
+                    [Detalhes sobre manutenção.]
+                </p>
+                
+                <!-- SUBSEÇÃO: Monitorização -->
+                <h3 id="monitorizacao" class="subsection-title">Monitorização</h3>
+                <p>
+                    [Detalhes sobre monitorização.]
+                </p>
+                
+                <!-- Highlight Box: Dica Prática -->
+                <div class="highlight-box tip">
+                    <strong>💉 Dica Prática:</strong>
+                    Conselho clínico útil para a prática.
+                </div>
+            </section>
+
+            <!-- ==========================================
+                 SEÇÃO 6: COMPLICAÇÕES
+                 ========================================== -->
+            <section id="complicacoes" class="resumo-section">
+                <h2 class="section-title">Complicações</h2>
+                
+                <p>
+                    [Texto sobre complicações.]
+                </p>
+                
+                <h3 class="subsection-title">Complicações Intraoperatórias</h3>
+                <ul class="resumo-list">
+                    <li>Hipotensão</li>
+                    <li>Arritmias</li>
+                    <li>Sangramento</li>
+                </ul>
+                
+                <h3 class="subsection-title">Complicações Pós-operatórias</h3>
+                <ul class="resumo-list">
+                    <li>Dor</li>
+                    <li>Náusea e vômito</li>
+                    <li>Retenção urinária</li>
+                </ul>
+                
+                <!-- Highlight Box: Emergência -->
+                <div class="highlight-box danger">
+                    <strong>🚨 Emergência:</strong>
+                    Complicações que exigem ação imediata.
+                </div>
+            </section>
+
+            <!-- ==========================================
+                 SEÇÃO 7: REFERÊNCIAS
+                 ========================================== -->
+            <section id="referencias" class="resumo-section">
+                <h2 class="section-title">Referências</h2>
+                
+                <ol class="resumo-references">
+                    <li>
+                        Autor A, Autor B. Título do artigo. <em>Nome da Revista</em>. 
+                        Ano;Volume(Número):Páginas.
+                    </li>
+                    <li>
+                        Autor C, Autor D. Título do livro. Editora, Ano.
+                    </li>
+                    <li>
+                        Sociedade Brasileira de Anestesiologia. Diretriz sobre [tema]. 
+                        Disponível em: [URL]. Acesso em: [data].
+                    </li>
+                </ol>
+            </section>
+
+        </article>
+
+    </main>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p class="footer-title">&copy; 2026 Academia MedTech</p>
+            <p class="footer-subtitle">Medicina Perioperatória e Tecnologia - Biblioteca de Anestesiologia</p>
+        </div>
+    </footer>
+    
+    <!-- ============================================
+         JAVASCRIPT
+         ============================================ -->
+    <!-- 
+        O JavaScript será adicionado posteriormente em arquivo separado
+        (script-resumos.js) que incluirá:
+        - Navegação suave entre seções
+        - Highlight da seção ativa no sidebar
+        - Scroll tracking
+    -->
+    
+</body>
+</html>

@@ -1,0 +1,256 @@
+/* ============================================
+   STYLE-SECONDARY.CSS
+   Biblioteca de Anestesiologia - Academia MedTech
+   ============================================
+   
+   Arquivo CSS para páginas secundárias do projeto.
+   Importa módulos base e adiciona estilos específicos
+   para páginas de especialidades (ex: Cirurgia Cardíaca,
+   Transplante Hepático, Cirurgia Torácica).
+   
+   Uso: <link rel="stylesheet" href="style-secondary.css">
+   ============================================ */
+
+/* ==================== IMPORTAÇÕES DE MÓDULOS ==================== */
+
+/* Base: Reset, Variáveis CSS e Tipografia */
+@import url('base.css');
+
+/* Layout: Navbar, Container, Grid e Estrutura */
+@import url('layout.css');
+
+/* Components: Cards, Modais, Botões e Componentes Reutilizáveis */
+@import url('components.css');
+
+/* Utilities: Classes Utilitárias para Espaçamento, Cores, etc */
+@import url('utilities.css');
+
+
+/* ==================== ESTILOS ESPECÍFICOS PÁGINAS SECUNDÁRIAS ==================== */
+
+/* BODY - Remove gradiente de fundo para páginas secundárias */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    
+    background: var(--gray-50);
+    background-image: none;
+    display: flex;              /* Transforma body em container flexbox */
+    flex-direction: column;     /* Itens em coluna (vertical) */
+    min-height: 100vh;          /* Altura mínima = 100% da tela */
+}
+
+/* Main ocupa todo espaço disponível, empurrando footer para baixo */
+#main-container,
+main {
+    flex: 1 0 auto;  /* grow: sim, shrink: não, basis: auto */
+    
+    /* Garante que o conteúdo interno funcione normalmente */
+    display: block;  /* Força comportamento de bloco normal */
+    width: 100%;     /* Ocupa largura total */
+}
+    
+/* 
+   PAGE HEADER - Cabeçalho das páginas secundárias
+   
+   Inclui título com gradiente e subtítulo
+*/
+.page-header {
+    text-align: center;
+    margin-bottom: var(--spacing-2xl);
+    padding: var(--spacing-xl) 0;
+}
+
+/* 
+   PAGE TITLE - Título principal com efeito gradiente
+   
+   O EFEITO: Texto com gradiente de cor (azul → roxo)
+   
+   COMO FUNCIONA (Analogia Médica):
+   É como usar um corante que só aparece em certas estruturas:
+   
+   1. background: linear-gradient(...) 
+      → Prepara o "corante" (cria o gradiente)
+   
+   2. -webkit-background-clip: text
+      → "Aplica o corante" apenas no texto
+   
+   3. -webkit-text-fill-color: transparent
+      → Torna o texto transparente para o gradiente aparecer
+   
+   Resultado: Texto colorido com gradiente!
+*/
+.page-title {
+    font-size: var(--font-size-3xl);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: var(--spacing-sm);
+    
+    /* Cria o gradiente */
+    background: linear-gradient(
+        135deg, 
+        var(--primary-color) 0%, 
+        var(--secondary-color) 100%
+    );
+    
+    /* Aplica o gradiente apenas no texto */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+    /* Fallback para navegadores antigos que não suportam gradiente em texto */
+    color: var(--primary-color);
+    
+    line-height: 1.2;
+}
+
+/* 
+   PAGE SUBTITLE - Subtítulo/descrição da página
+*/
+.page-subtitle {
+    font-size: var(--font-size-lg);
+    color: var(--gray-600);
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* ==================== ANIMAÇÕES ==================== */
+
+/* 
+   Animação de fade-in (aparecer suavemente)
+   
+   ANALOGIA MÉDICA: Como o efeito de um sedativo IV
+   - Não age instantaneamente
+   - Tem um tempo de latência (0.6s)
+   - Efeito suave e progressivo
+   
+   USADO PARA: Fazer cards aparecerem com efeito suave ao carregar
+*/
+@keyframes fadeIn {
+    from { 
+        opacity: 0;                    /* Invisível */
+        transform: translateY(20px);   /* 20px abaixo da posição final */
+    }
+    to { 
+        opacity: 1;                    /* Visível */
+        transform: translateY(0);      /* Posição normal */
+    }
+}
+
+/* Classe para aplicar a animação */
+.fade-in {
+    animation: fadeIn 0.6s ease forwards;
+}
+
+/* 
+   COMO USAR:
+   No HTML, adicione a classe "fade-in" aos elementos:
+   
+   <article class="component-card fade-in">
+       <!-- conteúdo do card -->
+   </article>
+   
+   Você pode adicionar delays para cards aparecerem em sequência:
+   
+   <article class="component-card fade-in" style="animation-delay: 0.1s;">
+   <article class="component-card fade-in" style="animation-delay: 0.2s;">
+   <article class="component-card fade-in" style="animation-delay: 0.3s;">
+*/
+
+/* ==================== AJUSTES ESPECÍFICOS ==================== */
+
+/*
+   ÁREA PARA ESTILOS MUITO ESPECÍFICOS
+   
+   Use esta área para estilos que:
+   - Não se encaixam nos módulos base
+   - São únicos de páginas secundárias
+   - Não serão reutilizados em outros lugares
+   
+   Exemplos:
+   - Comportamento especial de hover para esta página
+   - Cores específicas de uma única página
+   - Layouts únicos que não serão reutilizados
+*/
+
+/* Exemplo: Espaçamento extra na galeria de cards das páginas secundárias */
+.gallery-grid {
+    margin-top: var(--spacing-xl);
+}
+
+/* ==================== RESPONSIVIDADE ==================== */
+
+/* 
+   MOBILE FIRST: Ajustes para telas menores
+   
+   Breakpoint: 768px (tablets em modo retrato e celulares)
+   
+   ANALOGIA: Como ajustar dose de medicamento para peso menor
+   - Telas menores = "doses menores" (tamanhos reduzidos)
+   - Mantém proporções, mas adapta ao contexto
+*/
+@media (max-width: 768px) {
+    .page-header {
+        padding: var(--spacing-lg) 0;
+    }
+    
+    .page-title {
+        font-size: var(--font-size-2xl);  /* Reduz de 3xl para 2xl */
+    }
+    
+    .page-subtitle {
+        font-size: var(--font-size-md);   /* Reduz de lg para md */
+        padding: 0 var(--spacing-md);     /* Adiciona padding lateral */
+    }
+    
+    /* Gallery já é responsiva pelo layout.css, mas podemos ajustar espaçamento */
+    .gallery-grid {
+        margin-top: var(--spacing-lg);
+    }
+}
+
+/* ==================== FOOTER ==================== */
+
+.site-footer {
+    /* Aparência */
+    background: var(--dark-blue);
+    color: var(--white);
+    
+    /* Espaçamento */
+    padding: var(--spacing-xl) var(--spacing-md);
+    
+    /* Alinhamento */
+    text-align: center;
+}
+
+.footer-title {
+    margin: 0;
+    margin-bottom: var(--spacing-xs);
+    opacity: 0.9;
+    font-size: 1.2rem;
+    font-weight: var(--font-weight-semibold);
+}
+
+.footer-subtitle {
+    margin: 0;
+    opacity: 0.7;
+    font-size: var(--font-size-sm);
+}
+
+/* Mobile: reduzir padding */
+@media (max-width: 768px) {
+    .site-footer {
+        padding: var(--spacing-lg) var(--spacing-sm);
+    }
+    
+    .footer-title {
+        font-size: 1rem;
+    }
+}
+
+
+
