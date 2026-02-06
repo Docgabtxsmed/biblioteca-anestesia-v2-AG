@@ -1,0 +1,119 @@
+{
+    "id": "neurocirurgia",
+    "seo": {
+        "title": "Neuroanestesia - Biblioteca de Anestesiologia",
+        "description": "Neuroanestesia - Proteção cerebral, controle da PIC, monitorização neurofisiológica e manejo anestésico em neurocirurgia.",
+        "keywords": "anestesiologia, neurocirurgia, neuroanestesia, PIC, pressão intracraniana, proteção cerebral, monitorização neurofisiológica",
+        "schema": {
+            "name": "Neuroanestesia",
+            "description": "Material educacional sobre anestesia para neurocirurgia"
+        }
+    },
+    "header": {
+        "navbarTitle": "🧠 Neuroanestesia",
+        "pageTitle": "Neuroanestesia",
+        "pageSubtitle": "Proteção cerebral, controle da pressão intracraniana, monitorização neurofisiológica e manejo anestésico em procedimentos neurocirúrgicos."
+    },
+    "cards": [
+        {
+            "id": "resumo-fisiologia",
+            "title": "Resumo: Fisiologia Cerebral",
+            "description": "Fluxo sanguíneo cerebral, autorregulação, pressão de perfusão cerebral e metabolismo cerebral.",
+            "thumbnail": "🧠",
+            "link": "resumos/neuro/fisiologia-cerebral.html",
+            "tags": [
+                "FSC",
+                "PPC",
+                "Autorregulação"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-pic",
+            "title": "Resumo: Pressão Intracraniana",
+            "description": "Fisiopatologia da hipertensão intracraniana, monitorização da PIC e estratégias de tratamento.",
+            "thumbnail": "📊",
+            "link": "resumos/neuro-pic.html",
+            "tags": [
+                "PIC",
+                "HIC",
+                "Tratamento"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-protecao",
+            "title": "Resumo: Proteção Cerebral",
+            "description": "Estratégias de neuroproteção, anestésicos neuroprotetores e manejo da lesão cerebral isquêmica.",
+            "thumbnail": "🛡️",
+            "link": "resumos/neuro-protecao-cerebral.html",
+            "tags": [
+                "Neuroproteção",
+                "Isquemia",
+                "Estratégias"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "neuro-fisiopatologia-pediatrica",
+            "title": "Fisiopatologia em Neurocirurgia Pediátrica",
+            "description": "Fisiologia do LCR, PIC, FSC e autorregulação cerebral.",
+            "thumbnail": "🧠",
+            "link": "resumos/neuro/fisiopatologia-pediatrica.html",
+            "tags": [
+                "Neuro",
+                "Pediatria",
+                "Fisiologia"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "neuro-pediatria",
+            "title": "Neurocirurgia Pediátrica",
+            "description": "Resumo didático de neurocirurgia pediátrica.",
+            "thumbnail": "👶🏽",
+            "link": "resumos/neuro/neuropediatria-resumo.html",
+            "tags": [
+                "Neuro",
+                "Pediatria",
+                "Fisiologia"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão rápida dos conceitos essenciais de neuroanestesia e neurofisiologia.",
+            "thumbnail": "🎴",
+            "link": "flashcards/neurocirurgia.html",
+            "tags": [
+                "Interativo",
+                "Revisão"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Quiz interativo com gabarito comentado sobre neuroanestesia.",
+            "thumbnail": "❓",
+            "link": "questoes/neurocirurgia.html",
+            "tags": [
+                "Interativo"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "monitorizacao",
+            "title": "Monitorização Neurofisiológica",
+            "description": "Potenciais evocados, EEG e monitorização multimodal. Em breve!",
+            "thumbnail": "🔬",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "resumo",
+            "disabled": true
+        }
+    ]
+}

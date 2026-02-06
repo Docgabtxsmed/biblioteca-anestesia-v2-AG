@@ -1,0 +1,81 @@
+{
+    "id": "otorrino",
+    "seo": {
+        "title": "Anestesia para Otorrinolaringologia - Biblioteca de Anestesiologia",
+        "description": "Anestesia para Otorrinolaringologia - Via aérea difícil, laser, pediatria.",
+        "keywords": "anestesiologia, via aérea, ouvido, anestesia para otorrinolaringologia",
+        "schema": {
+            "name": "Anestesia para Otorrinolaringologia",
+            "description": "Material Educacional sobre Anestesia para Otorrinolaringologia"
+        }
+    },
+    "header": {
+        "navbarTitle": "👂 Anestesia para Otorrinolaringologia",
+        "pageTitle": "Anestesia para Otorrinolaringologia",
+        "pageSubtitle": "Via aérea difícil, laser, pediatria."
+    },
+    "cards": [
+        {
+            "id": "resumo-via-aerea",
+            "title": "Resumo: Via Aérea",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Via Aérea em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/otorrino-via-aerea.html",
+            "tags": [
+                "Resumo",
+                "Via Aérea",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-ouvido",
+            "title": "Resumo: Ouvido",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Ouvido em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/otorrino-ouvido.html",
+            "tags": [
+                "Resumo",
+                "Ouvido",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Anestesia para Otorrinolaringologia.",
+            "thumbnail": "🎴",
+            "link": "flashcards/otorrino.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Anestesia para Otorrinolaringologia.",
+            "thumbnail": "❓",
+            "link": "questoes/otorrino.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

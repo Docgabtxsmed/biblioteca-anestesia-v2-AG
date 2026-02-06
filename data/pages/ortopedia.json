@@ -1,0 +1,81 @@
+{
+    "id": "ortopedia",
+    "seo": {
+        "title": "Anestesia para Ortopedia - Biblioteca de Anestesiologia",
+        "description": "Anestesia para Ortopedia - Bloqueios regionais, artroplastia, trauma.",
+        "keywords": "anestesiologia, osso, bloqueios, anestesia para ortopedia",
+        "schema": {
+            "name": "Anestesia para Ortopedia",
+            "description": "Material Educacional sobre Anestesia para Ortopedia"
+        }
+    },
+    "header": {
+        "navbarTitle": "🦴 Anestesia para Ortopedia",
+        "pageTitle": "Anestesia para Ortopedia",
+        "pageSubtitle": "Bloqueios regionais, artroplastia, trauma."
+    },
+    "cards": [
+        {
+            "id": "resumo-osso",
+            "title": "Resumo: Osso",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Osso em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/ortopedia-osso.html",
+            "tags": [
+                "Resumo",
+                "Osso",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-bloqueios",
+            "title": "Resumo: Bloqueios",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Bloqueios em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/ortopedia-bloqueios.html",
+            "tags": [
+                "Resumo",
+                "Bloqueios",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Anestesia para Ortopedia.",
+            "thumbnail": "🎴",
+            "link": "flashcards/ortopedia.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Anestesia para Ortopedia.",
+            "thumbnail": "❓",
+            "link": "questoes/ortopedia.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

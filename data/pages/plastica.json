@@ -1,0 +1,66 @@
+{
+    "id": "plastica",
+    "seo": {
+        "title": "Cirurgia Plástica - Biblioteca de Anestesiologia",
+        "description": "Recursos sobre anestesia em cirurgia plástica: lipoaspiração e queimados.",
+        "keywords": "anestesiologia, cirurgia plástica, lipoaspiração, queimados",
+        "schema": {
+            "name": "Cirurgia Plástica",
+            "description": "Anestesia para cirurgia plástica"
+        }
+    },
+    "header": {
+        "navbarTitle": "✨ Cirurgia Plástica",
+        "pageTitle": "Anestesia para Cirurgia Plástica",
+        "pageSubtitle": "Resumos e protocolos focados em lipoaspiração e manejo do paciente queimado."
+    },
+    "cards": [
+        {
+            "id": "resumo-lipo",
+            "title": "Lipoaspiração",
+            "description": "Resumo de anestesia para lipoaspiração, técnica tumescente e cuidados com lidocaína.",
+            "thumbnail": "💉",
+            "link": "resumos/plastica-lipo.html",
+            "tags": [
+                "Tumescente",
+                "Lidocaína"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-queimados",
+            "title": "Queimados",
+            "description": "Manejo anestésico e ressuscitação volêmica do paciente queimado.",
+            "thumbnail": "🔥",
+            "link": "resumos/plastica-queimados.html",
+            "tags": [
+                "Ressuscitação",
+                "Via aérea"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão rápida dos conceitos-chave em cirurgia plástica.",
+            "thumbnail": "🎴",
+            "link": "flashcards/plastica.html",
+            "tags": [
+                "Interativo",
+                "Revisão"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Quiz interativo com gabarito comentado sobre cirurgia plástica.",
+            "thumbnail": "❓",
+            "link": "questoes/plastica.html",
+            "tags": [
+                "Interativo"
+            ],
+            "type": "questoes"
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "id": "bloqueios-perifericos",
+    "seo": {
+        "title": "Bloqueios Periféricos - Biblioteca de Anestesiologia",
+        "description": "Bloqueios Periféricos - Membro superior, membro inferior, tronco, guiados por USG.",
+        "keywords": "anestesiologia, usg, nervos, bloqueios periféricos",
+        "schema": {
+            "name": "Bloqueios Periféricos",
+            "description": "Material Educacional sobre Bloqueios Periféricos"
+        }
+    },
+    "header": {
+        "navbarTitle": "📍 Bloqueios Periféricos",
+        "pageTitle": "Bloqueios Periféricos",
+        "pageSubtitle": "Membro superior, membro inferior, tronco, guiados por USG."
+    },
+    "cards": [
+        {
+            "id": "resumo-usg",
+            "title": "Resumo: USG",
+            "description": "Conceitos fundamentais e aspectos práticos sobre USG em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/bloqueios-perifericos-usg.html",
+            "tags": [
+                "Resumo",
+                "USG",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-nervos",
+            "title": "Resumo: Nervos",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Nervos em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/bloqueios-perifericos-nervos.html",
+            "tags": [
+                "Resumo",
+                "Nervos",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Bloqueios Periféricos.",
+            "thumbnail": "🎴",
+            "link": "flashcards/bloqueios-perifericos.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Bloqueios Periféricos.",
+            "thumbnail": "❓",
+            "link": "questoes/bloqueios-perifericos.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

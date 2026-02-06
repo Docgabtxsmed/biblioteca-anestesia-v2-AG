@@ -1,0 +1,81 @@
+{
+    "id": "farmacologia-respiratoria",
+    "seo": {
+        "title": "Farmacologia - Respiratória - Biblioteca de Anestesiologia",
+        "description": "Farmacologia - Respiratória - Broncodilatadores, mucolíticos.",
+        "keywords": "anestesiologia, pulmão, broncodilatação, farmacologia - respiratória",
+        "schema": {
+            "name": "Farmacologia - Respiratória",
+            "description": "Material Educacional sobre Farmacologia - Respiratória"
+        }
+    },
+    "header": {
+        "navbarTitle": "🌬️ Farmacologia - Respiratória",
+        "pageTitle": "Farmacologia - Respiratória",
+        "pageSubtitle": "Broncodilatadores, mucolíticos."
+    },
+    "cards": [
+        {
+            "id": "resumo-pulmao",
+            "title": "Resumo: Pulmão",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Pulmão em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/farmacologia-respiratoria-pulmao.html",
+            "tags": [
+                "Resumo",
+                "Pulmão",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-broncodilatacao",
+            "title": "Resumo: Broncodilatação",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Broncodilatação em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/farmacologia-respiratoria-broncodilatacao.html",
+            "tags": [
+                "Resumo",
+                "Broncodilatação",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Farmacologia - Respiratória.",
+            "thumbnail": "🎴",
+            "link": "flashcards/farmacologia-respiratoria.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Farmacologia - Respiratória.",
+            "thumbnail": "❓",
+            "link": "questoes/farmacologia-respiratoria.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "id": "geriatria",
+    "seo": {
+        "title": "Anestesia para Geriatria - Biblioteca de Anestesiologia",
+        "description": "Anestesia para Geriatria - Manejo anestésico em pacientes geriátricos.",
+        "keywords": "anestesiologia, geriatria, idoso, DCPO, fragilidade",
+        "schema": {
+            "name": "Anestesia para Geriatria",
+            "description": "Manejo anestésico em geriatria"
+        }
+    },
+    "header": {
+        "navbarTitle": "🧓🏽 Anestesia para Geriatria",
+        "pageTitle": "Anestesia para Geriatria",
+        "pageSubtitle": "Recursos visuais e conteúdos científicos sobre manejo anestésico em pacientes geriátricos."
+    },
+    "cards": [
+        {
+            "id": "resumo-fisiologia",
+            "title": "Fisiologia do Idoso",
+            "description": "Principais alterações cardiovasculares, pulmonares e de farmacocinética que impactam o manejo anestésico no paciente geriátrico.",
+            "thumbnail": "🧓",
+            "link": "resumos/geriatria-fisiologia.html",
+            "tags": [
+                "Fragilidade",
+                "Farmacologia",
+                "Manejo Perioperatório"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Consolide os pilares da geriatria cirúrgica com nosso sistema de repetição espaçada.",
+            "thumbnail": "🎴",
+            "link": "flashcards/geriatria.html",
+            "tags": [
+                "Interativo",
+                "Revisão"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Quiz interativo com gabarito comentado sobre geriatria e cuidados perioperatórios do idoso.",
+            "thumbnail": "❓",
+            "link": "questoes/geriatria.html",
+            "tags": [
+                "Interativo"
+            ],
+            "type": "questoes"
+        }
+    ]
+}

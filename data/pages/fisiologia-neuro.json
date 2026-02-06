@@ -1,0 +1,94 @@
+{
+    "id": "fisiologia-neuro",
+    "seo": {
+        "title": "Fisiologia - Neuro - Biblioteca de Anestesiologia",
+        "description": "Fisiologia - Neuro - Fisiologia cerebral, PIC, FSC, metabolismo.",
+        "keywords": "anestesiologia, neuro, pic, fsc, fisiologia - neuro",
+        "schema": {
+            "name": "Fisiologia - Neuro",
+            "description": "Material Educacional sobre Fisiologia - Neuro"
+        }
+    },
+    "header": {
+        "navbarTitle": "🧠 Fisiologia - Neuro",
+        "pageTitle": "Fisiologia - Neuro",
+        "pageSubtitle": "Fisiologia cerebral, PIC, FSC, metabolismo."
+    },
+    "cards": [
+        {
+            "id": "resumo-neuro",
+            "title": "Resumo: Neuro",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Neuro em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/fisiologia-neuro-neuro.html",
+            "tags": [
+                "Resumo",
+                "Neuro",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-pic",
+            "title": "Resumo: PIC",
+            "description": "Conceitos fundamentais e aspectos práticos sobre PIC em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/fisiologia-neuro-pic.html",
+            "tags": [
+                "Resumo",
+                "PIC",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-fsc",
+            "title": "Resumo: FSC",
+            "description": "Conceitos fundamentais e aspectos práticos sobre FSC em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/fisiologia-neuro-fsc.html",
+            "tags": [
+                "Resumo",
+                "FSC",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Fisiologia - Neuro.",
+            "thumbnail": "🎴",
+            "link": "flashcards/fisiologia-neuro.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Fisiologia - Neuro.",
+            "thumbnail": "❓",
+            "link": "questoes/fisiologia-neuro.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

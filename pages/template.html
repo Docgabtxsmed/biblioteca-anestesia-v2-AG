@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- ============================================
-         SEO: PERSONALIZE ESTAS META TAGS
+         SEO: DINÂMICO
          ============================================ -->
-    <meta name="description" content="[DESCRIÇÃO ESPECÍFICA DA ESPECIALIDADE - descreva o conteúdo disponível]">
-    <meta name="keywords" content="anestesiologia, [ESPECIALIDADE], [PALAVRAS-CHAVE SEPARADAS POR VÍRGULA]">
+    <meta name="description" content="Biblioteca de Anestesiologia">
+    <meta name="keywords" content="anestesiologia, medicina">
     <meta name="author" content="Academia MedTech - Medicina Perioperatória e Tecnologia">
-    
+
     <!-- Schema.org para Páginas Médicas -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "MedicalWebPage",
-      "name": "[TÍTULO DA ESPECIALIDADE]",
-      "description": "[DESCRIÇÃO BREVE]",
+      "name": "Biblioteca de Anestesiologia",
+      "description": "Conteúdo educacional médico",
       "medicalAudience": "Anestesiologista"
     }
     </script>
-    
+
     <!-- ============================================
-         TÍTULO: PERSONALIZE
+         TÍTULO: DINÂMICO
          ============================================ -->
-    <title>[ESPECIALIDADE] - Biblioteca de Anestesiologia</title>
-    
+    <title>Carregando... - Biblioteca de Anestesiologia</title>
+
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="../favicon.ico">
-    
+
     <!-- CSS: Arquivo base para páginas secundárias -->
     <link rel="stylesheet" href="../assets/css/style-secondary.css">
-    
+
 </head>
+
 <body>
     <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
@@ -44,12 +46,12 @@
     <header class="site-header">
         <nav class="navbar" aria-label="Navegação da especialidade">
             <div class="nav-content">
-             <!-- Logo clicável -->
+                <!-- Logo clicável -->
                 <a class="logo" href="../index.html" aria-label="Voltar para a página inicial">
                     <img src="../assets/images/medtech-logo.jpg" alt="Logo Academia MedTech" class="logo-img">
-                    <span>[📘 Título da Especialidade]</span>
+                    <span id="nav-logo-text">Carregando...</span>
                 </a>
-            <!-- Link de Voltar -->
+                <!-- Link de Voltar -->
                 <a href="../index.html" class="back-link">← Voltar à Biblioteca</a>
             </div>
         </nav>
@@ -61,72 +63,19 @@
     <main id="main-container" class="container">
         <!-- HEADER DA PÁGINA-->
         <header class="page-header">
-            <h1 class="page-title">[Título da Especialidade]</h1>
-            <p class="page-subtitle">[Subtítulo]</p>
+            <h1 class="page-title" id="page-title">...</h1>
+            <p class="page-subtitle" id="page-subtitle">...</p>
         </header>
         <!-- GIRD DE CARDS -->
         <section aria-label="Conteúdos disponíveis">
-        <div class="gallery-grid">
-            <!-- ==========================================
-                 EXEMPLO 1: CARD ATIVO COM LINK
-                 ========================================== -->
-                 <article class="component-card">
-                    <a href="[caminho/pagina.html]" class="card-link" aria-label="Acessar RESUMO">
-                        <div class="card-thumbnail">🔄</div>
-                        <div class="card-info">
-                            <h3 class="card-title">[Resumo]</h3>
-                            <p class="card-description">[Descrição do conteúdo disponível neste card]</p>
-                            <div class="card-tags">
-                              <span class="tag">[Tag1]</span>
-                              <span class="tag">[Tag2]</span>
-                              <span class="tag">[Tag3]</span>
-                            </div>
-                        </div>
-                    </a>
-                 </article>
-            <!-- ==========================================
-                 EXEMPLO 2: CARD flashcard COM LINK
-                 ========================================== -->
-
-                 <article class="component-card">
-                    <a href="pages/flashcard.html" class="card-link" aria-label="Acassar FlashCard">
-                        <div class="card-thumbnail" >🎴</div>
-                        <div class="card-info">
-                            <h3 class="card-title">[FlashCard]</h3>
-                            <p class="card-description">
-                                Flashcards Revisão Espaçada
-                            </p>
-                            <div class="card-tags">
-                                <span class="tag">Tag 1</span>
-                                <span class="tag">Tag 2</span>
-                                <span class="tag">Tag 3</span>
-                            </div>
-                        </div>
-                    </a>
-                 </article>
-            <!-- ==========================================
-                 EXEMPLO 3: Questões
-                 ========================================== -->
-
-                 <article class="component-card">
-                    <a href="pages/flashcard.html" class="card-link" aria-label="Acassar FlashCard">
-                        <div class="card-thumbnail" >🎴</div>
-                        <div class="card-info">
-                            <h3 class="card-title">[FlashCard]</h3>
-                            <p class="card-description">
-                                Flashcards Revisão Espaçada
-                            </p>
-                            <div class="card-tags">
-                                <span class="tag">Tag 1</span>
-                                <span class="tag">Tag 2</span>
-                                <span class="tag">Tag 3</span>
-                            </div>
-                        </div>
-                    </a>
-                 </article>
-        </div>
+            <div class="gallery-grid">
+                <!-- CONTEÚDO SERÁ INJETADO AQUI VIA JS -->
+                <div class="loading-spinner" style="text-align: center; width: 100%; grid-column: 1/-1;">
+                    Carregando conteúdos...
+                </div>
+            </div>
         </section>
-    
+
     </main>
 
 
@@ -136,7 +85,11 @@
             <p class="footer-subtitle">Conteúdo baseado em evidências científicas atualizadas</p>
         </div>
     </footer>
-    <script src="../assets/js/script-secondary.js"></script>   
-</body>
-</html>
 
+    <!-- Scripts -->
+    <script src="../assets/js/script-secondary.js"></script>
+    <script src="../assets/js/offline-data.js"></script> <!-- Fallback para uso local sem servidor -->
+    <script src="../assets/js/dynamic-loader.js"></script>
+</body>
+
+</html>

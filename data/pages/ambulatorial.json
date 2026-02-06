@@ -1,0 +1,93 @@
+{
+    "id": "ambulatorial",
+    "seo": {
+        "title": "Anestesia Ambulatorial - Biblioteca de Anestesiologia",
+        "description": "Anestesia Ambulatorial - Protocolos para procedimentos ambulatoriais, fast-track e critérios de alta segura.",
+        "keywords": "anestesiologia, ambulatorial, fast-track, critérios de alta, day surgery, procedimentos ambulatoriais",
+        "schema": {
+            "name": "Anestesia Ambulatorial",
+            "description": "Material educacional sobre anestesia em procedimentos ambulatoriais"
+        }
+    },
+    "header": {
+        "navbarTitle": "🚶 Anestesia Ambulatorial",
+        "pageTitle": "Anestesia Ambulatorial",
+        "pageSubtitle": "Protocolos para procedimentos ambulatoriais, estratégias de fast-track, controle de PONV e critérios de alta hospitalar segura."
+    },
+    "cards": [
+        {
+            "id": "resumo-selecao",
+            "title": "Resumo: Seleção de Pacientes",
+            "description": "Critérios para cirurgia ambulatorial, avaliação pré-operatória e identificação de pacientes de risco.",
+            "thumbnail": "✅",
+            "link": "resumos/ambulatorial-selecao-pacientes.html",
+            "tags": [
+                "Seleção",
+                "Critérios",
+                "Avaliação"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-fast-track",
+            "title": "Resumo: Fast-Track",
+            "description": "Protocolo de recuperação rápida, anestésicos de curta duração e estratégias para alta precoce.",
+            "thumbnail": "⚡",
+            "link": "resumos/ambulatorial-fast-track.html",
+            "tags": [
+                "Fast-Track",
+                "Recuperação",
+                "Alta Precoce"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-alta",
+            "title": "Resumo: Critérios de Alta",
+            "description": "Escores de alta (Aldrete, PADSS), orientações pós-alta e manejo de complicações domiciliares.",
+            "thumbnail": "🏠",
+            "link": "resumos/ambulatorial-criterios-alta.html",
+            "tags": [
+                "Alta",
+                "Aldrete",
+                "Segurança"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão rápida dos conceitos essenciais de anestesia ambulatorial.",
+            "thumbnail": "🎴",
+            "link": "flashcards/ambulatorial.html",
+            "tags": [
+                "Interativo",
+                "Revisão"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Quiz interativo com gabarito comentado sobre anestesia ambulatorial.",
+            "thumbnail": "❓",
+            "link": "questoes/ambulatorial.html",
+            "tags": [
+                "Interativo"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "resumo-ponv",
+            "title": "Controle de PONV",
+            "description": "Protocolos de prevenção e tratamento de náuseas e vômitos pós-operatórios. Em breve!",
+            "thumbnail": "🤢",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "resumo",
+            "disabled": true
+        }
+    ]
+}

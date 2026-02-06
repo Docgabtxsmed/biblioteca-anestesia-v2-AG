@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <!-- ============================================
          ENCODING E VIEWPORT
@@ -8,45 +9,49 @@
     <!-- UTF-8 = suporte para acentos e caracteres especiais -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Responsivo: ajusta em mobile/tablet/desktop -->
-    
+
     <!-- ============================================
         SEO BÁSICO
         ============================================ -->
-    <meta name="description" content="Biblioteca interativa de Anestesiologia com conteúdos visuais, resumos científicos e flashcards baseados em evidências">
+    <meta name="description"
+        content="Biblioteca interativa de Anestesiologia com conteúdos visuais, resumos científicos e flashcards baseados em evidências">
     <!-- Aparece no Google abaixo do título -->
-    <meta name="keywords" content="anestesiologia, medicina perioperatória, cirurgia toracica, cirurgia cardíaca, transplante hepático, fisiologia, farmacologia, residência médica, educação médica, flashcards anestesia, valvopatias, vasopressores, inotropicos">
-     <!-- Palavras-chave para SEO -->
+    <meta name="keywords"
+        content="anestesiologia, medicina perioperatória, cirurgia toracica, cirurgia cardíaca, transplante hepático, fisiologia, farmacologia, residência médica, educação médica, flashcards anestesia, valvopatias, vasopressores, inotropicos">
+    <!-- Palavras-chave para SEO -->
     <meta name="author" content="Academia MedTech - Medicina Perioperatória e Tecnologia">
     <meta name="robots" content="index, follow">
-     <!-- Permite Google indexar e seguir links -->
+    <!-- Permite Google indexar e seguir links -->
     <meta name="language" content="Portuguese">
     <meta name="revisit-after" content="7 days">
-    
+
     <!-- Open Graph / Facebook / LinkedIn -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://biblioteca-anestesiologia.com/">
     <meta property="og:title" content="Biblioteca de Anestesiologia - Academia MedTech">
-    <meta property="og:description" content="Biblioteca interativa de Anestesiologia com conteúdos visuais, resumos científicos e flashcards baseados em evidências">
+    <meta property="og:description"
+        content="Biblioteca interativa de Anestesiologia com conteúdos visuais, resumos científicos e flashcards baseados em evidências">
     <meta property="og:image" content="https://biblioteca-anestesiologia.com/medtech-logo.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Biblioteca de Anestesiologia">
     <meta property="og:locale" content="pt_BR">
-    
+
     <!-- ============================================
          TWITTER CARD
          ============================================ -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Biblioteca de Anestesiologia - Academia MedTech">
-    <meta name="twitter:description" content="Biblioteca interativa de Anestesiologia com conteúdos visuais, resumos científicos e flashcards">
+    <meta name="twitter:description"
+        content="Biblioteca interativa de Anestesiologia com conteúdos visuais, resumos científicos e flashcards">
     <meta name="twitter:image" content="https://biblioteca-anestesiologia.com/assets/images/medtech-logo.jpg">
     <!-- Quando compartilhar no Twitter, aparece bonito -->
-    
+
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/medtech-logo.jpg">
-    
-   <!-- ============================================
+
+    <!-- ============================================
          TÍTULO E CSS
          ============================================ -->
 
@@ -72,7 +77,7 @@
                     <img src="assets/images/medtech-logo.jpg" alt="Logo Academia MedTech" class="logo-img">
                     <span>📚 Biblioteca de Anestesiologia - Academia MedTech</span>
                 </a>
-                
+
                 <!-- Links de navegação -->
 
                 <ul class="nav-links">
@@ -83,7 +88,7 @@
                     </li>
                     <li>
                         <a href="#about-section" class="nav-link" data-section="about">
-                            Sobre 
+                            Sobre
                         </a>
                     </li>
                 </ul>
@@ -98,310 +103,51 @@
 
     <!-- Container Principal -->
     <main id="main-container" class="container">
-         <!-- ============================================
+        <!-- ============================================
+             HEADER DA PÁGINA           
+        -->
+        <header class="section-header">
+            <h1 class="page-title">Biblioteca para Aprendizagem em Anestesiologia</h1>
+            <p class="page-subtitle">Conteúdos visuais interativos, resumos científicos, questões comentadas e
+                flashcards para estudo em anestesiologia baseados em evidências atualizadas
+            </p>
+        </header>
+
+        <!-- ============================================
              SEÇÃO: GALERIA
              ============================================ -->
-        <section id="gallery-section" class="section active">
-            <header class="section-header">
-                <h1 class="page-title">Biblioteca para Aprendizagem em Anestesiologia</h1>
-                <p class="page-subtitle">Conteúdos visuais interativos, resumos científicos, questões comentadas e flashcards para estudo em anestesiologia baseados em evidências atualizadas
-                </p>
-            </header>
+        <!-- GALERIA DE ESPECIALIDADES -->
+        <section id="gallery-section" aria-label="Galeria de especialidades de anestesiologia">
             
-
-            <!-- Grid de Especialidades -->
-            <div class="gallery-grid">
-
             <!-- ============================================
-                CARD ATIVO - Transplante Hepático
-                ============================================ -->
-                <article class="component-card">
-                    <a href="pages/transplante.html" class="card-link" aria-label="Acessar conteúdo sobre Transplante Hepático">
-                        <div class="card-thumbnail">🏥</div>
-                        <div class="card-info">
-                            <h3 class="card-title">Transplante Hepático</h3>
-                            <p class="card-description">
-                                Manejo anestésico em transplantes hepáticos.
-                            </p>
-                            <div class="card-tags">
-                                <span class="tag">Hipertensão Portal</span>
-                                <span class="tag">Coagulopatia</span>
-                                <span class="tag">Fases do Transplante</span>
-                            </div>
-                        </div>
-                    </a>
-                </article>
-
+                 GRID DE CARDS - RENDERIZAÇÃO DINÂMICA
+                 
+                 Os cards são criados automaticamente pelo
+                 JavaScript (index-loader.js) a partir do
+                 arquivo data/especialidades.json
+                 
+                 Para adicionar nova especialidade:
+                 1. Edite data/especialidades.json
+                 2. Adicione objeto com dados da especialidade
+                 3. Salve e recarregue a página
+                 
+                 ⚠️ IMPORTANTE: Não remova o id="especialidades-grid"
+                 O JavaScript precisa desse ID para funcionar!
+                 ============================================ -->
+            <div class="gallery-grid" id="especialidades-grid">
+                
                 <!-- ============================================
-                    CARD - Cirurgia Cardíaca
-                    ============================================ -->
-                <article class="component-card">
-                    <a href="pages/cardiaca.html" class="card-link" aria-label="Acessar conteúdo sobre Cirurgia Cardíaca">
-                        <div class="card-thumbnail">❤️</div>
-                        <div class="card-info">
-                            <h3 class="card-title">Cirurgia Cardíaca</h3>
-                            <p class="card-description">
-                                Fisiopatologia da CEC, proteção miocárdica, manejo hemodinâmico e complicações em cirurgia cardíaca.
-                            </p>
-                            <div class="card-tags">
-                                <span class="tag">CEC</span>
-                                <span class="tag">Bypass</span>
-                            </div>
-                        </div>
-                    </a>
-                </article>
-
-                <!-- ============================================
-                    CARD - Marcapasso e CDI
-                    ============================================ -->
-                <article class="component-card">
-                    <a href="pages/cdi-marcapasso.html" class="card-link" aria-label="Acessar conteúdo sobre Marcapasso e CDI">
-                        <div class="card-thumbnail">⚡</div>
-                        <div class="card-info">
-                            <h3 class="card-title">Marcapasso e CDI</h3>
-                            <p class="card-description">
-                                Revisão rápida de dispositivos, programação e manejo perioperatório com flashcards dedicados.
-                            </p>
-                            <div class="card-tags">
-                                <span class="tag">Dispositivo</span>
-                                <span class="tag">Flashcards</span>
-                            </div>
-                        </div>
-                    </a>
-                </article>
-
-                <!-- ============================================
-                    CARD - Cirurgia Torácica
-                    ============================================ -->
-                <article class="component-card">
-                    <a href="pages/toracica.html" class="card-link" aria-label="Acessar conteúdo sobre Cirurgia Torácica">
-                        <div class="card-thumbnail">🫁</div>
-                        <div class="card-info">
-                            <h3 class="card-title">Cirurgia Torácica</h3>
-                            <p class="card-description">
-                                Técnicas anestésicas em cirurgias torácicas, ventilação unipulmonar e manejo de via aérea difícil.
-                            </p>
-                            <div class="card-tags">
-                                <span class="tag">Ventilação</span>
-                                <span class="tag">Via Aérea</span>
-                            </div>
-                        </div>
-                    </a>
-                </article>
-                <!-- ============================================
-                    CARD - Sistema Endocrino
-                    ============================================ -->
-                <article class="component-card">
-                    <a href="pages/endocrino.html" class="card-link" aria-label="Acessar conteúdo sobre Anestesia e Sistema Endocrino">
-                        <div class="card-thumbnail">🍬</div>
-                        <div class="card-info">
-                            <h3 class="card-title">Sistema Endocrino</h3>
-                            <p class="card-description">
-                                Manejo Anestésico em pacientes portadores de DM, Disfunções da tireóide, feocromocitoma e outros distúrbios endocrinológicos.
-                            </p>
-                            <div class="card-tags">
-                                <span class="tag">DM2</span>
-                                <span class="tag">Hipotireoidismo</span>
-                                <span class="tag">Feocromocitoma</span>
-                                <span class="tag">Insuficiência Adrenal</span>
-                            </div>
-                        </div>
-                    </a>
-                </article>
-
-                <!-- ============================================
-                    CARD - Cirurgia Plástica
-                    ============================================ -->
-                <article class="component-card">
-                    <a href="pages/plastica.html" class="card-link" aria-label="Acessar conteúdo sobre Cirurgia Plástica">
-                        <div class="card-thumbnail">✨</div>
-                        <div class="card-info">
-                            <h3 class="card-title">Cirurgia Plástica</h3>
-                            <p class="card-description">
-                                Protocolos anestésicos em procedimentos estéticos e reconstrutivos, controle de náuseas e analgesia.
-                            </p>
-                            <div class="card-tags">
-                                <span class="tag">Analgesia</span>
-                                <span class="tag">PONV</span>
-                            </div>
-                        </div>
-                    </a>
-                </article>
-
-                <!-- ============================================
-                    CARD - Anestesia Geriátrica
-                    ============================================ -->
-                <article class="component-card">
-                    <a href="pages/geriatria.html" class="card-link" aria-label="Acessar conteúdo sobre Anestesia Geriátrica">
-                        <div class="card-thumbnail">🧓🏽</div>
-                        <div class="card-info">
-                            <h3 class="card-title">Anestesia Geriátrica</h3>
-                            <p class="card-description">
-                                Fisiologia, Farmacologia e Disfunção Cognitiva pós Operatória no Idoso.
-                            </p>
-                            <div class="card-tags">
-                                <span class="tag">DCPO</span>
-                                <span class="tag">Fisiologia</span>
-                                <span class="tag">Farmacologia</span>
-                            </div>
-                        </div>
-                    </a>
-                </article>
-
-                <!-- ============================================
-                    CARD - Dor e Analgesia
-                    ============================================ -->
-                <article class="component-card">
-                    <a href="pages/dor.html" class="card-link" aria-label="Acessar conteúdo sobre Dor e Analgesia">
-                        <div class="card-thumbnail">🩹</div>
-                        <div class="card-info">
-                            <h3 class="card-title">Dor e Analgesia</h3>
-                            <p class="card-description">
-                                Fisiopatologia, dor aguda, cronica, intervenções e flashcards.
-                            </p>
-                            <div class="card-tags">
-                                <span class="tag">Dor Aguda</span>
-                                <span class="tag">Cronica</span>
-                                <span class="tag">Intervenções</span>
-                            </div>
-                        </div>
-                    </a>
-                </article>
-
-                <!-- ============================================
-                    CARD - Anestesiologia Pediátrica
-                    ============================================ -->
-                <article class="component-card">
-                    <a href="pages/pediatria.html" class="card-link" aria-label="Acessar conteúdo sobre Anestesiologia Pediátrica">
-                        <div class="card-thumbnail">👶</div>
-                        <div class="card-info">
-                            <h3 class="card-title">Anestesiologia Pediátrica</h3>
-                            <p class="card-description">
-                                Particularidades do manejo anestésico pediátrico, farmacologia e fisiologia em diferentes faixas etárias.
-                            </p>
-                            <div class="card-tags">
-                                <span class="tag">Pediatria</span>
-                                <span class="tag">Farmacologia</span>
-                            </div>
-                        </div>
-                    </a>
-                </article>
-
-                <!-- ============================================
-                    CARD - Ventilação Mecânica
-                    ============================================ -->
-                <article class="component-card">
-                    <a href="pages/ventilacao-mecanica.html" class="card-link" aria-label="Acessar conteúdo sobre Ventilação Mecânica">
-                        <div class="card-thumbnail">💨</div>
-                        <div class="card-info">
-                            <h3 class="card-title">Ventilação Mecânica</h3>
-                            <p class="card-description">
-                                Modos ventilatórios, ventilação protetora, manejo de SDRA e otimização da mecânica respiratória.
-                            </p>
-                            <div class="card-tags">
-                                <span class="tag">Modos</span>
-                                <span class="tag">SDRA</span>
-                            </div>
-                        </div>
-                    </a>
-                </article>
-
-                <!-- ============================================
-                    CARD - Neuroanestesia
-                    ============================================ -->
-                <article class="component-card">
-                    <a href="pages/neurocirurgia.html" class="card-link" aria-label="Acessar conteúdo sobre Neuroanestesia">
-                        <div class="card-thumbnail">🧠</div>
-                        <div class="card-info">
-                            <h3 class="card-title">Neuroanestesia</h3>
-                            <p class="card-description">
-                                Neuroanestesia, proteção cerebral, controle da PIC e monitorização neurofisiológica.
-                            </p>
-                            <div class="card-tags">
-                                <span class="tag">Neuroproteção</span>
-                                <span class="tag">PIC</span>
-                            </div>
-                        </div>
-                    </a>
-                </article>
-
-
-                <!-- ============================================
-                    CARD - Cirurgia Bucomaxilofacial
-                    ============================================ -->
-                <article class="component-card">
-                    <a href="pages/buco.html" class="card-link" aria-label="Acessar conteúdo sobre Cirurgia Bucomaxilofacial">
-                        <div class="card-thumbnail">🦷</div>
-                        <div class="card-info">
-                            <h3 class="card-title">Cirurgia Bucomaxilofacial</h3>
-                            <p class="card-description">
-                                Técnicas anestésicas em cirurgias de face, via aérea compartilhada e intubação nasotraqueal.
-                            </p>
-                            <div class="card-tags">
-                                <span class="tag">Via Aérea</span>
-                                <span class="tag">Face</span>
-                            </div>
-                        </div>
-                    </a>
-                </article>
-
-                <!-- ============================================
-                    CARD - Choque e Monitorização Hemodinâmica
-                    ============================================ -->
-                <article class="component-card">
-                    <a href="pages/choque.html" class="card-link" aria-label="Acessar conteúdo sobre Choque e Monitorização Hemodinâmica">
-                        <div class="card-thumbnail">📊</div>
-                        <div class="card-info">
-                            <h3 class="card-title">Choque e Monitorização Hemodinâmica</h3>
-                            <p class="card-description">
-                                Fisiopatologia do choque, ressuscitação guiada por metas e monitorização hemodinâmica avançada.
-                            </p>
-                            <div class="card-tags">
-                                <span class="tag">Choque</span>
-                                <span class="tag">Ressuscitação</span>
-                            </div>
-                        </div>
-                    </a>
-                </article>
-
-                <!-- ============================================
-                    CARD - Anestesia Ambulatorial
-                    ============================================ -->
-                <article class="component-card">
-                    <a href="pages/ambulatorial.html" class="card-link" aria-label="Acessar conteúdo sobre Anestesia Ambulatorial">
-                        <div class="card-thumbnail">🚶</div>
-                        <div class="card-info">
-                            <h3 class="card-title">Anestesia Ambulatorial</h3>
-                            <p class="card-description">
-                                Protocolos para procedimentos ambulatoriais, fast-track e critérios de alta hospitalar segura.
-                            </p>
-                            <div class="card-tags">
-                                <span class="tag">Ambulatorial</span>
-                                <span class="tag">Fast-track</span>
-                            </div>
-                        </div>
-                    </a>
-                </article>
-            </div>
-        </section>
-
-        <!-- Seção Sobre -->
-        <section id="about-section" class="section">
-            <div class="about-content">
-                <h2>📖 Sobre o Projeto</h2>
-                <p>
-                    Bem-vindo à <strong>Biblioteca de Anestesiologia</strong>, um projeto dedicado a transformar conhecimento científico em conteúdo visual moderno e didático.
-                </p>
-                <p>
-                    Desenvolvida pela <strong>Academia MedTech - Medicina Perioperatória e Tecnologia</strong>, esta plataforma oferece recursos visuais de alta qualidade baseados em evidências científicas atualizadas.
-                </p>
-                <p>
-                    Nosso objetivo é facilitar o aprendizado e a consulta rápida de informações essenciais em anestesiologia, transformando tabelas e dados complexos em componentes interativos e visualmente atraentes.
-                </p>
-                <h2 style="margin-top: 30px;">🎯 Metodologia</h2>
-                <p>
-                    Cada componente é cuidadosamente elaborado a partir de bibliografias de referência internacional, mantendo rigor científico e apresentação didática. As cores são utilizadas estrategicamente para facilitar a compreensão de critérios diagnósticos e escalas de gravidade.
-                </p>
+                     MENSAGEM DE CARREGAMENTO
+                     
+                     Esta mensagem aparece brevemente enquanto
+                     o JavaScript carrega os dados do JSON.
+                     Será removida automaticamente.
+                     ============================================ -->
+                <div class="loading-message">
+                    <p>📚 Carregando especialidades...</p>
+                    <p>Se esta mensagem persistir, pressione F12</p>
+                </div>
+                
             </div>
         </section>
 
@@ -415,10 +161,12 @@
         <p class="footer-subtitle">Medicina Perioperatória e Tecnologia</p>
     </footer>
 
-   <!-- ============================================
+    <!-- ============================================
          JAVASCRIPT
          Carregado no final para não bloquear renderização
          ============================================ -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/index-loader.js"></script>
 </body>
+
 </html>

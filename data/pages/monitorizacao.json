@@ -1,0 +1,94 @@
+{
+    "id": "monitorizacao",
+    "seo": {
+        "title": "Monitorização - Biblioteca de Anestesiologia",
+        "description": "Monitorização - Básica, hemodinâmica avançada, relaxamento muscular, profundidade.",
+        "keywords": "anestesiologia, monitores, bis, tof, monitorização",
+        "schema": {
+            "name": "Monitorização",
+            "description": "Material Educacional sobre Monitorização"
+        }
+    },
+    "header": {
+        "navbarTitle": "📺 Monitorização",
+        "pageTitle": "Monitorização",
+        "pageSubtitle": "Básica, hemodinâmica avançada, relaxamento muscular, profundidade."
+    },
+    "cards": [
+        {
+            "id": "resumo-monitores",
+            "title": "Resumo: Monitores",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Monitores em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/monitorizacao-monitores.html",
+            "tags": [
+                "Resumo",
+                "Monitores",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-bis",
+            "title": "Resumo: BIS",
+            "description": "Conceitos fundamentais e aspectos práticos sobre BIS em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/monitorizacao-bis.html",
+            "tags": [
+                "Resumo",
+                "BIS",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-tof",
+            "title": "Resumo: TOF",
+            "description": "Conceitos fundamentais e aspectos práticos sobre TOF em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/monitorizacao-tof.html",
+            "tags": [
+                "Resumo",
+                "TOF",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Monitorização.",
+            "thumbnail": "🎴",
+            "link": "flashcards/monitorizacao.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Monitorização.",
+            "thumbnail": "❓",
+            "link": "questoes/monitorizacao.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

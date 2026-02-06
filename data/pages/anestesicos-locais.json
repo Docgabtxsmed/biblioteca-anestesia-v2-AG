@@ -1,0 +1,81 @@
+{
+    "id": "anestesicos-locais",
+    "seo": {
+        "title": "Anestésicos Locais - Biblioteca de Anestesiologia",
+        "description": "Anestésicos Locais - Farmacologia, toxicidade, adjuvantes.",
+        "keywords": "anestesiologia, al, last, anestésicos locais",
+        "schema": {
+            "name": "Anestésicos Locais",
+            "description": "Material Educacional sobre Anestésicos Locais"
+        }
+    },
+    "header": {
+        "navbarTitle": "💉 Anestésicos Locais",
+        "pageTitle": "Anestésicos Locais",
+        "pageSubtitle": "Farmacologia, toxicidade, adjuvantes."
+    },
+    "cards": [
+        {
+            "id": "resumo-al",
+            "title": "Resumo: AL",
+            "description": "Conceitos fundamentais e aspectos práticos sobre AL em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/anestesicos-locais-al.html",
+            "tags": [
+                "Resumo",
+                "AL",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-last",
+            "title": "Resumo: LAST",
+            "description": "Conceitos fundamentais e aspectos práticos sobre LAST em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/anestesicos-locais-last.html",
+            "tags": [
+                "Resumo",
+                "LAST",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Anestésicos Locais.",
+            "thumbnail": "🎴",
+            "link": "flashcards/anestesicos-locais.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Anestésicos Locais.",
+            "thumbnail": "❓",
+            "link": "questoes/anestesicos-locais.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

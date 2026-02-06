@@ -1,0 +1,94 @@
+{
+    "id": "farmacologia-geral",
+    "seo": {
+        "title": "Farmacologia Geral - Biblioteca de Anestesiologia",
+        "description": "Farmacologia Geral - Farmacocinética, farmacodinâmica, interações.",
+        "keywords": "anestesiologia, pk, pd, interações, farmacologia geral",
+        "schema": {
+            "name": "Farmacologia Geral",
+            "description": "Material Educacional sobre Farmacologia Geral"
+        }
+    },
+    "header": {
+        "navbarTitle": "💊 Farmacologia Geral",
+        "pageTitle": "Farmacologia Geral",
+        "pageSubtitle": "Farmacocinética, farmacodinâmica, interações."
+    },
+    "cards": [
+        {
+            "id": "resumo-pk",
+            "title": "Resumo: PK",
+            "description": "Conceitos fundamentais e aspectos práticos sobre PK em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/farmacologia-geral-pk.html",
+            "tags": [
+                "Resumo",
+                "PK",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-pd",
+            "title": "Resumo: PD",
+            "description": "Conceitos fundamentais e aspectos práticos sobre PD em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/farmacologia-geral-pd.html",
+            "tags": [
+                "Resumo",
+                "PD",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-interacoes",
+            "title": "Resumo: Interações",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Interações em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/farmacologia-geral-interacoes.html",
+            "tags": [
+                "Resumo",
+                "Interações",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Farmacologia Geral.",
+            "thumbnail": "🎴",
+            "link": "flashcards/farmacologia-geral.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Farmacologia Geral.",
+            "thumbnail": "❓",
+            "link": "questoes/farmacologia-geral.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

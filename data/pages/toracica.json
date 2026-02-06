@@ -1,0 +1,104 @@
+{
+    "id": "toracica",
+    "seo": {
+        "title": "Cirurgia Torácica - Biblioteca de Anestesiologia",
+        "description": "Recursos completos sobre anestesia para cirurgia torácica: avaliação pré-operatória, ventilação unipulmonar, manejo de via aérea e técnicas especializadas baseadas em evidências.",
+        "keywords": "anestesiologia, cirurgia torácica, ventilação unipulmonar, toracotomia, ressecção pulmonar, via aérea difícil, VEF1, DLCO, VO2max, OLV, analgesia regional torácica",
+        "schema": {
+            "name": "Anestesia para Cirurgia Torácica",
+            "description": "Guia completo de anestesia para cirurgia torácica"
+        }
+    },
+    "header": {
+        "navbarTitle": "🫁 Cirurgia Torácica",
+        "pageTitle": "Anestesia para Cirurgia Torácica",
+        "pageSubtitle": "Recursos visuais e conteúdos científicos sobre técnicas anestésicas, ventilação unipulmonar e manejo perioperatório em cirurgia torácica"
+    },
+    "cards": [
+        {
+            "id": "resumo-preop",
+            "title": "Avaliação Pré-Operatória",
+            "description": "Estrutura tripartite da função respiratória: mecânica, parenquimatosa e cardiopulmonar. Estratificação de risco e manejo de comorbidades cardiovasculares e renais.",
+            "thumbnail": "📋",
+            "link": "resumos/toracica-preop.html",
+            "tags": [
+                "VEF1",
+                "DLCO",
+                "VO2max"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-olv",
+            "title": "Ventilação Unipulmonar (OLV)",
+            "description": "Técnicas de isolamento pulmonar, manejo de hipoxemia durante OLV, tubos de duplo lúmen e bloqueadores brônquicos. Fisiopatologia do shunt e estratégias ventilatórias protetoras.",
+            "thumbnail": "💨",
+            "link": "resumos/toracica-ventilacao-unipulmonar.html",
+            "tags": [
+                "OLV",
+                "Hipoxemia"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-massas",
+            "title": "Massas Mediastinais",
+            "description": "Manejo Perioperatório das Massas Mediastinais.",
+            "thumbnail": "🫀",
+            "link": "resumos/toracica-massas-mediastinais.html",
+            "tags": [
+                "SVCS",
+                "Manejo Via Aérea",
+                "Tumores Mediastino"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Quiz interativo com gabarito comentado sobre cirurgia torácica, baseado em casos clínicos reais e questões de residência médica em anestesiologia.",
+            "thumbnail": "❓",
+            "link": "questoes/toracica.html",
+            "tags": [
+                "Interativo"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Memorize conceitos-chave de fisiologia, VMP e farmacologia torácica com nosso sistema de repetição espaçada.",
+            "thumbnail": "🎴",
+            "link": "flashcards/toracica.html",
+            "tags": [
+                "Interativo",
+                "Revisão"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "via-aerea-dificil",
+            "title": "Via Aérea Difícil",
+            "description": "Algoritmos de via aérea difícil, intubação com fibroscopia, dispositivos supraglóticos e técnicas de resgate. Em breve!",
+            "thumbnail": "🔧",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "resumo",
+            "disabled": true
+        },
+        {
+            "id": "complicacoes",
+            "title": "Complicações Perioperatórias",
+            "description": "Manejo de hipoxemia, pneumotórax, hemotórax, arritmias e disfunção ventricular direita no pós-operatório. Em breve!",
+            "thumbnail": "⚠️",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "resumo",
+            "disabled": true
+        }
+    ]
+}

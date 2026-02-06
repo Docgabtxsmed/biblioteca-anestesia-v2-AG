@@ -1,0 +1,630 @@
+{
+    "version": "2.1",
+    "ultima_atualizacao": "2026-02-06",
+    "descricao": "Base de dados das especialidades e curriculo SBA",
+    "especialidades": [
+        {
+            "id": "vascular",
+            "titulo": "Cirurgia Vascular",
+            "emoji": "🩺",
+            "descricao": "Anestesia para cirurgia vascular, aneurismas...",
+            "tags": [
+                "Aneurisma",
+                "Carótida",
+                "AAA"
+            ],
+            "link": "pages/template.html?page=vascular",
+            "status": "ativo",
+            "ordem": 1
+        },
+        {
+            "id": "fisiologia-cardiaca",
+            "titulo": "Fisiologia Cardíaca",
+            "emoji": "❤️",
+            "descricao": "Fisiologia cardíaca, proteção miocárdica, manejo hemodinâmico e complicações em fisiologia cardíaca.",
+            "tags": [
+                "Ciclo Cardíaco",
+                "Eletrofisiologia",
+                "Inotrópicos",
+                "Drogas Vasoativas"
+            ],
+            "link": "pages/template.html?page=fisiologia-cardiaca",
+            "status": "ativo",
+            "ordem": 2
+        },
+        {
+            "id": "transplante",
+            "titulo": "Transplante Hepático",
+            "emoji": "🏥",
+            "descricao": "Manejo anestésico em transplantes hepáticos.",
+            "tags": [
+                "Hipertensão Portal",
+                "Coagulopatia",
+                "Fases do Transplante"
+            ],
+            "link": "pages/template.html?page=transplante",
+            "status": "ativo",
+            "ordem": 3
+        },
+        {
+            "id": "cardiaca",
+            "titulo": "Cirurgia Cardíaca",
+            "emoji": "❤️",
+            "descricao": "Fisiopatologia da CEC, proteção miocárdica, manejo hemodinâmico e complicações em cirurgia cardíaca.",
+            "tags": [
+                "CEC",
+                "Bypass"
+            ],
+            "link": "pages/template.html?page=cardiaca",
+            "status": "ativo",
+            "ordem": 4
+        },
+        {
+            "id": "cdi-marcapasso",
+            "titulo": "Marcapasso e CDI",
+            "emoji": "⚡",
+            "descricao": "Revisão rápida de dispositivos, programação e manejo perioperatório com flashcards dedicados.",
+            "tags": [
+                "Dispositivo",
+                "Flashcards"
+            ],
+            "link": "pages/template.html?page=cdi-marcapasso",
+            "status": "ativo",
+            "ordem": 5
+        },
+        {
+            "id": "toracica",
+            "titulo": "Cirurgia Torácica",
+            "emoji": "🫁",
+            "descricao": "Técnicas anestésicas em cirurgias torácicas, ventilação unipulmonar e manejo de via aérea difícil.",
+            "tags": [
+                "Ventilação",
+                "Via Aérea"
+            ],
+            "link": "pages/template.html?page=toracica",
+            "status": "ativo",
+            "ordem": 6
+        },
+        {
+            "id": "endocrino",
+            "titulo": "Sistema Endocrino",
+            "emoji": "🍬",
+            "descricao": "Manejo Anestésico em pacientes portadores de DM, Disfunções da tireóide, feocromocitoma e outros distúrbios endocrinológicos.",
+            "tags": [
+                "DM2",
+                "Hipotireoidismo",
+                "Feocromocitoma",
+                "Insuficiência Adrenal"
+            ],
+            "link": "pages/template.html?page=endocrino",
+            "status": "ativo",
+            "ordem": 7
+        },
+        {
+            "id": "plastica",
+            "titulo": "Cirurgia Plástica",
+            "emoji": "✨",
+            "descricao": "Protocolos anestésicos em procedimentos estéticos e reconstrutivos, controle de náuseas e analgesia.",
+            "tags": [
+                "Analgesia",
+                "PONV"
+            ],
+            "link": "pages/template.html?page=plastica",
+            "status": "ativo",
+            "ordem": 8
+        },
+        {
+            "id": "geriatria",
+            "titulo": "Anestesia Geriátrica",
+            "emoji": "🧓🏽",
+            "descricao": "Fisiologia, Farmacologia e Disfunção Cognitiva pós Operatória no Idoso.",
+            "tags": [
+                "DCPO",
+                "Fisiologia",
+                "Farmacologia"
+            ],
+            "link": "pages/template.html?page=geriatria",
+            "status": "ativo",
+            "ordem": 9
+        },
+        {
+            "id": "dor",
+            "titulo": "Dor e Analgesia",
+            "emoji": "🩹",
+            "descricao": "Fisiopatologia, dor aguda, cronica, intervenções e flashcards.",
+            "tags": [
+                "Dor Aguda",
+                "Cronica",
+                "Intervenções"
+            ],
+            "link": "pages/template.html?page=dor",
+            "status": "ativo",
+            "ordem": 10
+        },
+        {
+            "id": "pediatria",
+            "titulo": "Anestesiologia Pediátrica",
+            "emoji": "👶",
+            "descricao": "Particularidades do manejo anestésico pediátrico, farmacologia e fisiologia em diferentes faixas etárias.",
+            "tags": [
+                "Pediatria",
+                "Farmacologia"
+            ],
+            "link": "pages/template.html?page=pediatria",
+            "status": "ativo",
+            "ordem": 11
+        },
+        {
+            "id": "ventilacao-mecanica",
+            "titulo": "Ventilação Mecânica",
+            "emoji": "💨",
+            "descricao": "Modos ventilatórios, ventilação protetora, manejo de SDRA e otimização da mecânica respiratória.",
+            "tags": [
+                "Modos",
+                "SDRA"
+            ],
+            "link": "pages/template.html?page=ventilacao-mecanica",
+            "status": "ativo",
+            "ordem": 12
+        },
+        {
+            "id": "neurocirurgia",
+            "titulo": "Neuroanestesia",
+            "emoji": "🧠",
+            "descricao": "Neuroanestesia, proteção cerebral, controle da PIC e monitorização neurofisiológica.",
+            "tags": [
+                "Neuroproteção",
+                "PIC"
+            ],
+            "link": "pages/template.html?page=neurocirurgia",
+            "status": "ativo",
+            "ordem": 13
+        },
+        {
+            "id": "buco",
+            "titulo": "Cirurgia Bucomaxilofacial",
+            "emoji": "🦷",
+            "descricao": "Técnicas anestésicas em cirurgias de face, via aérea compartilhada e intubação nasotraqueal.",
+            "tags": [
+                "Via Aérea",
+                "Face"
+            ],
+            "link": "pages/template.html?page=buco",
+            "status": "ativo",
+            "ordem": 14
+        },
+        {
+            "id": "choque",
+            "titulo": "Choque",
+            "emoji": "📊",
+            "descricao": "Fisiopatologia do choque, ressuscitação guiada por metas e monitorização hemodinâmica avançada.",
+            "tags": [
+                "Choque",
+                "Ressuscitação"
+            ],
+            "link": "pages/template.html?page=choque",
+            "status": "ativo",
+            "ordem": 15
+        },
+        {
+            "id": "ambulatorial",
+            "titulo": "Anestesia Ambulatorial",
+            "emoji": "🚶",
+            "descricao": "Protocolos para procedimentos ambulatoriais, fast-track e critérios de alta hospitalar segura.",
+            "tags": [
+                "Ambulatorial",
+                "Fast-track"
+            ],
+            "link": "pages/template.html?page=ambulatorial",
+            "status": "ativo",
+            "ordem": 16
+        },
+        {
+            "id": "apa",
+            "titulo": "Avaliação Pré-Anestésica",
+            "emoji": "📋",
+            "descricao": "Anamnese, exame físico, exames complementares, risco cirúrgico.",
+            "tags": [
+                "Risco",
+                "Exames",
+                "Preparo"
+            ],
+            "link": "pages/template.html?page=apa",
+            "status": "ativo",
+            "ordem": 17
+        },
+        {
+            "id": "fisiologia-neuro",
+            "titulo": "Fisiologia - Neuro",
+            "emoji": "🧠",
+            "descricao": "Fisiologia cerebral, PIC, FSC, metabolismo.",
+            "tags": [
+                "Neuro",
+                "PIC",
+                "FSC"
+            ],
+            "link": "pages/template.html?page=fisiologia-neuro",
+            "status": "ativo",
+            "ordem": 18
+        },
+        {
+            "id": "fisiologia-sna",
+            "titulo": "Fisiologia - SNA",
+            "emoji": "⚡",
+            "descricao": "Simpático, parassimpático, reflexos autonômicos.",
+            "tags": [
+                "SNA",
+                "Reflexos"
+            ],
+            "link": "pages/template.html?page=fisiologia-sna",
+            "status": "em_breve",
+            "ordem": 19
+        },
+        {
+            "id": "fisiologia-respiratoria",
+            "titulo": "Fisiologia - Respiratória",
+            "emoji": "🫁",
+            "descricao": "Mecânica, trocas gasosas, transporte de O2/CO2.",
+            "tags": [
+                "Mecânica",
+                "Trocas Gasosas"
+            ],
+            "link": "pages/template.html?page=fisiologia-respiratoria",
+            "status": "em_breve",
+            "ordem": 20
+        },
+        {
+            "id": "fisiologia-renal",
+            "titulo": "Fisiologia - Renal",
+            "emoji": "💧",
+            "descricao": "Filtração, reabsorção, equilíbrio ácido-base.",
+            "tags": [
+                "Rim",
+                "Ácido-Base"
+            ],
+            "link": "pages/template.html?page=fisiologia-renal",
+            "status": "em_breve",
+            "ordem": 21
+        },
+        {
+            "id": "fisiologia-gastro",
+            "titulo": "Fisiologia - Gastrointestinal",
+            "emoji": "🧪",
+            "descricao": "Fisiologia hepática, gástrica e intestinal.",
+            "tags": [
+                "Fígado",
+                "Gastro"
+            ],
+            "link": "pages/template.html?page=fisiologia-gastro",
+            "status": "em_breve",
+            "ordem": 22
+        },
+        {
+            "id": "farmacologia-geral",
+            "titulo": "Farmacologia Geral",
+            "emoji": "💊",
+            "descricao": "Farmacocinética, farmacodinâmica, interações.",
+            "tags": [
+                "PK",
+                "PD",
+                "Interações"
+            ],
+            "link": "pages/template.html?page=farmacologia-geral",
+            "status": "em_breve",
+            "ordem": 23
+        },
+        {
+            "id": "anestesicos-venosos",
+            "titulo": "Anestésicos Venosos",
+            "emoji": "💉",
+            "descricao": "Propofol, etomidato, cetamina, benzodiazepínicos.",
+            "tags": [
+                "TIVA",
+                "Indução"
+            ],
+            "link": "pages/template.html?page=anestesicos-venosos",
+            "status": "em_breve",
+            "ordem": 24
+        },
+        {
+            "id": "anestesicos-inalatorios",
+            "titulo": "Anestésicos Inalatórios",
+            "emoji": "😷",
+            "descricao": "CAM, solubilidade, efeitos sistêmicos.",
+            "tags": [
+                "CAM",
+                "Gases"
+            ],
+            "link": "pages/template.html?page=anestesicos-inalatorios",
+            "status": "em_breve",
+            "ordem": 25
+        },
+        {
+            "id": "farmacologia-cardio",
+            "titulo": "Farmacologia Cardiovascular",
+            "emoji": "💓",
+            "descricao": "Anti-hipertensivos, antiarrítmicos, inotrópicos.",
+            "tags": [
+                "Drogas",
+                "Cardio"
+            ],
+            "link": "pages/template.html?page=farmacologia-cardio",
+            "status": "em_breve",
+            "ordem": 26
+        },
+        {
+            "id": "farmacologia-neuro",
+            "titulo": "Farmacologia - Neuro",
+            "emoji": "🧠",
+            "descricao": "Anticonvulsivantes, neuroprotetores.",
+            "tags": [
+                "Neuroproteção",
+                "Anticonvulsivantes"
+            ],
+            "link": "pages/template.html?page=farmacologia-neuro",
+            "status": "em_breve",
+            "ordem": 27
+        },
+        {
+            "id": "farmacologia-respiratoria",
+            "titulo": "Farmacologia - Respiratória",
+            "emoji": "🌬️",
+            "descricao": "Broncodilatadores, mucolíticos.",
+            "tags": [
+                "Pulmão",
+                "Broncodilatação"
+            ],
+            "link": "pages/template.html?page=farmacologia-respiratoria",
+            "status": "em_breve",
+            "ordem": 28
+        },
+        {
+            "id": "bnm",
+            "titulo": "Bloqueadores Neuromusculares",
+            "emoji": "💪",
+            "descricao": "Despolarizantes, não-despolarizantes, reversão.",
+            "tags": [
+                "BNM",
+                "Reversão"
+            ],
+            "link": "#",
+            "status": "em_breve",
+            "ordem": 29
+        },
+        {
+            "id": "anestesicos-locais",
+            "titulo": "Anestésicos Locais",
+            "emoji": "💉",
+            "descricao": "Farmacologia, toxicidade, adjuvantes.",
+            "tags": [
+                "AL",
+                "LAST"
+            ],
+            "link": "pages/template.html?page=anestesicos-locais",
+            "status": "em_breve",
+            "ordem": 30
+        },
+        {
+            "id": "monitorizacao",
+            "titulo": "Monitorização",
+            "emoji": "📺",
+            "descricao": "Básica, hemodinâmica avançada, relaxamento muscular, profundidade.",
+            "tags": [
+                "Monitores",
+                "BIS",
+                "TOF"
+            ],
+            "link": "pages/template.html?page=monitorizacao",
+            "status": "em_breve",
+            "ordem": 31
+        },
+        {
+            "id": "obstetricia",
+            "titulo": "Anestesia Obstétrica",
+            "emoji": "🤰",
+            "descricao": "Gestante, parto normal, cesárea, urgências.",
+            "tags": [
+                "Gestante",
+                "Cesárea"
+            ],
+            "link": "pages/template.html?page=obstetricia",
+            "status": "em_breve",
+            "ordem": 32
+        },
+        {
+            "id": "urologia",
+            "titulo": "Anestesia Urológica",
+            "emoji": "🩺",
+            "descricao": "RTU, nefrectomia, transplante renal.",
+            "tags": [
+                "Rim",
+                "RTU"
+            ],
+            "link": "pages/template.html?page=urologia",
+            "status": "em_breve",
+            "ordem": 33
+        },
+        {
+            "id": "ortopedia",
+            "titulo": "Anestesia para Ortopedia",
+            "emoji": "🦴",
+            "descricao": "Bloqueios regionais, artroplastia, trauma.",
+            "tags": [
+                "Osso",
+                "Bloqueios"
+            ],
+            "link": "pages/template.html?page=ortopedia",
+            "status": "em_breve",
+            "ordem": 34
+        },
+        {
+            "id": "oftalmologia",
+            "titulo": "Anestesia para Oftalmologia",
+            "emoji": "👁️",
+            "descricao": "Bloqueios peribulbar/retrobulbar, sedação.",
+            "tags": [
+                "Olho",
+                "Bloqueios"
+            ],
+            "link": "pages/template.html?page=oftalmologia",
+            "status": "em_breve",
+            "ordem": 35
+        },
+        {
+            "id": "otorrino",
+            "titulo": "Anestesia para Otorrinolaringologia",
+            "emoji": "👂",
+            "descricao": "Via aérea difícil, laser, pediatria.",
+            "tags": [
+                "Via Aérea",
+                "Ouvido"
+            ],
+            "link": "pages/template.html?page=otorrino",
+            "status": "em_breve",
+            "ordem": 36
+        },
+        {
+            "id": "acls",
+            "titulo": "Suporte Avançado de Vida",
+            "emoji": "💔",
+            "descricao": "PCR, arritmias, desfibrilação.",
+            "tags": [
+                "PCR",
+                "ACLS"
+            ],
+            "link": "pages/template.html?page=acls",
+            "status": "em_breve",
+            "ordem": 37
+        },
+        {
+            "id": "equipamentos",
+            "titulo": "Equipamentos",
+            "emoji": "⚙️",
+            "descricao": "Sistemas de anestesia, vaporizadores, circuitos, física aplicada.",
+            "tags": [
+                "Aparelho",
+                "Física"
+            ],
+            "link": "pages/template.html?page=equipamentos",
+            "status": "em_breve",
+            "ordem": 38
+        },
+        {
+            "id": "neuroeixo",
+            "titulo": "Anestesia de Neuroeixo",
+            "emoji": "💉",
+            "descricao": "Raquianestesia, peridural, combinada, anatomia, fisiologia.",
+            "tags": [
+                "Raqui",
+                "Peridural"
+            ],
+            "link": "pages/template.html?page=neuroeixo",
+            "status": "em_breve",
+            "ordem": 39
+        },
+        {
+            "id": "bloqueios-perifericos",
+            "titulo": "Bloqueios Periféricos",
+            "emoji": "📍",
+            "descricao": "Membro superior, membro inferior, tronco, guiados por USG.",
+            "tags": [
+                "USG",
+                "Nervos"
+            ],
+            "link": "pages/template.html?page=bloqueios-perifericos",
+            "status": "em_breve",
+            "ordem": 40
+        },
+        {
+            "id": "rpa",
+            "titulo": "Recuperação Pós-Anestésica",
+            "emoji": "🛌",
+            "descricao": "Critérios de alta, complicações, náuseas e vômitos (PONV), dor.",
+            "tags": [
+                "RPA",
+                "Alta"
+            ],
+            "link": "pages/template.html?page=rpa",
+            "status": "em_breve",
+            "ordem": 41
+        },
+        {
+            "id": "gestao-qualidade",
+            "titulo": "Gestão e Qualidade",
+            "emoji": "📊",
+            "descricao": "Segurança do paciente, checklist, eventos adversos, acreditação.",
+            "tags": [
+                "Segurança",
+                "Qualidade"
+            ],
+            "link": "pages/template.html?page=gestao-qualidade",
+            "status": "em_breve",
+            "ordem": 42
+        },
+        {
+            "id": "etica",
+            "titulo": "Ética e Bioética",
+            "emoji": "⚖️",
+            "descricao": "Código de ética, responsabilidade profissional, consentimento informado.",
+            "tags": [
+                "Ética",
+                "Consentimento"
+            ],
+            "link": "pages/template.html?page=etica",
+            "status": "em_breve",
+            "ordem": 43
+        },
+        {
+            "id": "organizacao-sba",
+            "titulo": "Organização da SBA",
+            "emoji": "🇧🇷",
+            "descricao": "Institucional, cooperativismo.",
+            "tags": [
+                "SBA",
+                "Institucional"
+            ],  
+            "link": "pages/template.html?page=organizacao-sba",
+            "status": "em_breve",
+            "ordem": 44
+        },
+        {
+            "id": "vias-aereas",
+            "titulo": "Vias Aéreas",
+            "emoji": "🌬️",
+            "descricao": "Avaliação, intubação difícil, dispositivos supraglóticos, cricotireoidostomia.",
+            "tags": [
+                "VAD",
+                "Intubação"
+            ],
+            "link": "pages/template.html?vias-aereas",
+            "status": "em_breve",
+            "ordem": 45
+        },
+        {
+            "id": "trauma",
+            "titulo": "Trauma e Urgências",
+            "emoji": "🚑",
+            "descricao": "ATLS, reposição volêmica, transfusão maciça, controle de danos.",
+            "tags": [
+                "Trauma",
+                "Choque"
+            ],
+            "link": "pages/template.html?page=trauma",
+            "status": "em_breve",
+            "ordem": 46
+        },
+        {
+            "id": "metodologia",
+            "titulo": "Metodologia Científica",
+            "emoji": "🔬",
+            "descricao": "Bioestatística, tipos de estudo, medicina baseada em evidências.",
+            "tags": [
+                "Pesquisa",
+                "Estatística"
+            ],
+            "link": "pages/template.html?page=metodologia",
+            "status": "em_breve",
+            "ordem": 47
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "id": "gestao-qualidade",
+    "seo": {
+        "title": "Gestão e Qualidade - Biblioteca de Anestesiologia",
+        "description": "Gestão e Qualidade - Segurança do paciente, checklist, eventos adversos, acreditação.",
+        "keywords": "anestesiologia, segurança, qualidade, gestão e qualidade",
+        "schema": {
+            "name": "Gestão e Qualidade",
+            "description": "Material Educacional sobre Gestão e Qualidade"
+        }
+    },
+    "header": {
+        "navbarTitle": "📊 Gestão e Qualidade",
+        "pageTitle": "Gestão e Qualidade",
+        "pageSubtitle": "Segurança do paciente, checklist, eventos adversos, acreditação."
+    },
+    "cards": [
+        {
+            "id": "resumo-seguranca",
+            "title": "Resumo: Segurança",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Segurança em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/gestao-qualidade-seguranca.html",
+            "tags": [
+                "Resumo",
+                "Segurança",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-qualidade",
+            "title": "Resumo: Qualidade",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Qualidade em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/gestao-qualidade-qualidade.html",
+            "tags": [
+                "Resumo",
+                "Qualidade",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Gestão e Qualidade.",
+            "thumbnail": "🎴",
+            "link": "flashcards/gestao-qualidade.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Gestão e Qualidade.",
+            "thumbnail": "❓",
+            "link": "questoes/gestao-qualidade.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

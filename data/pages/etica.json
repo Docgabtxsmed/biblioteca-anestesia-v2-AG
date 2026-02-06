@@ -1,0 +1,81 @@
+{
+    "id": "etica",
+    "seo": {
+        "title": "Ética e Bioética - Biblioteca de Anestesiologia",
+        "description": "Ética e Bioética - Código de ética, responsabilidade profissional, consentimento informado.",
+        "keywords": "anestesiologia, ética, consentimento, ética e bioética",
+        "schema": {
+            "name": "Ética e Bioética",
+            "description": "Material Educacional sobre Ética e Bioética"
+        }
+    },
+    "header": {
+        "navbarTitle": "⚖️ Ética e Bioética",
+        "pageTitle": "Ética e Bioética",
+        "pageSubtitle": "Código de ética, responsabilidade profissional, consentimento informado."
+    },
+    "cards": [
+        {
+            "id": "resumo-etica",
+            "title": "Resumo: Ética",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Ética em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/etica-etica.html",
+            "tags": [
+                "Resumo",
+                "Ética",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-consentimento",
+            "title": "Resumo: Consentimento",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Consentimento em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/etica-consentimento.html",
+            "tags": [
+                "Resumo",
+                "Consentimento",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Ética e Bioética.",
+            "thumbnail": "🎴",
+            "link": "flashcards/etica.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Ética e Bioética.",
+            "thumbnail": "❓",
+            "link": "questoes/etica.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

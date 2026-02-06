@@ -1,0 +1,96 @@
+{
+    "id": "cardiaca",
+    "seo": {
+        "title": "Cirurgia Cardíaca - Biblioteca de Anestesiologia",
+        "description": "Anestesia para Cirurgia Cardíaca - Resumos, flashcards e questões comentadas sobre CEC, revascularização miocárdica, valvopatias e mais.",
+        "keywords": "anestesiologia, cirurgia cardíaca, CEC, revascularização, valvopatias, anestesia cardiovascular",
+        "schema": {
+            "name": "Anestesia para Cirurgia Cardíaca",
+            "description": "Material Educacional para Ciruriga Cardiaca"
+        }
+    },
+    "header": {
+        "navbarTitle": "❤️ Cirurgia Cardíaca",
+        "pageTitle": "Anestesia para Cirurgia Cardiaca",
+        "pageSubtitle": "Material completo sobre anestesia em procedimentos cardiovasculares: CEC, revascularização miocárdica, valvopatias e monitorização hemodinâmica."
+    },
+    "cards": [
+        {
+            "id": "resumo-cec",
+            "title": "Resumo: CEC",
+            "description": "Circulação extracorpórea, anticoagulação, manejo hemodinâmico e complicações perioperatórias.",
+            "thumbnail": "🔄",
+            "link": "resumos/cardiaca-cec.html",
+            "tags": [
+                "Tag1",
+                "Tag2",
+                "Tag3"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-revasc",
+            "title": "Resumo: Revascularização",
+            "description": "Anestesia para cirurgia de revascularização miocárdica com e sem CEC, proteção miocárdica e Fast-Track.",
+            "thumbnail": "📋",
+            "link": "resumos/cardiaca-revasc.html",
+            "tags": [
+                "Resumo",
+                "RM",
+                "20 min"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-valvulas",
+            "title": "Resumo: Valvopatias",
+            "description": "Anestesia para cirurgia valvar: troca e plastia aórtica/mitral, ETE transoperatório e manejo hemodinâmico específico.",
+            "thumbnail": "📋",
+            "link": "resumos/cardiaca-valvulas.html",
+            "tags": [
+                "Resumo",
+                "Valvas",
+                "25 min"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Questões de múltipla escolha com explicações detalhadas, baseadas em provas de residência e concursos.",
+            "thumbnail": "❓",
+            "link": "questoes/cardiaca.html",
+            "tags": [
+                "Questões",
+                "30+ itens",
+                "Explicações"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards",
+            "description": "Cartões de revisão espaçada para fixar conceitos-chave de anestesia cardiovascular. Sistema de repetição inteligente.",
+            "thumbnail": "🎴",
+            "link": "flashcards/cardiaca.html",
+            "tags": [
+                "Interativo",
+                "50+ cards",
+                "Revisão"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "videos",
+            "title": "Videoaulas",
+            "description": "Vídeos explicativos com casos clínicos reais e demonstrações práticas. Em breve!",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

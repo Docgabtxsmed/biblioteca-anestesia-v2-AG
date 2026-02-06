@@ -1,0 +1,81 @@
+{
+    "id": "fisiologia-renal",
+    "seo": {
+        "title": "Fisiologia - Renal - Biblioteca de Anestesiologia",
+        "description": "Fisiologia - Renal - Filtração, reabsorção, equilíbrio ácido-base.",
+        "keywords": "anestesiologia, rim, ácido-base, fisiologia - renal",
+        "schema": {
+            "name": "Fisiologia - Renal",
+            "description": "Material Educacional sobre Fisiologia - Renal"
+        }
+    },
+    "header": {
+        "navbarTitle": "💧 Fisiologia - Renal",
+        "pageTitle": "Fisiologia - Renal",
+        "pageSubtitle": "Filtração, reabsorção, equilíbrio ácido-base."
+    },
+    "cards": [
+        {
+            "id": "resumo-rim",
+            "title": "Resumo: Rim",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Rim em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/fisiologia-renal-rim.html",
+            "tags": [
+                "Resumo",
+                "Rim",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-acido-base",
+            "title": "Resumo: Ácido-Base",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Ácido-Base em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/fisiologia-renal-acido-base.html",
+            "tags": [
+                "Resumo",
+                "Ácido-Base",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Fisiologia - Renal.",
+            "thumbnail": "🎴",
+            "link": "flashcards/fisiologia-renal.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Fisiologia - Renal.",
+            "thumbnail": "❓",
+            "link": "questoes/fisiologia-renal.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

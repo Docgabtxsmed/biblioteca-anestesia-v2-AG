@@ -1,0 +1,54 @@
+{
+    "id": "hipotermia",
+    "seo": {
+        "title": "Hipotermia - Biblioteca de Anestesiologia",
+        "description": "Hipotermia no Perioperatório - Fisiopatologia, prevenção e tratamento.",
+        "keywords": "anestesiologia, hipotermia, perioperatório, aquecimento",
+        "schema": {
+            "name": "Hipotermia",
+            "description": "Hipotermia no perioperatório"
+        }
+    },
+    "header": {
+        "navbarTitle": "❄️ Hipotermia",
+        "pageTitle": "Hipotermia no Perioperatório",
+        "pageSubtitle": "Fisiopatologia, prevenção e tratamento da hipotermia em anestesia."
+    },
+    "cards": [
+        {
+            "id": "resumo-hipotermia",
+            "title": "Resumo: Hipotermia",
+            "description": "Mecanismos, classificação e estratégias de aquecimento ativo.",
+            "thumbnail": "🌡️",
+            "link": "resumos/hipotermia.html",
+            "tags": [
+                "Prevenção",
+                "Aquecimento"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão rápida dos conceitos essenciais de hipotermia.",
+            "thumbnail": "🎴",
+            "link": "flashcards/hipotermia.html",
+            "tags": [
+                "Interativo",
+                "Revisão"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Quiz interativo com gabarito comentado sobre hipotermia.",
+            "thumbnail": "❓",
+            "link": "questoes/hipotermia.html",
+            "tags": [
+                "Interativo"
+            ],
+            "type": "questoes"
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "id": "endocrino",
+    "seo": {
+        "title": "Anestesia Endócrina - Biblioteca de Anestesiologia",
+        "description": "Anestesia Endócrina - Manejo anestésico em pacientes com distúrbios endocrinológicos.",
+        "keywords": "anestesiologia, endocrinologia, diabetes, tireóide, feocromocitoma",
+        "schema": {
+            "name": "Anestesia Endócrina",
+            "description": "Manejo anestésico em endocrinologia"
+        }
+    },
+    "header": {
+        "navbarTitle": "🧬 Endocrinologia Perioperatória",
+        "pageTitle": "Anestesia Endócrina",
+        "pageSubtitle": "Recursos visuais e conteúdos científicos sobre manejo anestésico em endocrinologia perioperatória."
+    },
+    "cards": [
+        {
+            "id": "resumo-diabetes",
+            "title": "Diabetes Mellitus",
+            "description": "Estratégias de controle glicêmico, ajustes de insulina e prevenção de hipoglicemia.",
+            "thumbnail": "🩸",
+            "link": "resumos/endocrino-diabetes.html",
+            "tags": [
+                "Glicemia",
+                "Balanço"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-hipotireoidismo",
+            "title": "Hipotireoidismo",
+            "description": "Avaliação pré-operatória, reposição de levotiroxina e risco de coma mixedematoso.",
+            "thumbnail": "🦋",
+            "link": "resumos/endocrino-hipotireoidismo.html",
+            "tags": [
+                "T4/T3",
+                "Crise"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-hipertireoidismo",
+            "title": "Hipertireoidismo",
+            "description": "Bloqueadores beta e tiamazol, bloqueio iodado e tempestade tireotóxica.",
+            "thumbnail": "🔥",
+            "link": "resumos/endocrino-hipertireoidismo.html",
+            "tags": [
+                "Tempestade",
+                "Preparação"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-feocromocitoma",
+            "title": "Feocromocitoma",
+            "description": "Bloqueio alfa prévio, manejo pressórico e monitorização invasiva.",
+            "thumbnail": "⚡",
+            "link": "resumos/endocrino-feocromocitoma.html",
+            "tags": [
+                "Catecolaminas",
+                "Pré-op"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-insuficiencia-adrenal",
+            "title": "Insuficiência Adrenal",
+            "description": "Identificação precoce, esteroides de estresse e reversão rápida da crise.",
+            "thumbnail": "🧪",
+            "link": "resumos/endocrino-insuficiencia-adrenal.html",
+            "tags": [
+                "Cortisol",
+                "Suporte"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão rápida dos temas obrigatórios com reforço visual e perguntas curtas.",
+            "thumbnail": "🎴",
+            "link": "flashcards/endocrino.html",
+            "tags": [
+                "Interativo",
+                "Revisão"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco com perguntas e gabarito comentado sobre endocrinologia perioperatória.",
+            "thumbnail": "❓",
+            "link": "questoes/endocrino.html",
+            "tags": [
+                "Interativo"
+            ],
+            "type": "questoes"
+        }
+    ]
+}

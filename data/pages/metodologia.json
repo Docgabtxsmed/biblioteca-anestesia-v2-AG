@@ -1,0 +1,81 @@
+{
+    "id": "metodologia",
+    "seo": {
+        "title": "Metodologia Científica - Biblioteca de Anestesiologia",
+        "description": "Metodologia Científica - Bioestatística, tipos de estudo, medicina baseada em evidências.",
+        "keywords": "anestesiologia, pesquisa, estatística, metodologia científica",
+        "schema": {
+            "name": "Metodologia Científica",
+            "description": "Material Educacional sobre Metodologia Científica"
+        }
+    },
+    "header": {
+        "navbarTitle": "🔬 Metodologia Científica",
+        "pageTitle": "Metodologia Científica",
+        "pageSubtitle": "Bioestatística, tipos de estudo, medicina baseada em evidências."
+    },
+    "cards": [
+        {
+            "id": "resumo-pesquisa",
+            "title": "Resumo: Pesquisa",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Pesquisa em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/metodologia-pesquisa.html",
+            "tags": [
+                "Resumo",
+                "Pesquisa",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-estatistica",
+            "title": "Resumo: Estatística",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Estatística em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/metodologia-estatistica.html",
+            "tags": [
+                "Resumo",
+                "Estatística",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Metodologia Científica.",
+            "thumbnail": "🎴",
+            "link": "flashcards/metodologia.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Metodologia Científica.",
+            "thumbnail": "❓",
+            "link": "questoes/metodologia.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

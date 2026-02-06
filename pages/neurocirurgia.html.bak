@@ -69,7 +69,7 @@
         <div class="gallery-grid">
             <!-- CARD 1: RESUMO - FISIOLOGIA CEREBRAL -->
             <article class="component-card">
-                <a href="resumos/neuro-fisiologia-cerebral.html" class="card-link" aria-label="Acessar resumo sobre Fisiologia Cerebral">
+                <a href="resumos/neuro/fisiologia-cerebral.html" class="card-link" aria-label="Acessar resumo sobre Fisiologia Cerebral">
                     <div class="card-thumbnail">🧠</div>
                     <div class="card-info">
                         <h3 class="card-title">Resumo: Fisiologia Cerebral</h3>

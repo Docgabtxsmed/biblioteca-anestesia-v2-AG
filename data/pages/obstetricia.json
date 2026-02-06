@@ -1,0 +1,81 @@
+{
+    "id": "obstetricia",
+    "seo": {
+        "title": "Anestesia Obstétrica - Biblioteca de Anestesiologia",
+        "description": "Anestesia Obstétrica - Gestante, parto normal, cesárea, urgências.",
+        "keywords": "anestesiologia, gestante, cesárea, anestesia obstétrica",
+        "schema": {
+            "name": "Anestesia Obstétrica",
+            "description": "Material Educacional sobre Anestesia Obstétrica"
+        }
+    },
+    "header": {
+        "navbarTitle": "🤰 Anestesia Obstétrica",
+        "pageTitle": "Anestesia Obstétrica",
+        "pageSubtitle": "Gestante, parto normal, cesárea, urgências."
+    },
+    "cards": [
+        {
+            "id": "resumo-gestante",
+            "title": "Resumo: Gestante",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Gestante em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/obstetricia-gestante.html",
+            "tags": [
+                "Resumo",
+                "Gestante",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-cesarea",
+            "title": "Resumo: Cesárea",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Cesárea em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/obstetricia-cesarea.html",
+            "tags": [
+                "Resumo",
+                "Cesárea",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Anestesia Obstétrica.",
+            "thumbnail": "🎴",
+            "link": "flashcards/obstetricia.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Anestesia Obstétrica.",
+            "thumbnail": "❓",
+            "link": "questoes/obstetricia.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

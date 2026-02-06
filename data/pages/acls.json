@@ -1,0 +1,81 @@
+{
+    "id": "acls",
+    "seo": {
+        "title": "Suporte Avançado de Vida - Biblioteca de Anestesiologia",
+        "description": "Suporte Avançado de Vida - PCR, arritmias, desfibrilação.",
+        "keywords": "anestesiologia, pcr, acls, suporte avançado de vida",
+        "schema": {
+            "name": "Suporte Avançado de Vida",
+            "description": "Material Educacional sobre Suporte Avançado de Vida"
+        }
+    },
+    "header": {
+        "navbarTitle": "💔 Suporte Avançado de Vida",
+        "pageTitle": "Suporte Avançado de Vida",
+        "pageSubtitle": "PCR, arritmias, desfibrilação."
+    },
+    "cards": [
+        {
+            "id": "resumo-pcr",
+            "title": "Resumo: PCR",
+            "description": "Conceitos fundamentais e aspectos práticos sobre PCR em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/acls-pcr.html",
+            "tags": [
+                "Resumo",
+                "PCR",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-acls",
+            "title": "Resumo: ACLS",
+            "description": "Conceitos fundamentais e aspectos práticos sobre ACLS em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/acls-acls.html",
+            "tags": [
+                "Resumo",
+                "ACLS",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Suporte Avançado de Vida.",
+            "thumbnail": "🎴",
+            "link": "flashcards/acls.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Suporte Avançado de Vida.",
+            "thumbnail": "❓",
+            "link": "questoes/acls.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "id": "transplante",
+    "seo": {
+        "title": "Transplante Hepático - Biblioteca de Anestesiologia",
+        "description": "Anestesia para Transplante Hepático - Resumos, flashcards e questões sobre manejo anestésico, coagulopatia, reperfusão e complicações perioperatórias.",
+        "keywords": "anestesiologia, transplante hepático, MELD, coagulopatia, síndrome pós-reperfusão, cirrose",
+        "schema": {
+            "name": "Anestesia para Transplante Hepático",
+            "description": "Material educacional sobre anestesia em transplante de fígado"
+        }
+    },
+    "header": {
+        "navbarTitle": "🏥 Transplante Hepático",
+        "pageTitle": "Anestesia para Transplante Hepático",
+        "pageSubtitle": "Guia completo sobre manejo anestésico no transplante de fígado: avaliação pré-operatória, fases cirúrgicas, coagulopatia e síndrome pós-reperfusão."
+    },
+    "cards": [
+        {
+            "id": "resumo-geral",
+            "title": "Resumo: Visão Geral",
+            "description": "Introdução ao transplante hepático: indicações, contraindicações, score MELD, fases cirúrgicas e manejo básico.",
+            "thumbnail": "📋",
+            "link": "resumos/transplante-geral.html",
+            "tags": [
+                "Resumo",
+                "Geral",
+                "20 min"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-coagulopatia",
+            "title": "Resumo: Coagulopatia",
+            "description": "Manejo da coagulopatia complexa: tromboelastografia, transfusão maciça e estratégias hemostáticas.",
+            "thumbnail": "🩸",
+            "link": "resumos/transplante-coagulopatia.html",
+            "tags": [
+                "Resumo",
+                "TEG",
+                "25 min"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-imunossupressao",
+            "title": "Resumo: Imunossupressão",
+            "description": "Protocolos de imunossupressão, interações anestésicas, rejeição aguda e complicações imunológicas.",
+            "thumbnail": "💊",
+            "link": "resumos/transplante-imunossupressao.html",
+            "tags": [
+                "Resumo",
+                "Farmacologia",
+                "15 min"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards",
+            "description": "Cartões de memorização para fixar scores, fases cirúrgicas, drogas e complicações. Sistema de repetição espaçada.",
+            "thumbnail": "🎴",
+            "link": "flashcards/transplante.html",
+            "tags": [
+                "Interativo",
+                "40+ cards",
+                "Revisão"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões com gabarito comentado, baseadas em provas de residência, TEA e cases reais.",
+            "thumbnail": "❓",
+            "link": "questoes/transplante.html",
+            "tags": [
+                "Questões",
+                "25+ itens",
+                "Comentadas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "casos-clinicos",
+            "title": "Casos Clínicos",
+            "description": "Discussão de casos reais com dilemas diagnósticos e terapêuticos, incluindo complicações raras. Em breve!",
+            "thumbnail": "📖",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "resumo",
+            "disabled": true
+        }
+    ]
+}

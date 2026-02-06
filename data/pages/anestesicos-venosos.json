@@ -1,0 +1,81 @@
+{
+    "id": "anestesicos-venosos",
+    "seo": {
+        "title": "Anestésicos Venosos - Biblioteca de Anestesiologia",
+        "description": "Anestésicos Venosos - Propofol, etomidato, cetamina, benzodiazepínicos.",
+        "keywords": "anestesiologia, tiva, indução, anestésicos venosos",
+        "schema": {
+            "name": "Anestésicos Venosos",
+            "description": "Material Educacional sobre Anestésicos Venosos"
+        }
+    },
+    "header": {
+        "navbarTitle": "💉 Anestésicos Venosos",
+        "pageTitle": "Anestésicos Venosos",
+        "pageSubtitle": "Propofol, etomidato, cetamina, benzodiazepínicos."
+    },
+    "cards": [
+        {
+            "id": "resumo-tiva",
+            "title": "Resumo: TIVA",
+            "description": "Conceitos fundamentais e aspectos práticos sobre TIVA em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/anestesicos-venosos-tiva.html",
+            "tags": [
+                "Resumo",
+                "TIVA",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-inducao",
+            "title": "Resumo: Indução",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Indução em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/anestesicos-venosos-inducao.html",
+            "tags": [
+                "Resumo",
+                "Indução",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Anestésicos Venosos.",
+            "thumbnail": "🎴",
+            "link": "flashcards/anestesicos-venosos.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Anestésicos Venosos.",
+            "thumbnail": "❓",
+            "link": "questoes/anestesicos-venosos.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

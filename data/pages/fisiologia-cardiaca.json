@@ -1,0 +1,109 @@
+{
+    "id": "fisiologia-cardiaca",
+    "seo": {
+        "title": "Fisiologia Cardíaca - Biblioteca de Anestesiologia",
+        "description": "Fisiologia Cardiovascular - Resumos, flashcards e questões comentadas sobre CEC, revascularização miocárdica, valvopatias e mais.",
+        "keywords": "anestesiologia, fisiologia cardíaca, Ciclo Cardíaco, Eletrofisiologia, Inotrópicos, Drogas vasoativas",
+        "schema": {
+            "name": "Fisiologia Cardíaca",
+            "description": "Material Educacional para Fisiologia Cardíaca"
+        }
+    },
+    "header": {
+        "navbarTitle": "❤️ Fisiologia Cardiovascular",
+        "pageTitle": "Fisiologia Cardiovascular",
+        "pageSubtitle": "Material completo sobre fisiologia cardiovascular: Ciclo Cardíaco, Eletrofisiologia, Inotrópicos, Drogas vasoativas e mais."
+    },
+    "cards": [
+        {
+            "id": "resumo-ciclo-cardiaco",
+            "title": "Resumo: Ciclo Cardíaco",
+            "description": "Ciclo cardíaco, contratilidade, pré-carga, pós-carga e mais.",
+            "thumbnail": "🔄",
+            "link": "resumos/fisiologia-cardiaca-ciclo-cardiaco.html",
+            "tags": [
+                "Tag1",
+                "Tag2",
+                "Tag3"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-eletrofisiologia",
+            "title": "Resumo: Eletrofisiologia",
+            "description": "Anestesia para cirurgia de revascularização miocárdica com e sem CEC, proteção miocárdica e Fast-Track.",
+            "thumbnail": "📋",
+            "link": "resumos/fisiologia-cardiaca-eletrofisiologia.html",
+            "tags": [
+                "Resumo",
+                "RM",
+                "20 min"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-inotrópicos",
+            "title": "Resumo: Inotrópicos",
+            "description": "Anestesia para cirurgia valvar: troca e plastia aórtica/mitral, ETE transoperatório e manejo hemodinâmico específico.",
+            "thumbnail": "📋",
+            "link": "resumos/fisiologia-cardiaca-inotrópicos.html",
+            "tags": [
+                "Resumo",
+                "Valvas",
+                "25 min"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-drogas-vasoativas",
+            "title": "Resumo: Drogas Vasoativas",
+            "description": "Anestesia para cirurgia valvar: troca e plastia aórtica/mitral, ETE transoperatório e manejo hemodinâmico específico.",
+            "thumbnail": "📋",
+            "link": "resumos/fisiologia-cardiaca-drogas-vasoativas.html",
+            "tags": [
+                "Resumo",
+                "Valvas",
+                "25 min"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Questões de múltipla escolha com explicações detalhadas, baseadas em provas de residência e concursos.",
+            "thumbnail": "❓",
+            "link": "questoes/fisiologia-cardiaca.html",
+            "tags": [
+                "Questões",
+                "30+ itens",
+                "Explicações"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards",
+            "description": "Cartões de revisão espaçada para fixar conceitos-chave de fisiologia cardiovascular. Sistema de repetição inteligente.",
+            "thumbnail": "🎴",
+            "link": "flashcards/fisiologia-cardiaca.html",
+            "tags": [
+                "Interativo",
+                "50+ cards",
+                "Revisão"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "videos",
+            "title": "Videoaulas",
+            "description": "Vídeos explicativos com casos clínicos reais e demonstrações práticas. Em breve!",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

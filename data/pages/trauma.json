@@ -1,0 +1,81 @@
+{
+    "id": "trauma",
+    "seo": {
+        "title": "Trauma e Urgências - Biblioteca de Anestesiologia",
+        "description": "Trauma e Urgências - ATLS, reposição volêmica, transfusão maciça, controle de danos.",
+        "keywords": "anestesiologia, trauma, choque, trauma e urgências",
+        "schema": {
+            "name": "Trauma e Urgências",
+            "description": "Material Educacional sobre Trauma e Urgências"
+        }
+    },
+    "header": {
+        "navbarTitle": "🚑 Trauma e Urgências",
+        "pageTitle": "Trauma e Urgências",
+        "pageSubtitle": "ATLS, reposição volêmica, transfusão maciça, controle de danos."
+    },
+    "cards": [
+        {
+            "id": "resumo-trauma",
+            "title": "Resumo: Trauma",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Trauma em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/trauma-trauma.html",
+            "tags": [
+                "Resumo",
+                "Trauma",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-choque",
+            "title": "Resumo: Choque",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Choque em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/trauma-choque.html",
+            "tags": [
+                "Resumo",
+                "Choque",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Trauma e Urgências.",
+            "thumbnail": "🎴",
+            "link": "flashcards/trauma.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Trauma e Urgências.",
+            "thumbnail": "❓",
+            "link": "questoes/trauma.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

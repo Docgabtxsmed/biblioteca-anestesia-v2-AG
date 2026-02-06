@@ -1,0 +1,93 @@
+{
+    "id": "ventilacao-mecanica",
+    "seo": {
+        "title": "Ventilação Mecânica - Biblioteca de Anestesiologia",
+        "description": "Ventilação Mecânica - Modos ventilatórios, ventilação protetora, manejo de SDRA e otimização da mecânica respiratória.",
+        "keywords": "anestesiologia, ventilação mecânica, modos ventilatórios, SDRA, ventilação protetora, PEEP, driving pressure",
+        "schema": {
+            "name": "Ventilação Mecânica",
+            "description": "Material educacional sobre ventilação mecânica"
+        }
+    },
+    "header": {
+        "navbarTitle": "💨 Ventilação Mecânica",
+        "pageTitle": "Ventilação Mecânica",
+        "pageSubtitle": "Modos ventilatórios, ventilação protetora, manejo de SDRA e otimização da mecânica respiratória no perioperatório."
+    },
+    "cards": [
+        {
+            "id": "resumo-modos",
+            "title": "Resumo: Modos Ventilatórios",
+            "description": "Modos volume-controlado, pressão-controlada, SIMV, PSV e modos avançados. Indicações e ajustes.",
+            "thumbnail": "⚙️",
+            "link": "resumos/vm-modos-ventilatorios.html",
+            "tags": [
+                "Modos",
+                "PSV",
+                "SIMV"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-protetora",
+            "title": "Resumo: Ventilação Protetora",
+            "description": "Estratégias de ventilação protetora, baixo volume corrente, driving pressure e prevenção de VILI.",
+            "thumbnail": "🛡️",
+            "link": "resumos/vm-ventilacao-protetora.html",
+            "tags": [
+                "Protetora",
+                "VILI",
+                "Driving Pressure"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-sdra",
+            "title": "Resumo: SDRA",
+            "description": "Síndrome do Desconforto Respiratório Agudo: fisiopatologia, classificação, ventilação e PEEP ideal.",
+            "thumbnail": "🫁",
+            "link": "resumos/vm-sdra.html",
+            "tags": [
+                "SDRA",
+                "PEEP",
+                "Recrutamento"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão rápida dos conceitos essenciais de ventilação mecânica e suporte respiratório.",
+            "thumbnail": "🎴",
+            "link": "flashcards/ventilacao-mecanica.html",
+            "tags": [
+                "Interativo",
+                "Revisão"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Quiz interativo com gabarito comentado sobre ventilação mecânica.",
+            "thumbnail": "❓",
+            "link": "questoes/ventilacao-mecanica.html",
+            "tags": [
+                "Interativo"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "calculadoras",
+            "title": "Calculadoras Ventilatórias",
+            "description": "Ferramentas para cálculo de parâmetros ventilatórios e ajustes. Em breve!",
+            "thumbnail": "📊",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "resumo",
+            "disabled": true
+        }
+    ]
+}

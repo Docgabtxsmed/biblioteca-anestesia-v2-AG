@@ -1,0 +1,81 @@
+{
+    "id": "bnm",
+    "seo": {
+        "title": "Bloqueadores Neuromusculares - Biblioteca de Anestesiologia",
+        "description": "Bloqueadores Neuromusculares - Despolarizantes, não-despolarizantes, reversão.",
+        "keywords": "anestesiologia, bnm, reversão, bloqueadores neuromusculares",
+        "schema": {
+            "name": "Bloqueadores Neuromusculares",
+            "description": "Material Educacional sobre Bloqueadores Neuromusculares"
+        }
+    },
+    "header": {
+        "navbarTitle": "💪 Bloqueadores Neuromusculares",
+        "pageTitle": "Bloqueadores Neuromusculares",
+        "pageSubtitle": "Despolarizantes, não-despolarizantes, reversão."
+    },
+    "cards": [
+        {
+            "id": "resumo-bnm",
+            "title": "Resumo: BNM",
+            "description": "Conceitos fundamentais e aspectos práticos sobre BNM em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/bnm-bnm.html",
+            "tags": [
+                "Resumo",
+                "BNM",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-reversao",
+            "title": "Resumo: Reversão",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Reversão em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/bnm-reversao.html",
+            "tags": [
+                "Resumo",
+                "Reversão",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Bloqueadores Neuromusculares.",
+            "thumbnail": "🎴",
+            "link": "flashcards/bnm.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Bloqueadores Neuromusculares.",
+            "thumbnail": "❓",
+            "link": "questoes/bnm.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

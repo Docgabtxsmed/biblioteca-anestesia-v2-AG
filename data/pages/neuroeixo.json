@@ -1,0 +1,81 @@
+{
+    "id": "neuroeixo",
+    "seo": {
+        "title": "Anestesia de Neuroeixo - Biblioteca de Anestesiologia",
+        "description": "Anestesia de Neuroeixo - Raquianestesia, peridural, combinada, anatomia, fisiologia.",
+        "keywords": "anestesiologia, raqui, peridural, anestesia de neuroeixo",
+        "schema": {
+            "name": "Anestesia de Neuroeixo",
+            "description": "Material Educacional sobre Anestesia de Neuroeixo"
+        }
+    },
+    "header": {
+        "navbarTitle": "💉 Anestesia de Neuroeixo",
+        "pageTitle": "Anestesia de Neuroeixo",
+        "pageSubtitle": "Raquianestesia, peridural, combinada, anatomia, fisiologia."
+    },
+    "cards": [
+        {
+            "id": "resumo-raqui",
+            "title": "Resumo: Raqui",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Raqui em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/neuroeixo-raqui.html",
+            "tags": [
+                "Resumo",
+                "Raqui",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-peridural",
+            "title": "Resumo: Peridural",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Peridural em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/neuroeixo-peridural.html",
+            "tags": [
+                "Resumo",
+                "Peridural",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Anestesia de Neuroeixo.",
+            "thumbnail": "🎴",
+            "link": "flashcards/neuroeixo.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Anestesia de Neuroeixo.",
+            "thumbnail": "❓",
+            "link": "questoes/neuroeixo.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

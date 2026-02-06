@@ -1,0 +1,90 @@
+{
+    "id": "dor",
+    "seo": {
+        "title": "Anestesia para Dor - Biblioteca de Anestesiologia",
+        "description": "Anestesia para Dor - Resumos e protocolos sobre fisiopatologia, manejo agudo e crônico da dor.",
+        "keywords": "anestesiologia, dor, analgesia, dor aguda, dor crônica",
+        "schema": {
+            "name": "Anestesia para Dor",
+            "description": "Material educacional sobre manejo da dor"
+        }
+    },
+    "header": {
+        "navbarTitle": "🩹 Dor e Analgesia",
+        "pageTitle": "Anestesia para Dor",
+        "pageSubtitle": "Resumos e protocolos sobre fisiopatologia, manejo agudo e crônico da dor."
+    },
+    "cards": [
+        {
+            "id": "resumo-fisiopatologia",
+            "title": "Fisiopatologia da Dor",
+            "description": "Bases neurofisiológicas, nocicepção e modulação da dor.",
+            "thumbnail": "🔬",
+            "link": "resumos/dor-fisiopatologia.html",
+            "tags": [
+                "Nocicepção",
+                "Mediadores"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-aguda",
+            "title": "Tratamento da Dor Aguda",
+            "description": "Analgesia multimodal, escalas e monitorização da resposta.",
+            "thumbnail": "⚡",
+            "link": "resumos/dor-aguda.html",
+            "tags": [
+                "Multimodal",
+                "Analgesia"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-cronica-farmaco",
+            "title": "Tratamento Farmacológico da Dor Crônica",
+            "description": "Opioides, adjuvantes, antidepressivos e anticonvulsivantes.",
+            "thumbnail": "💊",
+            "link": "resumos/dor-cronica-farmacologico.html",
+            "tags": [
+                "Crônica",
+                "Fármacos"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-cronica-intervencao",
+            "title": "Tratamento Intervencionista da Dor Crônica",
+            "description": "Bloqueios, radiofrequência e técnicas guiadas por imagem.",
+            "thumbnail": "💉",
+            "link": "resumos/dor-cronica-intervencionista.html",
+            "tags": [
+                "Intervenção",
+                "Bloqueios"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão rápida dos conceitos essenciais de dor e analgesia.",
+            "thumbnail": "🎴",
+            "link": "flashcards/dor.html",
+            "tags": [
+                "Interativo",
+                "Revisão"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Quiz interativo com gabarito comentado sobre dor e analgesia.",
+            "thumbnail": "❓",
+            "link": "questoes/dor.html",
+            "tags": [
+                "Interativo"
+            ],
+            "type": "questoes"
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "id": "urologia",
+    "seo": {
+        "title": "Anestesia Urológica - Biblioteca de Anestesiologia",
+        "description": "Anestesia Urológica - RTU, nefrectomia, transplante renal.",
+        "keywords": "anestesiologia, rim, rtu, anestesia urológica",
+        "schema": {
+            "name": "Anestesia Urológica",
+            "description": "Material Educacional sobre Anestesia Urológica"
+        }
+    },
+    "header": {
+        "navbarTitle": "🩺 Anestesia Urológica",
+        "pageTitle": "Anestesia Urológica",
+        "pageSubtitle": "RTU, nefrectomia, transplante renal."
+    },
+    "cards": [
+        {
+            "id": "resumo-rim",
+            "title": "Resumo: Rim",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Rim em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/urologia-rim.html",
+            "tags": [
+                "Resumo",
+                "Rim",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-rtu",
+            "title": "Resumo: RTU",
+            "description": "Conceitos fundamentais e aspectos práticos sobre RTU em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/urologia-rtu.html",
+            "tags": [
+                "Resumo",
+                "RTU",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Anestesia Urológica.",
+            "thumbnail": "🎴",
+            "link": "flashcards/urologia.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Anestesia Urológica.",
+            "thumbnail": "❓",
+            "link": "questoes/urologia.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "id": "anestesicos-inalatorios",
+    "seo": {
+        "title": "Anestésicos Inalatórios - Biblioteca de Anestesiologia",
+        "description": "Anestésicos Inalatórios - CAM, solubilidade, efeitos sistêmicos.",
+        "keywords": "anestesiologia, cam, gases, anestésicos inalatórios",
+        "schema": {
+            "name": "Anestésicos Inalatórios",
+            "description": "Material Educacional sobre Anestésicos Inalatórios"
+        }
+    },
+    "header": {
+        "navbarTitle": "😷 Anestésicos Inalatórios",
+        "pageTitle": "Anestésicos Inalatórios",
+        "pageSubtitle": "CAM, solubilidade, efeitos sistêmicos."
+    },
+    "cards": [
+        {
+            "id": "resumo-cam",
+            "title": "Resumo: CAM",
+            "description": "Conceitos fundamentais e aspectos práticos sobre CAM em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/anestesicos-inalatorios-cam.html",
+            "tags": [
+                "Resumo",
+                "CAM",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-gases",
+            "title": "Resumo: Gases",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Gases em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/anestesicos-inalatorios-gases.html",
+            "tags": [
+                "Resumo",
+                "Gases",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Anestésicos Inalatórios.",
+            "thumbnail": "🎴",
+            "link": "flashcards/anestesicos-inalatorios.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Anestésicos Inalatórios.",
+            "thumbnail": "❓",
+            "link": "questoes/anestesicos-inalatorios.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

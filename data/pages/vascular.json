@@ -1,0 +1,78 @@
+{
+    "id": "vascular",
+    "seo": {
+        "title": "Cirurgia Vascular - Biblioteca de Anestesiologia",
+        "description": "Anestesia para Cirurgia Vascular - Resumos sobre aneurismas e cirurgia carotídea.",
+        "keywords": "anestesiologia, cirurgia vascular, aneurisma, carótida",
+        "schema": {
+            "name": "Cirurgia Vascular",
+            "description": "Anestesia para cirurgia vascular"
+        }
+    },
+    "header": {
+        "navbarTitle": "🩺 Cirurgia Vascular",
+        "pageTitle": "Anestesia para Cirurgia Vascular",
+        "pageSubtitle": "Resumos e protocolos sobre aneurismas e cirurgia carotídea."
+    },
+    "cards": [
+        {
+            "id": "resumo-aaa",
+            "title": "Aneurisma de Aorta Abdominal",
+            "description": "Avaliações pré-operatórias, clampeamento e manejo hemodinâmico.",
+            "thumbnail": "🫀",
+            "link": "resumos/vascular-aneurisma-aorta-abdominal.html",
+            "tags": [
+                "AAA",
+                "Clampeamento"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-toracoabdominal",
+            "title": "Aneurisma Toracoabdominal",
+            "description": "Riscos neurológicos, perfusão medular e estratégia de proteção.",
+            "thumbnail": "🩺",
+            "link": "resumos/vascular-aneurisma-toracoabdominal.html",
+            "tags": [
+                "Toracoabdominal",
+                "Proteção"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-carotida",
+            "title": "Carótida",
+            "description": "Endarterectomia, monitorização neurológica e metas de pressão.",
+            "thumbnail": "🧠",
+            "link": "resumos/vascular-carotida.html",
+            "tags": [
+                "Endarterectomia",
+                "Neuromonitorização"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão rápida dos conceitos-chave em cirurgia vascular.",
+            "thumbnail": "🎴",
+            "link": "flashcards/vascular.html",
+            "tags": [
+                "Interativo",
+                "Revisão"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Quiz interativo com gabarito comentado sobre cirurgia vascular.",
+            "thumbnail": "❓",
+            "link": "questoes/vascular.html",
+            "tags": [
+                "Interativo"
+            ],
+            "type": "questoes"
+        }
+    ]
+}

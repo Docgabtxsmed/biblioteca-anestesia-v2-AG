@@ -1,0 +1,81 @@
+{
+    "id": "organizacao-sba",
+    "seo": {
+        "title": "Organização da SBA - Biblioteca de Anestesiologia",
+        "description": "Organização da SBA - Institucional, cooperativismo.",
+        "keywords": "anestesiologia, sba, institucional, organização da sba",
+        "schema": {
+            "name": "Organização da SBA",
+            "description": "Material Educacional sobre Organização da SBA"
+        }
+    },
+    "header": {
+        "navbarTitle": "🇧🇷 Organização da SBA",
+        "pageTitle": "Organização da SBA",
+        "pageSubtitle": "Institucional, cooperativismo."
+    },
+    "cards": [
+        {
+            "id": "resumo-sba",
+            "title": "Resumo: SBA",
+            "description": "Conceitos fundamentais e aspectos práticos sobre SBA em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/organizacao-sba-sba.html",
+            "tags": [
+                "Resumo",
+                "SBA",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-institucional",
+            "title": "Resumo: Institucional",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Institucional em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/organizacao-sba-institucional.html",
+            "tags": [
+                "Resumo",
+                "Institucional",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Organização da SBA.",
+            "thumbnail": "🎴",
+            "link": "flashcards/organizacao-sba.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Organização da SBA.",
+            "thumbnail": "❓",
+            "link": "questoes/organizacao-sba.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

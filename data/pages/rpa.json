@@ -1,0 +1,81 @@
+{
+    "id": "rpa",
+    "seo": {
+        "title": "Recuperação Pós-Anestésica - Biblioteca de Anestesiologia",
+        "description": "Recuperação Pós-Anestésica - Critérios de alta, complicações, náuseas e vômitos (PONV), dor.",
+        "keywords": "anestesiologia, rpa, alta, recuperação pós-anestésica",
+        "schema": {
+            "name": "Recuperação Pós-Anestésica",
+            "description": "Material Educacional sobre Recuperação Pós-Anestésica"
+        }
+    },
+    "header": {
+        "navbarTitle": "🛌 Recuperação Pós-Anestésica",
+        "pageTitle": "Recuperação Pós-Anestésica",
+        "pageSubtitle": "Critérios de alta, complicações, náuseas e vômitos (PONV), dor."
+    },
+    "cards": [
+        {
+            "id": "resumo-rpa",
+            "title": "Resumo: RPA",
+            "description": "Conceitos fundamentais e aspectos práticos sobre RPA em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/rpa-rpa.html",
+            "tags": [
+                "Resumo",
+                "RPA",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-alta",
+            "title": "Resumo: Alta",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Alta em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/rpa-alta.html",
+            "tags": [
+                "Resumo",
+                "Alta",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Recuperação Pós-Anestésica.",
+            "thumbnail": "🎴",
+            "link": "flashcards/rpa.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Recuperação Pós-Anestésica.",
+            "thumbnail": "❓",
+            "link": "questoes/rpa.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

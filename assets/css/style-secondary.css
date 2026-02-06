@@ -30,30 +30,36 @@
 
 /* BODY - Remove gradiente de fundo para páginas secundárias */
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
 body {
-    
+
     background: var(--gray-50);
     background-image: none;
-    display: flex;              /* Transforma body em container flexbox */
-    flex-direction: column;     /* Itens em coluna (vertical) */
-    min-height: 100vh;          /* Altura mínima = 100% da tela */
+    display: flex;
+    /* Transforma body em container flexbox */
+    flex-direction: column;
+    /* Itens em coluna (vertical) */
+    min-height: 100vh;
+    /* Altura mínima = 100% da tela */
 }
 
 /* Main ocupa todo espaço disponível, empurrando footer para baixo */
 #main-container,
 main {
-    flex: 1 0 auto;  /* grow: sim, shrink: não, basis: auto */
-    
+    flex: 1 0 auto;
+    /* grow: sim, shrink: não, basis: auto */
+
     /* Garante que o conteúdo interno funcione normalmente */
-    display: block;  /* Força comportamento de bloco normal */
-    width: 100%;     /* Ocupa largura total */
+    display: block;
+    /* Força comportamento de bloco normal */
+    width: 100%;
+    /* Ocupa largura total */
 }
-    
+
 /* 
    PAGE HEADER - Cabeçalho das páginas secundárias
    
@@ -88,22 +94,20 @@ main {
     font-size: var(--font-size-3xl);
     font-weight: var(--font-weight-bold);
     margin-bottom: var(--spacing-sm);
-    
+
     /* Cria o gradiente */
-    background: linear-gradient(
-        135deg, 
-        var(--primary-color) 0%, 
-        var(--secondary-color) 100%
-    );
-    
+    background: linear-gradient(135deg,
+            var(--primary-color) 0%,
+            var(--secondary-color) 100%);
+
     /* Aplica o gradiente apenas no texto */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    
+
     /* Fallback para navegadores antigos que não suportam gradiente em texto */
     color: var(--primary-color);
-    
+
     line-height: 1.2;
 }
 
@@ -130,20 +134,25 @@ main {
    
    USADO PARA: Fazer cards aparecerem com efeito suave ao carregar
 */
-@keyframes fadeIn {
-    from { 
-        opacity: 0;                    /* Invisível */
-        transform: translateY(20px);   /* 20px abaixo da posição final */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        /* Invisível */
+        transform: translateY(20px);
+        /* 20px abaixo da posição final */
     }
-    to { 
-        opacity: 1;                    /* Visível */
-        transform: translateY(0);      /* Posição normal */
+
+    to {
+        opacity: 1;
+        /* Visível */
+        transform: translateY(0);
+        /* Posição normal */
     }
 }
 
 /* Classe para aplicar a animação */
 .fade-in {
-    animation: fadeIn 0.6s ease forwards;
+    animation: fadeInUp 0.6s ease forwards;
 }
 
 /* 
@@ -197,16 +206,19 @@ main {
     .page-header {
         padding: var(--spacing-lg) 0;
     }
-    
+
     .page-title {
-        font-size: var(--font-size-2xl);  /* Reduz de 3xl para 2xl */
+        font-size: var(--font-size-2xl);
+        /* Reduz de 3xl para 2xl */
     }
-    
+
     .page-subtitle {
-        font-size: var(--font-size-md);   /* Reduz de lg para md */
-        padding: 0 var(--spacing-md);     /* Adiciona padding lateral */
+        font-size: var(--font-size-md);
+        /* Reduz de lg para md */
+        padding: 0 var(--spacing-md);
+        /* Adiciona padding lateral */
     }
-    
+
     /* Gallery já é responsiva pelo layout.css, mas podemos ajustar espaçamento */
     .gallery-grid {
         margin-top: var(--spacing-lg);
@@ -219,10 +231,10 @@ main {
     /* Aparência */
     background: var(--dark-blue);
     color: var(--white);
-    
+
     /* Espaçamento */
     padding: var(--spacing-xl) var(--spacing-md);
-    
+
     /* Alinhamento */
     text-align: center;
 }
@@ -246,11 +258,8 @@ main {
     .site-footer {
         padding: var(--spacing-lg) var(--spacing-sm);
     }
-    
+
     .footer-title {
         font-size: 1rem;
     }
 }
-
-
-

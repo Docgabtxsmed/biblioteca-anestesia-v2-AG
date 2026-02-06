@@ -1,0 +1,81 @@
+{
+    "id": "equipamentos",
+    "seo": {
+        "title": "Equipamentos - Biblioteca de Anestesiologia",
+        "description": "Equipamentos - Sistemas de anestesia, vaporizadores, circuitos, física aplicada.",
+        "keywords": "anestesiologia, aparelho, física, equipamentos",
+        "schema": {
+            "name": "Equipamentos",
+            "description": "Material Educacional sobre Equipamentos"
+        }
+    },
+    "header": {
+        "navbarTitle": "⚙️ Equipamentos",
+        "pageTitle": "Equipamentos",
+        "pageSubtitle": "Sistemas de anestesia, vaporizadores, circuitos, física aplicada."
+    },
+    "cards": [
+        {
+            "id": "resumo-aparelho",
+            "title": "Resumo: Aparelho",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Aparelho em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/equipamentos-aparelho.html",
+            "tags": [
+                "Resumo",
+                "Aparelho",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-fisica",
+            "title": "Resumo: Física",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Física em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/equipamentos-fisica.html",
+            "tags": [
+                "Resumo",
+                "Física",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Equipamentos.",
+            "thumbnail": "🎴",
+            "link": "flashcards/equipamentos.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Equipamentos.",
+            "thumbnail": "❓",
+            "link": "questoes/equipamentos.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

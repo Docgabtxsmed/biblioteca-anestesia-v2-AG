@@ -1,0 +1,93 @@
+{
+    "id": "choque",
+    "seo": {
+        "title": "Choque e Monitorização Hemodinâmica - Biblioteca de Anestesiologia",
+        "description": "Choque e Monitorização Hemodinâmica - Fisiopatologia do choque, ressuscitação guiada por metas e monitorização avançada.",
+        "keywords": "anestesiologia, choque, monitorização hemodinâmica, ressuscitação, vasopressores, PAM, débito cardíaco, Swan-Ganz",
+        "schema": {
+            "name": "Choque e Monitorização Hemodinâmica",
+            "description": "Material educacional sobre choque e monitorização hemodinâmica avançada"
+        }
+    },
+    "header": {
+        "navbarTitle": "📊 Choque e Monitorização Hemodinâmica",
+        "pageTitle": "Choque e Monitorização Hemodinâmica",
+        "pageSubtitle": "Fisiopatologia do choque, ressuscitação guiada por metas, monitorização hemodinâmica avançada e manejo de vasopressores."
+    },
+    "cards": [
+        {
+            "id": "resumo-fisiopatologia",
+            "title": "Resumo: Fisiopatologia do Choque",
+            "description": "Tipos de choque (hipovolêmico, cardiogênico, distributivo, obstrutivo), fisiopatologia e diagnóstico diferencial.",
+            "thumbnail": "🩸",
+            "link": "resumos/choque-fisiopatologia.html",
+            "tags": [
+                "Tipos",
+                "Fisiopatologia",
+                "Diagnóstico"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-ressuscitacao",
+            "title": "Resumo: Ressuscitação Volêmica",
+            "description": "Ressuscitação guiada por metas, fluidoterapia, cristaloides vs coloides e testes de responsividade.",
+            "thumbnail": "💧",
+            "link": "resumos/choque-ressuscitacao-volemica.html",
+            "tags": [
+                "Fluidos",
+                "Metas",
+                "Responsividade"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-monitorizacao",
+            "title": "Resumo: Monitorização Hemodinâmica",
+            "description": "PAM invasiva, Swan-Ganz, débito cardíaco, ecocardiografia e monitorização minimamente invasiva.",
+            "thumbnail": "📊",
+            "link": "resumos/choque-monitorizacao-hemodinamica.html",
+            "tags": [
+                "Swan-Ganz",
+                "Débito Cardíaco",
+                "Echo"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão rápida dos conceitos essenciais de choque e ressuscitação hemodinâmica.",
+            "thumbnail": "🎴",
+            "link": "flashcards/choque.html",
+            "tags": [
+                "Interativo",
+                "Revisão"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Quiz interativo com gabarito comentado sobre choque e monitorização hemodinâmica.",
+            "thumbnail": "❓",
+            "link": "questoes/choque.html",
+            "tags": [
+                "Interativo"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "vasopressores",
+            "title": "Vasopressores e Inotrópicos",
+            "description": "Guia de vasopressores, inotrópicos e doses de infusão. Em breve!",
+            "thumbnail": "💊",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "resumo",
+            "disabled": true
+        }
+    ]
+}

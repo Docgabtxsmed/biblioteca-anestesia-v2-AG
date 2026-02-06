@@ -1,0 +1,81 @@
+{
+    "id": "fisiologia-sna",
+    "seo": {
+        "title": "Fisiologia - SNA - Biblioteca de Anestesiologia",
+        "description": "Fisiologia - SNA - Simpático, parassimpático, reflexos autonômicos.",
+        "keywords": "anestesiologia, sna, reflexos, fisiologia - sna",
+        "schema": {
+            "name": "Fisiologia - SNA",
+            "description": "Material Educacional sobre Fisiologia - SNA"
+        }
+    },
+    "header": {
+        "navbarTitle": "⚡ Fisiologia - SNA",
+        "pageTitle": "Fisiologia - SNA",
+        "pageSubtitle": "Simpático, parassimpático, reflexos autonômicos."
+    },
+    "cards": [
+        {
+            "id": "resumo-sna",
+            "title": "Resumo: SNA",
+            "description": "Conceitos fundamentais e aspectos práticos sobre SNA em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/fisiologia-sna-sna.html",
+            "tags": [
+                "Resumo",
+                "SNA",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-reflexos",
+            "title": "Resumo: Reflexos",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Reflexos em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/fisiologia-sna-reflexos.html",
+            "tags": [
+                "Resumo",
+                "Reflexos",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Fisiologia - SNA.",
+            "thumbnail": "🎴",
+            "link": "flashcards/fisiologia-sna.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Fisiologia - SNA.",
+            "thumbnail": "❓",
+            "link": "questoes/fisiologia-sna.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

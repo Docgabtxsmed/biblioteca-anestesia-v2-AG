@@ -1,0 +1,81 @@
+{
+    "id": "farmacologia-cardio",
+    "seo": {
+        "title": "Farmacologia Cardiovascular - Biblioteca de Anestesiologia",
+        "description": "Farmacologia Cardiovascular - Anti-hipertensivos, antiarrítmicos, inotrópicos.",
+        "keywords": "anestesiologia, drogas, cardio, farmacologia cardiovascular",
+        "schema": {
+            "name": "Farmacologia Cardiovascular",
+            "description": "Material Educacional sobre Farmacologia Cardiovascular"
+        }
+    },
+    "header": {
+        "navbarTitle": "💓 Farmacologia Cardiovascular",
+        "pageTitle": "Farmacologia Cardiovascular",
+        "pageSubtitle": "Anti-hipertensivos, antiarrítmicos, inotrópicos."
+    },
+    "cards": [
+        {
+            "id": "resumo-drogas",
+            "title": "Resumo: Drogas",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Drogas em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/farmacologia-cardio-drogas.html",
+            "tags": [
+                "Resumo",
+                "Drogas",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-cardio",
+            "title": "Resumo: Cardio",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Cardio em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/farmacologia-cardio-cardio.html",
+            "tags": [
+                "Resumo",
+                "Cardio",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Farmacologia Cardiovascular.",
+            "thumbnail": "🎴",
+            "link": "flashcards/farmacologia-cardio.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Farmacologia Cardiovascular.",
+            "thumbnail": "❓",
+            "link": "questoes/farmacologia-cardio.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

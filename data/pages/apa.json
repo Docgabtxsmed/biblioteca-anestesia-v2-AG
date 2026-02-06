@@ -1,0 +1,94 @@
+{
+    "id": "apa",
+    "seo": {
+        "title": "Avaliação Pré-Anestésica - Biblioteca de Anestesiologia",
+        "description": "Avaliação Pré-Anestésica - Anamnese, exame físico, exames complementares, risco cirúrgico.",
+        "keywords": "anestesiologia, risco, exames, preparo, avaliação pré-anestésica",
+        "schema": {
+            "name": "Avaliação Pré-Anestésica",
+            "description": "Material Educacional sobre Avaliação Pré-Anestésica"
+        }
+    },
+    "header": {
+        "navbarTitle": "📋 Avaliação Pré-Anestésica",
+        "pageTitle": "Avaliação Pré-Anestésica",
+        "pageSubtitle": "Anamnese, exame físico, exames complementares, risco cirúrgico."
+    },
+    "cards": [
+        {
+            "id": "resumo-risco",
+            "title": "Resumo: Risco",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Risco em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/apa-risco.html",
+            "tags": [
+                "Resumo",
+                "Risco",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-exames",
+            "title": "Resumo: Exames",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Exames em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/apa-exames.html",
+            "tags": [
+                "Resumo",
+                "Exames",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-preparo",
+            "title": "Resumo: Preparo",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Preparo em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/apa-preparo.html",
+            "tags": [
+                "Resumo",
+                "Preparo",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Avaliação Pré-Anestésica.",
+            "thumbnail": "🎴",
+            "link": "flashcards/apa.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Avaliação Pré-Anestésica.",
+            "thumbnail": "❓",
+            "link": "questoes/apa.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

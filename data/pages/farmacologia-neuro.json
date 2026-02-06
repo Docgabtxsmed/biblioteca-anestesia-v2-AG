@@ -1,0 +1,81 @@
+{
+    "id": "farmacologia-neuro",
+    "seo": {
+        "title": "Farmacologia - Neuro - Biblioteca de Anestesiologia",
+        "description": "Farmacologia - Neuro - Anticonvulsivantes, neuroprotetores.",
+        "keywords": "anestesiologia, neuroproteção, anticonvulsivantes, farmacologia - neuro",
+        "schema": {
+            "name": "Farmacologia - Neuro",
+            "description": "Material Educacional sobre Farmacologia - Neuro"
+        }
+    },
+    "header": {
+        "navbarTitle": "🧠 Farmacologia - Neuro",
+        "pageTitle": "Farmacologia - Neuro",
+        "pageSubtitle": "Anticonvulsivantes, neuroprotetores."
+    },
+    "cards": [
+        {
+            "id": "resumo-neuroprotecao",
+            "title": "Resumo: Neuroproteção",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Neuroproteção em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/farmacologia-neuro-neuroprotecao.html",
+            "tags": [
+                "Resumo",
+                "Neuroproteção",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-anticonvulsivantes",
+            "title": "Resumo: Anticonvulsivantes",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Anticonvulsivantes em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/farmacologia-neuro-anticonvulsivantes.html",
+            "tags": [
+                "Resumo",
+                "Anticonvulsivantes",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Farmacologia - Neuro.",
+            "thumbnail": "🎴",
+            "link": "flashcards/farmacologia-neuro.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Farmacologia - Neuro.",
+            "thumbnail": "❓",
+            "link": "questoes/farmacologia-neuro.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

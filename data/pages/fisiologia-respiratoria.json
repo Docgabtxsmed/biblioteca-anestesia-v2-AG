@@ -1,0 +1,81 @@
+{
+    "id": "fisiologia-respiratoria",
+    "seo": {
+        "title": "Fisiologia - Respiratória - Biblioteca de Anestesiologia",
+        "description": "Fisiologia - Respiratória - Mecânica, trocas gasosas, transporte de O2/CO2.",
+        "keywords": "anestesiologia, mecânica, trocas gasosas, fisiologia - respiratória",
+        "schema": {
+            "name": "Fisiologia - Respiratória",
+            "description": "Material Educacional sobre Fisiologia - Respiratória"
+        }
+    },
+    "header": {
+        "navbarTitle": "🫁 Fisiologia - Respiratória",
+        "pageTitle": "Fisiologia - Respiratória",
+        "pageSubtitle": "Mecânica, trocas gasosas, transporte de O2/CO2."
+    },
+    "cards": [
+        {
+            "id": "resumo-mecânica",
+            "title": "Resumo: Mecânica",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Mecânica em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/fisiologia-respiratoria-mecânica.html",
+            "tags": [
+                "Resumo",
+                "Mecânica",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-trocas-gasosas",
+            "title": "Resumo: Trocas Gasosas",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Trocas Gasosas em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/fisiologia-respiratoria-trocas-gasosas.html",
+            "tags": [
+                "Resumo",
+                "Trocas Gasosas",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Fisiologia - Respiratória.",
+            "thumbnail": "🎴",
+            "link": "flashcards/fisiologia-respiratoria.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Fisiologia - Respiratória.",
+            "thumbnail": "❓",
+            "link": "questoes/fisiologia-respiratoria.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

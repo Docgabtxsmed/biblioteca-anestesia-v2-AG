@@ -1,0 +1,93 @@
+{
+    "id": "pediatria",
+    "seo": {
+        "title": "Anestesiologia Pediátrica - Biblioteca de Anestesiologia",
+        "description": "Anestesiologia Pediátrica - Particularidades do manejo anestésico em diferentes faixas etárias, farmacologia e fisiologia pediátrica.",
+        "keywords": "anestesiologia, pediatria, neonatal, lactente, criança, farmacologia pediátrica, via aérea pediátrica",
+        "schema": {
+            "name": "Anestesiologia Pediátrica",
+            "description": "Material educacional sobre anestesia em pacientes pediátricos"
+        }
+    },
+    "header": {
+        "navbarTitle": "👶 Anestesiologia Pediátrica",
+        "pageTitle": "Anestesiologia Pediátrica",
+        "pageSubtitle": "Particularidades do manejo anestésico em diferentes faixas etárias: neonatos, lactentes e crianças. Farmacologia e fisiologia pediátrica."
+    },
+    "cards": [
+        {
+            "id": "resumo-fisiologia",
+            "title": "Resumo: Fisiologia Pediátrica",
+            "description": "Diferenças anatômicas e fisiológicas entre neonatos, lactentes e crianças. Sistema respiratório, cardiovascular e nervoso.",
+            "thumbnail": "🫁",
+            "link": "resumos/pediatria-fisiologia.html",
+            "tags": [
+                "Fisiologia",
+                "Anatomia",
+                "Desenvolvimento"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-farmacologia",
+            "title": "Resumo: Farmacologia Pediátrica",
+            "description": "Farmacocinética e farmacodinâmica em pediatria. Doses ajustadas por peso e idade, anestésicos inalatórios e venosos.",
+            "thumbnail": "💊",
+            "link": "resumos/pediatria-farmacologia.html",
+            "tags": [
+                "Doses",
+                "Fármacos",
+                "Metabolismo"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-via-aerea",
+            "title": "Resumo: Via Aérea Pediátrica",
+            "description": "Manejo da via aérea difícil em pediatria, tamanho de tubos, laringoscopia e dispositivos supraglóticos.",
+            "thumbnail": "🫀",
+            "link": "resumos/pediatria-via-aerea.html",
+            "tags": [
+                "Via Aérea",
+                "Intubação",
+                "Técnicas"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão rápida dos conceitos essenciais de anestesia pediátrica com sistema de repetição espaçada.",
+            "thumbnail": "🎴",
+            "link": "flashcards/pediatria.html",
+            "tags": [
+                "Interativo",
+                "Revisão"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Quiz interativo com gabarito comentado sobre anestesiologia pediátrica.",
+            "thumbnail": "❓",
+            "link": "questoes/pediatria.html",
+            "tags": [
+                "Interativo"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "casos-clinicos",
+            "title": "Casos Clínicos",
+            "description": "Discussão de casos pediátricos complexos com dilemas clínicos. Em breve!",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "resumo",
+            "disabled": true
+        }
+    ]
+}

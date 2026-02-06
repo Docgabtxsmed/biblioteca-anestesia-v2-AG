@@ -1,0 +1,81 @@
+{
+    "id": "fisiologia-gastro",
+    "seo": {
+        "title": "Fisiologia - Gastrointestinal - Biblioteca de Anestesiologia",
+        "description": "Fisiologia - Gastrointestinal - Fisiologia hepática, gástrica e intestinal.",
+        "keywords": "anestesiologia, fígado, gastro, fisiologia - gastrointestinal",
+        "schema": {
+            "name": "Fisiologia - Gastrointestinal",
+            "description": "Material Educacional sobre Fisiologia - Gastrointestinal"
+        }
+    },
+    "header": {
+        "navbarTitle": "🧪 Fisiologia - Gastrointestinal",
+        "pageTitle": "Fisiologia - Gastrointestinal",
+        "pageSubtitle": "Fisiologia hepática, gástrica e intestinal."
+    },
+    "cards": [
+        {
+            "id": "resumo-figado",
+            "title": "Resumo: Fígado",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Fígado em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/fisiologia-gastro-figado.html",
+            "tags": [
+                "Resumo",
+                "Fígado",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-gastro",
+            "title": "Resumo: Gastro",
+            "description": "Conceitos fundamentais e aspectos práticos sobre Gastro em anestesiologia.",
+            "thumbnail": "📝",
+            "link": "resumos/fisiologia-gastro-gastro.html",
+            "tags": [
+                "Resumo",
+                "Gastro",
+                "Leitura"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão espaçada e memorização ativa dos principais tópicos de Fisiologia - Gastrointestinal.",
+            "thumbnail": "🎴",
+            "link": "flashcards/fisiologia-gastro.html",
+            "tags": [
+                "Interativo",
+                "Memorização"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Fisiologia - Gastrointestinal.",
+            "thumbnail": "❓",
+            "link": "questoes/fisiologia-gastro.html",
+            "tags": [
+                "Quiz",
+                "Provas"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos e Aulas",
+            "description": "Videoaulas explicativas e demonstrações práticas.",
+            "thumbnail": "🎥",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
+}

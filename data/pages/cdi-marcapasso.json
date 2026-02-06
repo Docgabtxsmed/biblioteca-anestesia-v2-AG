@@ -1,0 +1,55 @@
+{
+    "id": "cdi-marcapasso",
+    "seo": {
+        "title": "Marcapasso e CDI - Biblioteca de Anestesiologia",
+        "description": "Revisão rápida de marcapasso e CDI com flashcards e links úteis.",
+        "keywords": "anestesiologia, marcapasso, CDI, arritmia, dispositivo cardíaco",
+        "schema": {
+            "name": "Marcapasso e CDI",
+            "description": "Revisão de dispositivos cardíacos"
+        }
+    },
+    "header": {
+        "navbarTitle": "⚡ Marcapasso e CDI",
+        "pageTitle": "Marcapasso e Cardiodesfibrilador Implantável",
+        "pageSubtitle": "Condutas rápidas, indicações e revisão interativa com flashcards dedicados."
+    },
+    "cards": [
+        {
+            "id": "flashcards",
+            "title": "Flashcards: Marcapasso & CDI",
+            "description": "Deck interativo com fisiologia do dispositivo, programação básica, troubleshooting e perioperatório.",
+            "thumbnail": "🧠",
+            "link": "flashcards/cdi-marcapasso.html",
+            "tags": [
+                "Dispositivo",
+                "Periop",
+                "Revisão rápida"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Quiz interativo com gabarito comentado sobre marcapasso e CDI.",
+            "thumbnail": "📝",
+            "link": "questoes/cdi-marcapasso.html",
+            "tags": [
+                "Interativo"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "protocolos",
+            "title": "Protocolos Perioperatórios",
+            "description": "Checklist de programação, magneto e manejo de choque — em breve.",
+            "thumbnail": "📄",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "protocolo",
+            "disabled": true
+        }
+    ]
+}
