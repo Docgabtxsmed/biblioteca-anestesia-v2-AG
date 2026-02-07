@@ -1,0 +1,1401 @@
+{
+    "titulo": "Questões de Anestesiologia Pediátrica",
+    "descricao": "40 questões de nível intermediário e avançado baseadas em Miller's Anesthesia - Chapter 72 (Pediatric Anesthesia)",
+    "questoes": [
+        {
+            "enunciado": "Um neonato de 2 dias de vida apresenta cianose súbita durante procedimento cirúrgico para correção de gastrosquise, com SpO2 caindo de 95% para 72% apesar de FiO2 100%. À ausculta, murmúrio vesicular bilateral presente. Qual a fisiopatologia mais provável?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Pneumotórax hipertensivo bilateral",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Persistência de circulação fetal com shunt direita-esquerda",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "Broncoespasmo grave secundário à intubação",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Embolia gasosa paradoxal",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Hipoplasia pulmonar congênita",
+                    "correta": false
+                }
+            ],
+            "explicacao": "A questão descreve hipoxemia refratária a oxigênio em neonato. Miller Chapter 72 destaca que ao nascimento a circulação converte de paralela para serial, mas alguns recém-nascidos mantêm risco de hipoxemia súbita por persistência de circulação fetal (PFC). Esta condição pode ser desencadeada por hipóxia, hipercapnia, acidose e infecção, levando a shunt direita-esquerda através do forame oval e ducto arterioso. O murmúrio bilateral descarta pneumotórax significativo. A PFC é especialmente relevante em cirurgias neonatais de emergência como gastrosquise, onde múltiplos fatores (dor, hipotermia, acidose) podem precipitar vasoconstrição pulmonar e reversão do shunt."
+        },
+        {
+            "enunciado": "Durante indução inalatória com sevoflurano em lactente de 6 meses, você observa equilíbrio mais rápido entre concentração inspirada e alveolar quando comparado a adultos. Qual mecanismo fisiológico explica este fenômeno?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Maior débito cardíaco por kg em lactentes",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Menor capacidade residual funcional e maior ventilação alveolar relativa",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "Menor coeficiente de partição sangue/gás em lactentes",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Maior superfície alveolar por kg de peso corporal",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Menor fração de shunt intrapulmonar em lactentes",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 explica que neonatos e lactentes alcançam equilíbrio mais rápido das concentrações inspirada-cerebral de agentes voláteis devido a: (1) menor capacidade residual funcional (CRF) em relação ao peso, resultando em menor reservatório gasoso a ser preenchido, e (2) maior ventilação alveolar relativa (mL/kg/min). Embora lactentes tenham maior débito cardíaco/kg (opção A), isso na verdade RETARDA o equilíbrio ao aumentar a captação pulmonar do anestésico. Os coeficientes de partição são similares entre idades. Esta cinética mais rápida explica por que lactentes podem apresentar depressão cardiovascular mais rapidamente durante indução inalatória, exigindo cautela ao aumentar concentrações de sevoflurano."
+        },
+        {
+            "enunciado": "Você está planejando anestesia para criança de 3 anos (15 kg) para apendicectomia. Ao calcular dose de rocurônio, qual abordagem determina dose mais precisa segundo princípios farmacocinéticos pediátricos?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "0,6 mg/kg (cálculo linear baseado em peso total)",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Escalonamento alométrico usando massa corporal^0,75",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "Dose fixa de 10 mg independente do peso",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "0,6 mg/kg de peso ideal ajustado para altura",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Cálculo baseado em área de superfície corporal (mg/m²)",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 enfatiza que escalonamento alométrico (usando massa corporal elevada a potência, tipicamente 0,75) é método mais preciso para determinar requisitos de dose na maioria das drogas em crianças, comparado ao tradicional mg/kg linear. Isto porque processos fisiológicos como clearance renal e hepático, débito cardíaco e taxa metabólica escalam de forma não-linear com o peso. Neonatos têm volumes de distribuição relativamente maiores e clearances menores para a maioria das drogas. O método mg/kg simples tende a superdosear neonatos e subdosear crianças maiores. Para rocurônio especificamente, considerações incluem maior volume de distribuição em neonatos e clearance reduzido, exigindo ajuste de dose e intervalos."
+        },
+        {
+            "enunciado": "Lactente de 10 meses (8 kg) necessita anestesia geral para herniorrafia inguinal. Qual valor representa adequadamente o volume sanguíneo estimado desta criança?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "400 mL (50 mL/kg)",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "560 mL (70 mL/kg)",
+                    "correta": false
+                },
+                {
+                    "letra": "C",
+                    "texto": "640 mL (80 mL/kg)",
+                    "correta": true
+                },
+                {
+                    "letra": "D",
+                    "texto": "720 mL (90 mL/kg)",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "800 mL (100 mL/kg)",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Segundo Miller Chapter 72, o volume sanguíneo varia com a idade: prematuros 100-120 mL/kg, termo 90 mL/kg, lactentes 3-12 meses 70-80 mL/kg, crianças >1 ano 70 mL/kg. Para lactente de 10 meses (8 kg), usando 80 mL/kg obtemos 640 mL. Este conhecimento é fundamental para: (1) calcular perda sanguínea máxima permitida (MABL), (2) decidir momento de transfusão, (3) entender que pequenos volumes absolutos de sangramento em lactentes representam porcentagens significativas do volume total. A fórmula MABL = Volume sanguíneo × (Hct inicial - Hct mínimo) / Hct inicial permite determinar quando transfundir. Por exemplo, se Hct inicial 35% e mínimo aceitável 25%, MABL = 640 × (35-25)/35 = 183 mL."
+        },
+        {
+            "enunciado": "Durante correção de fístula traqueoesofágica (TEF) em neonato, qual estratégia ventilatória minimiza risco de distensão gástrica através da fístula?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Ventilação com pressão positiva agressiva via máscara facial antes da intubação",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Intubação traqueal com tubo posicionado além da fístula, em brônquio fonte direito",
+                    "correta": false
+                },
+                {
+                    "letra": "C",
+                    "texto": "Ventilação espontânea preservada com anestesia inalatória profunda até ligadura da fístula",
+                    "correta": true
+                },
+                {
+                    "letra": "D",
+                    "texto": "Ventilação com altas pressões (PIP >25 cmH2O) para garantir oxigenação",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Uso de máscara laríngea ao invés de intubação traqueal",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 discute manejo de TEF: a fístula conecta traqueia ao esôfago, criando risco de distensão gástrica durante ventilação com pressão positiva (VPP), o que pode comprometer ventilação e retorno venoso. Estratégias incluem: (1) evitar VPP pré-intubação quando possível, (2) após intubação, manter ventilação espontânea com anestesia inalatória até a fístula ser ligada cirurgicamente, (3) se VPP necessária, usar pressões mínimas efetivas. Posicionar tubo além da fístula (opção B) é arriscado pois intubação seletiva direita causa atelectasia esquerda. Altas pressões (opção D) pioram distensão gástrica. MLAs (opção E) não protegem via aérea. A abordagem ideal preserva ventilação espontânea quando seguro, minimizando distensão gástrica até correção cirúrgica definitiva da fístula."
+        },
+        {
+            "enunciado": "Recém-nascido de 3 dias com hérnia diafragmática congênita (HDC) apresenta hipoxemia grave (SpO2 78%) apesar de ventilação mecânica otimizada. Qual intervenção NÃO está indicada no manejo perioperatório?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Óxido nítrico inalatório para reduzir hipertensão pulmonar",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Ventilação com altas pressões (PIP >30 cmH2O) para recrutar alvéolos",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "ECMO (oxigenação por membrana extracorpórea) como resgate",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Evitar ventilação com máscara/balão antes da intubação",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Posicionamento de sonda nasogástrica para descompressão",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 aborda HDC: hipoplasia pulmonar ipsilateral leva a insuficiência respiratória e hipertensão pulmonar. Manejo pré-operatório inclui: evitar VPP com máscara (distende intestino intratorácico, piora mecânica ventilatória), descompressão gástrica, ventilação gentil com permissive hypercapnia (aceitar PaCO2 45-60), óxido nítrico para hipertensão pulmonar, e ECMO como resgate em casos refratários. CRÍTICO: EVITAR altas pressões ventilatórias (opção B) pois pulmão hipoplásico é vulnerável a barotrauma/volutrauma, e ventilação agressiva pode piorar hipertensão pulmonar por dano alveolar adicional. Estratégia 'gentle ventilation' com PIP limitada (<25 cmH2O quando possível), volumes correntes baixos (4-6 mL/kg), aceitar hipercapnia permissiva (desde que pH >7.25) é preferível a ventilação agressiva que pode lesar pulmão já comprometido."
+        },
+        {
+            "enunciado": "Lactente de 4 semanas (peso 3,8 kg) com estenose hipertrófica de piloro necessita piloromiotomia. Durante avaliação pré-operatória, gasometria mostra pH 7,51, HCO3 34 mEq/L, Cl 88 mEq/L, K 3,0 mEq/L. Qual conduta pré-operatória é prioritária?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Proceder à cirurgia imediatamente devido risco de desidratação progressiva",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Ressuscitação volêmica com solução salina 0,9% + KCl, corrigir alcalose antes da cirurgia",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "Indução de sequência rápida com succinilcolina para prevenir aspiração",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Evitar sonda nasogástrica para não piorar alcalose",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Administrar bicarbonato para corrigir distúrbio ácido-base",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 descreve estenose pilórica: vômitos repetidos levam a alcalose metabólica hipoclorêmica hipokalêmica (perda de H+, Cl-, K+). A gasometria mostra alcalose metabólica (pH 7,51, HCO3 34) com hipocloremia (88) e hipokalemia (3,0). PRINCÍPIO FUNDAMENTAL: estenose pilórica NÃO é emergência cirúrgica, é emergência metabólica. Prioridade é ressuscitação volêmica e correção eletrolítica ANTES da cirurgia: solução salina 0,9% (repor Cl-) + suplementação potássio (10-20 mEq/L), continuar até normalizar eletrólitos e pH. Objetivos pré-operatórios: Cl >100 mEq/L, HCO3 <30, débito urinário adequado, K >3,5. Apenas após estabilização metabólica proceder à cirurgia. Bicarbonato (opção E) pioraria alcalose. Cirurgia imediata (opção A) aumenta risco anestésico. Sonda nasogástrica (opção D) na verdade ajuda descompressão gástrica e é recomendada."
+        },
+        {
+            "enunciado": "Durante piloromiotomia em lactente, qual técnica de indução anestésica o Miller recomenda como mais segura considerando risco de aspiração?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Indução inalatória com sevoflurano seguida de relaxamento com rocurônio",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Sequência rápida clássica acordado com succinilcolina 2 mg/kg IV",
+                    "correta": false
+                },
+                {
+                    "letra": "C",
+                    "texto": "Indução acordado seguida de intubação com relaxamento e ventilação controlada",
+                    "correta": true
+                },
+                {
+                    "letra": "D",
+                    "texto": "Sedação leve e intubação nasotraqueal acordado",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Indução com propofol e máscara laríngea",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 discute controvérsia sobre manejo de via aérea na estenose pilórica. Embora risco de aspiração seja preocupação teórica (estômago cheio apesar de jejum), estudo comparativo (Cook-Sather et al. 1998) comparou intubação acordada vs paralítica sem diferença em complicações. O capítulo sugere abordagem acordado (awake) com intubação seguida de relaxamento e ventilação controlada como técnica segura, evitando ventilação com pressão positiva antes de via aérea definitiva estar protegida. Sequência rápida clássica (opção B) é razoável alternativa, mas dose succinilcolina em lactentes é 2 mg/kg (vs 1 mg/kg em crianças maiores). Crítico: evitar VPP com máscara antes de intubar (risco distensão gástrica adicional). Descompressão gástrica pré-indução com sonda é recomendada. MLAs (opção E) não protegem adequadamente via aérea em paciente com risco aspiração."
+        },
+        {
+            "enunciado": "Prematuro de 34 semanas gestacionais, agora com 4 semanas de vida pós-natal (idade pós-menstrual 38 semanas), necessita herniorrafia inguinal. Segundo evidências sobre apneia pós-operatória, qual conduta é mais apropriada?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Alta hospitalar imediata após recuperação anestésica pois idade pós-menstrual >37 semanas",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Monitorização pós-operatória por 12-24 horas devido risco apneia até 56-60 semanas pós-menstruais",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "Anestesia geral inalatória é contraindicada; realizar apenas raquianestesia",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Administração profilática de teofilina elimina necessidade de monitorização",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Observação por 4-6 horas é suficiente para descartar apneia pós-operatória",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 e múltiplos estudos (Kurth, Cote et al.) estabelecem que prematuros mantêm risco de apneia pós-operatória até 56-60 semanas de idade pós-menstrual (IPM). IPM = idade gestacional + idade pós-natal. Neste caso: 34 semanas gestacionais + 4 semanas = 38 semanas IPM, portanto ALTO RISCO (necessita atingir ~56 semanas). Fatores de risco adicionais: anemia (Hct <30%), história de apneia/displasia broncopulmonar, cirurgia <1 hora. RECOMENDAÇÕES: monitorização contínua (cardiorrespiratória, oximetria) por 12-24 horas pós-op. Raquianestesia (opção C) pode REDUZIR mas não elimina risco de apneia imediata, e estudo GAS mostrou apneia tardia similar entre técnicas. Cafeína profilática (opção D) pode ajudar mas não substitui monitorização. Alta em 4-6h (opção E) é insuficiente pois apneia pode ocorrer até 12h após cirurgia."
+        },
+        {
+            "enunciado": "Em relação à concentração alveolar mínima (CAM) de sevoflurano em pediatria, qual afirmação está CORRETA segundo dados do Miller?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "CAM é menor em neonatos (2,0%) comparado a lactentes 1-6 meses (3,2%)",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "CAM atinge pico em lactentes 1-6 meses (3,2%) e diminui progressivamente com idade",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "CAM permanece constante (2,5%) do nascimento até adolescência",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "CAM em neonatos prematuros (3,5%) é maior que em neonatos a termo (3,3%)",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "CAM em lactentes >6 meses (3,5%) é maior que em adultos (2,0%)",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 apresenta dados específicos de CAM do sevoflurano por faixa etária: neonatos 3,3%, lactentes 1-6 meses 3,2%, lactentes >6 meses 2,5%, adultos ~2,0%. Padrão observado: CAM é ELEVADA em neonatos (3,3%), atinge pico similar/levemente menor em lactentes jovens (3,2%), depois DECLINA progressivamente (2,5% em >6 meses, ~2,0% em adultos). Este padrão se aplica à maioria dos inalatórios (sevoflurano, isoflurano, desflurano). EXCEÇÃO: óxido nitroso tem CAM maior em neonatos que lactentes. Implicações clínicas: (1) lactentes requerem concentrações mais altas para anestesia cirúrgica, (2) neonatos têm CAM similar a lactentes jovens, não menor como poderia se pensar. Conhecimento crítico para titular adequadamente anestesia inalatória em diferentes faixas etárias pediátricas, evitando subdosagem (despertar intraoperatório) ou superdosagem (depressão cardiovascular)."
+        },
+        {
+            "enunciado": "Lactente de 8 meses (7 kg) submetido a cirurgia de 2 horas está recebendo solução de manutenção durante procedimento. Segundo regra 4-2-1, qual taxa horária correta de fluidos de manutenção?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "14 mL/h (2 mL/kg/h)",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "21 mL/h (3 mL/kg/h)",
+                    "correta": false
+                },
+                {
+                    "letra": "C",
+                    "texto": "28 mL/h (4 mL/kg/h)",
+                    "correta": true
+                },
+                {
+                    "letra": "D",
+                    "texto": "35 mL/h (5 mL/kg/h)",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "42 mL/h (6 mL/kg/h)",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 descreve a tradicional regra 4-2-1 para calcular taxa de fluidos de manutenção em crianças: 4 mL/kg/h para primeiros 10 kg + 2 mL/kg/h para próximos 10 kg + 1 mL/kg/h para cada kg acima de 20 kg. Para criança de 7 kg: 7 kg × 4 mL/kg/h = 28 mL/h. IMPORTANTE: O capítulo menciona CONTROVÉRSIA sobre regra 4-2-1. Estudos recentes questionam se esta fórmula não superestima necessidades em período perioperatório, especialmente com uso de soluções hipotônicas (risco de hiponatremia). TENDÊNCIA ATUAL: muitos centros usam taxas mais conservadoras e preferem soluções isotônicas (salina 0,9% ou ringer lactato) ao invés de soluções hipotônicas tradicionais. Sobre dextrose: Miller indica adicionar dextrose (0,2-0,5%) em neonatos/lactentes pequenos para prevenir hipoglicemia, mas monitorar glicemia pois hiperglicemia também é deletéria. Cálculo 4-2-1 permanece referência para estimar necessidades basais."
+        },
+        {
+            "enunciado": "Durante tonsilectomia em criança de 5 anos com apneia obstrutiva do sono (AOS) grave, qual parâmetro respiratório apresenta maior risco de estar alterado no pré-operatório?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Hipersensibilidade à CO2 com resposta ventilatória exagerada",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Resposta ventilatória embotada ao CO2",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "Taquipneia compensatória em repouso",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Alcalose respiratória crônica",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Aumento da complacência torácica",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 cita estudo de Strauss et al. demonstrando que crianças com AOS por hipertrofia adenotonsilar apresentam resposta ventilatória embotada (diminuída) ao CO2. Mecanismo: episódios repetidos de hipercapnia durante apneias noturnas levam a adaptação crônica dos quimiorreceptores centrais, com diminuição da sensibilidade ao CO2. IMPLICAÇÕES ANESTÉSICAS: (1) estas crianças podem não responder adequadamente à hipercapnia perioperatória, (2) maior risco de hipoventilação/apneia pós-operatória especialmente com opioides, (3) necessidade de monitorização respiratória rigorosa no pós-operatório. EVIDÊNCIAS adicionais: Guidelines (AAP, ASA) recomendam que crianças com AOS grave, especialmente <3 anos, com comorbidades (obesidade, síndromes craniofaciais, hipotonia), necessitam observação prolongada pós-operatória preferencialmente em ambiente monitorizado. Oximetria noturna pré-operatória pode ajudar estratificar risco. Evitar opioides quando possível; preferir analgesia multimodal com acetaminofeno, AINEs, dexametasona."
+        },
+        {
+            "enunciado": "Criança de 4 anos submetida a tonsilectomia apresenta sangramento pós-operatório 6 horas após cirurgia. Durante reindução anestésica para hemostasia, qual principal risco adicional comparado à indução inicial?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Broncoespasmo por irritação de via aérea superior",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Aspiração de sangue deglutido e hipovolemia oculta",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "Edema de glote impossibilitando intubação",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Laringoespasmo reflexo por estimulação faríngea",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Bradicardia vagal durante laringoscopia",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 enfatiza que sangramento pós-tonsilectomia representa DUPLO RISCO: (1) hipovolemia - quantidade de sangue deglutido é frequentemente subestimada; criança pode estar significativamente hipovolêmica apesar de parecer estável, (2) estômago cheio de sangue - alto risco de aspiração durante indução. ABORDAGEM: avaliar grau de hipovolemia (taquicardia, hipotensão, tempo de enchimento capilar, débito urinário), ressuscitar volêmica ANTES da indução quando possível, considerar sonda nasogástrica para esvaziar estômago (controverso - pode provocar vômito), planejar sequência rápida com agente que preserve hemodinâmica (ketamina >etomidato >propofol), ter sucção potente disponível, posição head-up para indução, equipe experiente. Estudos mostram mortalidade aumentada em reoperação por sangramento pós-tonsilectomia. CRÍTICO: não assumir que criança está normovolêmica; sinais compensatórios (taquicardia, palidez) podem ser únicos indicadores de hipovolemia significativa em crianças até descompensação súbita."
+        },
+        {
+            "enunciado": "Em relação ao uso de codeína pós-tonsilectomia em crianças, qual evidência levou FDA a emitir advertência contra seu uso?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Alta incidência de náuseas e vômitos pós-operatórios",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Risco de depressão respiratória fatal em metabolizadores ultrarrápidos de CYP2D6",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "Interação com anti-inflamatórios aumentando risco de sangramento",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Desenvolvimento de tolerância e dependência em uso prolongado",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Ineficácia analgésica comparada a acetaminofeno isolado",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 discute advertência FDA sobre codeína em crianças pós-tonsilectomia/adenoidectomia. CONTEXTO: codeína é pró-droga convertida em morfina pela enzima CYP2D6. Aproximadamente 1-7% da população (variação étnica) são metabolizadores ultrarrápidos (múltiplas cópias do gene CYP2D6), convertendo codeína em morfina muito rapidamente, resultando em níveis tóxicos de morfina. EVIDÊNCIAS: múltiplas mortes reportadas (Kelly et al. 2012, Voronov et al. 2007) de crianças que receberam codeína pós-tonsilectomia e desenvolveram depressão respiratória fatal. Crianças com AOS têm risco aumentado pois já apresentam resposta ventilatória embotada ao CO2. FDA/AAP RECOMENDAÇÕES: evitar codeína pós-tonsilectomia em crianças; se absolutamente necessário usar opioides, preferir morfina ou oxicodona em doses baixas tituladas. MELHOR PRÁTICA: analgesia multimodal sem opioides: acetaminofeno regular + AINE (evidência Cochrane que AINEs NÃO aumentam sangramento clinicamente significativo) + dexametasona + bloqueios regionais quando apropriado."
+        },
+        {
+            "enunciado": "Criança de 8 anos com massa mediastinal anterior para biópsia. Qual achado de imagem pré-operatório indica MAIOR RISCO de colapso cardiovascular durante indução anestésica?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Massa ocupando >50% da área transversal da traqueia em TC",
+                    "correta": true
+                },
+                {
+                    "letra": "B",
+                    "texto": "Derrame pleural bilateral pequeno",
+                    "correta": false
+                },
+                {
+                    "letra": "C",
+                    "texto": "Linfadenopatia mediastinal sem compressão vascular",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Massa com dimensões 4 × 3 cm",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Atelectasia subsegmentar em lobo superior direito",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 enfatiza que massas mediastinais anteriores representam emergência anestésica potencial. FISIOPATOLOGIA: massa pode comprimir traqueia, brônquios principais e grandes vasos (VCS, artéria pulmonar). Posição supina + anestesia geral (perda de tônus muscular + ventilação com pressão positiva) podem causar: (1) colapso de via aérea, (2) colapso cardiovascular por compressão vascular. FATORES DE ALTO RISCO em imagem: compressão traqueal >50% da área transversal, compressão brônquio principal, compressão de VCS/artéria pulmonar, sintomas em decúbito (ortopneia, síncope). AVALIAÇÃO: TC mostrando cortes transversais quantifica grau de compressão; testes de fluxo-volume (flow-volume loops) podem mostrar obstrução extratorácica. ESTRATÉGIA: considerar biópsia com anestesia local/sedação quando possível, manter ventilação espontânea se anestesia geral necessária, posição semi-sentada, ter disponível broncoscópio rígido e ECMO standby em casos extremos. NUNCA relaxar completamente pacientes com compressão significativa até via aérea definitiva estar estabelecida além do ponto de compressão."
+        },
+        {
+            "enunciado": "Lactente de 5 meses apresenta temperatura de 35,2°C ao final de cirurgia abdominal de 2 horas. Qual mecanismo fisiológico torna lactentes mais vulneráveis à hipotermia perioperatória?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Menor capacidade de termogênese por tremor muscular",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Alta razão superfície corporal/peso e fina camada de gordura subcutânea",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "Ausência de gordura marrom metabolicamente ativa",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Vasoconstrição periférica ineficaz",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Menor taxa metabólica basal por kg",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 identifica que neonatos e lactentes são vulneráveis à hipotermia devido a: (1) GRANDE razão superfície corporal/peso - maximiza perda de calor por radiação, convecção e evaporação, (2) FINA camada de gordura subcutânea - isolamento térmico inadequado, (3) ambiente cirúrgico frio - salas operatórias 20-22°C vs termoneutralidade neonatal ~36°C. OUTROS FATORES: cavidades abertas (abdome, tórax) aumentam perdas evaporativas, infusão de fluidos frios, superfície corporal exposta. MECANISMOS COMPENSATÓRIOS em lactentes: gordura marrom (brown fat) metabolicamente ativa permite termogênese não-tremor (opção C incorreta); tremor muscular é limitado mas existe (opção A). CONSEQUÊNCIAS hipotermia: aumento consumo O2, acidose metabólica, coagulopatia, aumento incidência infecção, prolongamento efeito bloqueadores neuromusculares. PREVENÇÃO crítica: aumentar temperatura sala (26-28°C para neonatos), aquecedores radiantes, mantas térmicas, aquecimento de fluidos IV, umidificação de gases, minimizar exposição, monitorização temperatura contínua."
+        },
+        {
+            "enunciado": "Neonato prematuro (30 semanas, peso 1,2 kg) necessita cirurgia para ligadura de canal arterial patente. Qual meta de saturação de oxigênio pré-ductal é mais apropriada para este paciente?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "SpO2 85-89%",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "SpO2 90-95%",
+                    "correta": false
+                },
+                {
+                    "letra": "C",
+                    "texto": "SpO2 95-100%",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "SpO2 88-92%",
+                    "correta": true
+                },
+                {
+                    "letra": "E",
+                    "texto": "SpO2 92-97%",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 discute manejo ventilatório em neonatos prematuros: metas de SpO2 devem balancear risco de hipoxemia vs hiperóxia. EVIDÊNCIAS: estudos em prematuros (SUPPORT, BOOST-II, COT trials) demonstram que SpO2 alvo 88-92% reduz retinopatia da prematuridade (ROP) e displasia broncopulmonar comparado a alvos mais altos (95-98%), sem aumentar significativamente desfechos adversos neurológicos. MECANISMO: prematuros têm vascularização retiniana incompleta; hiperóxia causa vasoconstrição → isquemia → neovascularização patológica (ROP). Dano pulmonar também relacionado à hiperóxia. ANESTESIA: titular FiO2 para atingir SpO2 88-92% quando clinicamente estável. Durante períodos críticos (intubação, hipotensão), aceitar SpO2 temporariamente maior para garantir perfusão adequada. MONITORIZAÇÃO: oximetria pré-ductal (mão direita) reflete saturação cerebral/retiniana melhor que pós-ductal em presença de shunts. PCA patente com shunt significativo pode causar diferenças pré/pós-ductais. Evitar FiO2 100% desnecessária; usar mínima FiO2 que mantém SpO2 alvo."
+        },
+        {
+            "enunciado": "Durante herniorrafia em lactente de 2 meses, você planeja usar tubo traqueal com cuff. Qual pressão de cuff é considerada segura para prevenir lesão de mucosa traqueal?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "<15 cmH2O",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "<20 cmH2O",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "<25 cmH2O",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "<30 cmH2O",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Tubos com cuff são contraindicados em lactentes <1 ano",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 revisou conceito de que tubos SEM cuff são obrigatórios em crianças pequenas. EVIDÊNCIAS ATUAIS: tubos COM cuff de baixa pressão são seguros em lactentes e crianças quando pressão de cuff mantida <20 cmH2O (alguns autores <25 cmH2O). VANTAGENS tubos cuffed: (1) melhor selamento de via aérea (importante em patologias pulmonares, ventilação protetora), (2) reduz necessidade de troca por vazamento excessivo, (3) previne contaminação traqueal por secreções, (4) facilita ventilação com pressão positiva. PREOCUPAÇÕES históricas: cuffs antigos de alta pressão causavam isquemia de mucosa traqueal. Cuffs modernos de alto volume/baixa pressão distribuem pressão sobre área maior. PRÁTICA: verificar pressão de cuff regularmente com manômetro, especialmente após mudanças de posicionamento; evitar N2O (difunde para cuff aumentando pressão); auscultar vazamento com cuff desinflado antes de inflar (se sem vazamento a 20-25 cmH2O, tubo pode estar muito grande). Fórmula tradicional tamanho tubo SEM cuff: (idade/4)+4; COM cuff: (idade/4)+3,5."
+        },
+        {
+            "enunciado": "Criança de 6 anos (20 kg) necessita anestesia para ressecção de tumor cerebral. Você decide usar intubação nasotraqueal. Qual profundidade de inserção estimada adequada a partir da narina?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "12 cm",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "14 cm",
+                    "correta": false
+                },
+                {
+                    "letra": "C",
+                    "texto": "16 cm",
+                    "correta": true
+                },
+                {
+                    "letra": "D",
+                    "texto": "18 cm",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "20 cm",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 fornece fórmulas para estimar profundidade de inserção de tubos traqueais: ORAL: (idade/2)+12 cm a partir dos lábios; NASAL: (idade/2)+15 cm a partir da narina. Para criança de 6 anos: profundidade nasotraqueal = (6/2)+15 = 18 cm... porém esta fórmula tende a posicionar tubo ligeiramente profundo. PRÁTICA: fórmulas são ESTIMATIVAS iniciais; posição deve sempre ser confirmada por: (1) ausculta bilateral, (2) capnografia (onda quadrada), (3) visualização condensação no tubo, (4) radiografia de tórax quando apropriado. OBJETIVO: tubo com ponta 2-3 cm acima da carina (nível T2-T4). FATORES que afetam profundidade: tubos nasais geralmente requerem 2-3 cm adicionais comparado a orais devido caminho mais longo. Flexão/extensão cervical altera posição (flexão avança ~1-2 cm, extensão recua). ERRO COMUM: intubação seletiva brônquio direito - verificar entrada de ar bilateral e simétrica, observar movimento torácico simétrico, confirmar ETCO2. Em dúvida, retirar 0,5-1 cm e reavaliar."
+        },
+        {
+            "enunciado": "Lactente de 7 meses submetido a laparotomia apresenta perda sanguínea estimada de 150 mL. Peso 8 kg, Hct pré-operatório 35%. Considerando Hct mínimo aceitável de 25%, qual a perda sanguínea máxima permitida (MABL)?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "120 mL",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "155 mL",
+                    "correta": false
+                },
+                {
+                    "letra": "C",
+                    "texto": "183 mL",
+                    "correta": true
+                },
+                {
+                    "letra": "D",
+                    "texto": "210 mL",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "245 mL",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 apresenta cálculo de MABL (Maximum Allowable Blood Loss): MABL = Volume sanguíneo × (Hct inicial - Hct mínimo) / Hct inicial. Primeiro calcular volume sanguíneo: lactente 7 meses (3-12 meses) = 80 mL/kg → 8 kg × 80 mL/kg = 640 mL. MABL = 640 × (35-25)/35 = 640 × 10/35 = 640 × 0,286 = 183 mL. INTERPRETAÇÃO: este lactente perdeu 150 mL, aproximando-se do limite (183 mL); próxima perda significativa necessitará transfusão. FATORES DECISÃO transfusão: MABL é GUIA, não regra absoluta; considerar também: sinais clínicos (taquicardia, hipotensão, tempo enchimento capilar, débito urinário), sangramento contínuo vs controlado, comorbidades (cardiopatia, pneumopatia toleram anemia menos). ESTRATÉGIAS poupar hemácias: cell saver quando apropriado, técnica cirúrgica meticulosa, normotermia (coagulopatia por hipotermia), correção acidose, transfusão guiada por tromboelastografia em sangramento maciço. Lactentes toleram anemia isovolêmica melhor que hipovolemia; reposição volêmica com cristaloides enquanto Hct acima do mínimo."
+        },
+        {
+            "enunciado": "Durante cirurgia de escoliose com monitorização neurofisiológica intraoperatória, você observa diminuição >50% na amplitude de potenciais evocados motores (MEPs). Qual anestésico tem MENOR impacto na monitorização de MEPs?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Sevoflurano 1,5 CAM",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Propofol em infusão TIVA",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "Desflurano 1 CAM",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Isoflurano 0,8 CAM",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Óxido nitroso 50%",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 discute anestesia para cirurgia de escoliose com monitorização neurofisiológica intraoperatória (IONM). PRINCÍPIO: MEPs (potenciais evocados motores) avaliam integridade via motora medula espinhal; SEPs (potenciais evocados somatossensitivos) avaliam via sensitiva. MEPs são MUITO mais sensíveis à supressão por anestésicos que SEPs. EFEITO ANESTÉSICOS: halogenados (sevoflurano, isoflurano, desflurano) suprimem MEPs de forma dose-dependente; mesmo 0,5 CAM pode comprometer monitorização. TIVA com propofol + remifentanil permite MEPs robustos e confiáveis. N2O também suprime MEPs (evitar). ESTRATÉGIA ANESTÉSICA para IONM: TIVA com propofol (infusão 100-200 mcg/kg/min) + opioide (remifentanil 0,1-0,3 mcg/kg/min), evitar halogenados, evitar N2O, evitar bloqueio neuromuscular profundo após posicionamento (manter TOF 2-3 respostas para MEPs). ALERTA MEP: queda >50% amplitude ou aumento >10% latência sugere comprometimento medular; interromper instrumentação, verificar pressão arterial, considerar wake-up test se persistir alteração."
+        },
+        {
+            "enunciado": "Criança de 3 anos com diagnóstico de Distrofia Muscular de Duchenne necessita orquidopexia. Qual agente anestésico está CONTRAINDICADO?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Propofol",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Remifentanil",
+                    "correta": false
+                },
+                {
+                    "letra": "C",
+                    "texto": "Sevoflurano",
+                    "correta": true
+                },
+                {
+                    "letra": "D",
+                    "texto": "Rocurônio",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Cetamina",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 discute miopatias em pediatria. Distrofia Muscular de Duchenne (DMD) é distrofinopatia ligada ao X causando degeneração muscular progressiva. RISCO ANESTÉSICO crítico: inalatórios (sevoflurano, isoflurano, desflurano) podem desencadear rabdomiólise em pacientes com DMD e outras miopatias, manifestando-se como: elevação CK, mioglobinúria, hipercalemia, acidose metabólica, arritmias, parada cardíaca. Este NÃO é hipertermia maligna clássica mas síndrome similar. Succinilcolina ABSOLUTAMENTE contraindicada (pode causar rabdomiólise fatal, parada cardíaca por hipercalemia). ESTRATÉGIA ANESTÉSICA: TIVA com propofol + opioide, evitar totalmente halogenados e succinilcolina, bloqueadores neuromusculares não-despolarizantes podem ser usados com cautela (sensibilidade aumentada, usar doses reduzidas, monitorizar TOF), analgesia regional quando possível. DMD pacientes desenvolvem cardiomiopatia e insuficiência respiratória; avaliar função cardíaca (ECO) e pulmonar pré-operatória. Guideline do American College of Chest Physicians recomenda TIVA para todos pacientes com DMD. Monitorizar CK pós-operatória se suspeita de complicação."
+        },
+        {
+            "enunciado": "Recém-nascido de 12 horas de vida com mielomeningocele lombar necessita correção cirúrgica urgente. Durante posicionamento em decúbito ventral, qual complicação fisiológica é mais preocupante?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Aumento da pressão intracraniana por obstrução do retorno venoso jugular",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Comprometimento de retorno venoso e débito cardíaco por compressão abdominal",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "Hipotensão arterial por ativação de barorreceptores aórticos",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Broncoespasmo reflexo por estimulação vagal",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Arritmias por compressão do nervo vago torácico",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 discute cirurgia de mielomeningocele: defeito de fechamento do tubo neural com exposição de medula espinhal/raízes nervosas, associado frequentemente com hidrocefalia (Arnold-Chiari malformation). POSICIONAMENTO: cirurgia requer decúbito ventral, criando risco de comprometimento hemodinâmico em neonatos. MECANISMO: compressão abdominal → comprometimento retorno venoso de VCI → redução pré-carga → queda débito cardíaco → hipotensão. ESTRATÉGIA: posicionar com rolos laterais (torácicos e pélvicos) elevando abdome livre ('free abdomen'), evitar compressão direta da bolsa de mielomeningocele (risco ruptura), monitorizar hemodinâmica rigorosamente (pressão arterial invasiva em casos complexos). OUTROS RISCOS: hipotermia (grande área exposta, neonato), sangramento (saco vascularizado), hipoglicemia, látex alergia (alta incidência em mielomeningocele), apneia pós-operatória se prematuridade associada. URGÊNCIA: cirurgia deve ser realizada primeiras 24-48h para reduzir risco infecção (meningite). Avaliar hidrocefalia; se presente e progressiva, pode necessitar derivação ventriculoperitoneal simultânea ou posterior."
+        },
+        {
+            "enunciado": "Lactente de 5 meses com omphalocele gigante necessita correção cirúrgica. Durante fechamento primário da parede abdominal, qual monitorização é MAIS útil para detectar síndrome compartimental abdominal?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Capnografia (ETCO2)",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Pressão venosa central (PVC)",
+                    "correta": false
+                },
+                {
+                    "letra": "C",
+                    "texto": "Pressão intra-vesical",
+                    "correta": true
+                },
+                {
+                    "letra": "D",
+                    "texto": "Débito urinário",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Pressão arterial invasiva",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 descreve omphalocele: defeito de parede abdominal com herniação de vísceras cobertas por saco membranoso. Diferencia de gastrosquise (vísceras expostas sem saco). DESAFIO CIRÚRGICO: fechamento primário de defeitos grandes pode criar hipertensão intra-abdominal (HIA) → síndrome compartimental abdominal com: (1) comprometimento retorno venoso (VCI) → queda débito cardíaco, (2) compressão diafragmática → comprometimento ventilatório (aumento pressões pico, ETCO2 aumentado), (3) comprometimento perfusão renal/intestinal → oligúria/anúria. MONITORIZAÇÃO: pressão intra-vesical (medida via cateter vesical com coluna de líquido) é padrão-ouro para medir pressão intra-abdominal. Valores >20 mmHg indicam HIA crítica. SINAIS INDIRETOS: aumento ETCO2 (opção A - útil mas não específico), queda débito urinário (opção D), aumento PVC, aumento pressões ventilatórias, hipotensão. MANEJO: se HIA desenvolve durante fechamento, considerar: (1) afrouxar fechamento, (2) usar silo temporário (fechar em etapas), (3) otimizar volemia, (4) evitar relaxamento neuromuscular profundo excessivo."
+        },
+        {
+            "enunciado": "Criança de 7 anos com síndrome do espectro autista (TEA) necessita RM sob sedação. Qual estratégia perioperatória tem MELHOR evidência para reduzir ansiedade?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Visita pré-operatória sem aviso prévio para avaliar reação real da criança",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Preparação estruturada com história social visual e visita prévia ao ambiente",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "Indução anestésica rápida sem preparação para minimizar estresse",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Sedação oral domiciliar na noite anterior ao procedimento",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Presença parental durante todo procedimento incluindo dentro da sala de RM",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 discute manejo de crianças neurodivergentes. TEA caracteriza-se por: dificuldades comunicação/interação social, comportamentos repetitivos, sensibilidade sensorial aumentada, preferência por rotinas previsíveis. DESAFIOS PERIOPERATÓRIOS: ambiente hospitalar (estranho, ruidoso, sensorial overload), mudanças de rotina, dificuldade comunicar necessidades/desconforto. ESTRATÉGIAS BASEADAS EM EVIDÊNCIAS: (1) preparação antecipada com 'história social' visual (fotos/vídeos mostrando passo-a-passo do que vai acontecer), (2) visita pré-procedimento ao ambiente quando possível, (3) comunicação clara e literal (evitar linguagem figurativa), (4) minimizar esperas/mudanças de plano, (5) respeitar preferências sensoriais (permitir objetos de conforto), (6) equipe treinada em TEA, (7) considerar pré-medicação se ansiedade severa (midazolam, dexmedetomidina, clonidina). EVIDÊNCIAS: crianças com TEA respondem melhor a preparação estruturada e previsível que reduz ansiedade e comportamentos desafiadores. Presença parental (opção E) pode ajudar mas RM requer sala blindada (pais geralmente ficam em sala de controle). Indução rápida sem preparação (opção C) aumenta trauma/ansiedade futura."
+        },
+        {
+            "enunciado": "Durante indução inalatória com sevoflurano em criança de 2 anos, você observa rigidez de musculatura mastigatória impedindo abertura bucal. Temperatura axilar 36,8°C, FC 140 bpm, sem alteração de ETCO2. Qual conduta é mais apropriada?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Suspender sevoflurano imediatamente, considerar hipertermia maligna (HM) e tratar com dantrolene",
+                    "correta": true
+                },
+                {
+                    "letra": "B",
+                    "texto": "Continuar indução, rigidez massetérica isolada sem hipertermia não indica HM",
+                    "correta": false
+                },
+                {
+                    "letra": "C",
+                    "texto": "Administrar succinilcolina para relaxar musculatura e permitir intubação",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Aprofundar anestesia inalatória para superar rigidez muscular",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Administrar bloqueador neuromuscular não-despolarizante (rocurônio)",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 discute rigidez massetérica durante indução: pode ser sinal precoce de hipertermia maligna (HM) ou fenômeno benigno isolado. HM é emergência: hipermetabolismo muscular causando acidose, hipertermia, rabdomiólise, hipercalemia, arritmias, morte se não tratada. SINAIS PRECOCES HM: rigidez muscular generalizada ou massetérica, taquicardia, hipercarbia (ETCO2 elevado), taquipneia em ventilação espontânea. SINAIS TARDIOS: hipertermia (pode demorar), acidose metabólica, hipercalemia, mioglobinúria, coagulação intravascular disseminada. DECISÃO CRÍTICA: rigidez massetérica durante indução volátil EXIGE alta suspeição para HM; embora possa ser benigna, risco de HM fatal justifica tratamento preemptivo. MANEJO: (1) SUSPENDER agentes desencadeantes (halogenados, succinilcolina), (2) hiperventilação com O2 100%, (3) DANTROLENE 2,5 mg/kg IV bolus, repetir até controle sintomas, (4) tratamento suporte: resfriamento ativo, tratar hipercalemia/acidose, monitorizar CK/mioglobinúria, (5) monitorização intensiva. Succinilcolina (opção C) é CONTRAINDICADA (potente gatilho HM). NUNCA aprofundar inalatório se suspeita HM. Biópsia muscular posterior pode confirmar suscetibilidade."
+        },
+        {
+            "enunciado": "Lactente de 9 meses submetido a piloromiotomia apresenta agitação intensa na recuperação pós-anestésica (SRPA), chorando inconsolavelmente, desorientado, não reconhece pais. FC 160 bpm, SpO2 98%, sem febre. Qual diagnóstico é mais provável?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Dor cirúrgica intensa",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Delirium de emergência",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "Hipoglicemia neonatal",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Hipertermia maligna tardia",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Abstinência de opioides",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 descreve delirium de emergência (emergence delirium/agitation): estado dissociativo comum em pré-escolares caracterizado por agitação, inconsolabilidade, desorientação, não-responsividade a pais/cuidadores. INCIDÊNCIA: 10-80% em crianças 2-5 anos após anestesia geral, especialmente com sevoflurano/desflurano. FATORES DE RISCO: idade pré-escolar (pico 2-4 anos), ansiedade pré-operatória, anestesia inalatória (sevoflurano>desflurano>propofol), cirurgia ORL/oftálmica, despertar rápido, dor não controlada. DIFERENCIAL: (1) DOR - tratar com analgésicos; se agitação persiste, não é apenas dor, (2) DELIRIUM - agitação não melhora com analgesia, criança não consolável, não localiza dor. MANEJO: ambiente calmo/escuro, presença parental, analgesia adequada, considerar fentanyl pequenas doses (1 mcg/kg) ou propofol (0,5 mg/kg) se severo. PREVENÇÃO: pré-medicação com midazolam, analgesia adequada, considerar propofol para manutenção ao invés de inalatório, despertar gradual. PROGNÓSTICO: auto-limitado, resolve em 5-15 minutos tipicamente, sem sequelas. Importante distinguir de hipoglicemia (glicemia capilar) e dor (responde a analgésicos)."
+        },
+        {
+            "enunciado": "Neonato de 1 dia de vida necessita intubação de urgência. Você decide usar succinilcolina. Qual dose é apropriada para este paciente?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "0,5 mg/kg IV",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "1 mg/kg IV",
+                    "correta": false
+                },
+                {
+                    "letra": "C",
+                    "texto": "2 mg/kg IV",
+                    "correta": true
+                },
+                {
+                    "letra": "D",
+                    "texto": "3 mg/kg IV",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "4 mg/kg IV",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 especifica doses de succinilcolina em pediatria: LACTENTES/NEONATOS requerem DOSE MAIOR (2 mg/kg IV) comparado a crianças maiores/adultos (1 mg/kg IV). RAZÃO FISIOLÓGICA: lactentes têm: (1) maior volume de distribuição para drogas hidrossolúveis (água corporal total ~75% vs 60% em adultos), (2) maior volume de líquido extracelular onde succinilcolina se distribui, (3) receptores neuromusculares imaturos. FARMACODINÂMICA: pseudocolinesterase plasmática (metaboliza succinilcolina) tem atividade reduzida em neonatos (~50% do adulto), mas volume de distribuição aumentado predomina exigindo dose maior. PRÁTICA: lactentes <1 ano: 2 mg/kg IV (ou 3-4 mg/kg IM se sem acesso IV); crianças >1 ano: 1-2 mg/kg IV. RISCOS succinilcolina pediátrica: (1) bradicardia (dar atropina 0,02 mg/kg antes ou imediatamente após primeira dose), (2) hipercalemia em miopatias não-diagnosticadas (morte súbita), (3) hipertermia maligna em suscetíveis, (4) masseter spasm. ALTERNATIVA: rocurônio 1,2 mg/kg para sequência rápida (início <60 segundos, similar a succinilcolina); sugammadex permite reversão se necessário mas CARO e não aprovado <2 anos."
+        },
+        {
+            "enunciado": "Criança de 4 anos submetida a adenotonsilectomia terá alta no mesmo dia. Segundo diretrizes ASA para apneia obstrutiva do sono (AOS), qual critério CONTRAINDICA alta no mesmo dia?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Idade >3 anos",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "AOS grave com dessaturações <80% em polissonografia",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "Ausência de comorbidades cardiovasculares",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Cirurgia realizada no período da manhã",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "IMC <95° percentil para idade",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 cita Guidelines ASA para manejo perioperatório de pacientes com AOS. CRITÉRIOS ALTO RISCO que requerem observação prolongada (internação): (1) idade <3 anos, (2) AOS GRAVE (saturações <80%, IAH>10, IAH obstrutivo >5), (3) comorbidades significativas (obesidade mórbida, síndromes craniofaciais, hipotonia, cardiopatia, pneumopatia), (4) complicações perioperatórias (sangramento, necessidade de opioides IV), (5) ambiente domiciliar inadequado para monitorização. RACIONAL: crianças jovens com AOS grave têm: (1) resposta ventilatória embotada ao CO2, (2) maior risco obstrução pós-operatória (edema residual, secreções, efeito residual anestésicos), (3) podem ter cor pulmonale se AOS muito grave. RECOMENDAÇÃO: crianças baixo risco (>3 anos, AOS leve-moderado, sem comorbidades, cirurgia sem complicações, ambiente domiciliar adequado) podem ter alta mesmo dia com observação 3-4h e orientações aos pais sobre sinais de alerta. Alto risco necessita monitorização contínua 12-24h (oximetria, cardiorrespiratória) preferencialmente em unidade que possa intervir se necessário. Evitar opioides; preferir analgesia multimodal."
+        },
+        {
+            "enunciado": "Durante ressecção de tumor de fossa posterior em criança de 8 anos, ocorre embolia venosa aérea. Qual achado de capnografia é mais característico?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Aumento súbito de ETCO2",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Queda súbita de ETCO2",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "Forma de onda bifásica de ETCO2",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "ETCO2 permanece inalterado",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Oscilações rítmicas de ETCO2 sincronizadas com ventilação",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 menciona embolia venosa aérea (EVA) como complicação em neurocirurgia pediátrica, especialmente procedimentos em fossa posterior ou posição sentada. FISIOPATOLOGIA: ar entra em veias abertas quando pressão venosa < pressão atmosférica (gradiente favorável); ar → átrio direito → ventrículo direito → artéria pulmonar → obstrução vascular pulmonar → aumento espaço morto alveolar → redução CO2 exalado. MONITORIZAÇÃO: (1) ETCO2 - QUEDA SÚBITA é sinal mais sensível e precoce de EVA significativa (opção B correta), (2) Doppler precordial - detecta pequenas quantidades ar (mais sensível que ETCO2 mas menos específico), (3) TEE - altamente sensível, visualiza ar em câmaras cardíacas, (4) mudanças hemodinâmicas (hipotensão, taquicardia, arritmias) em EVA maciça. MANEJO EVA: (1) notificar cirurgião IMEDIATAMENTE - irrigar campo, tamponar veias abertas, cera óssea, (2) suspender N2O se em uso (N2O difunde para bolhas aumentando volume), (3) aumentar FiO2 100%, (4) considerar compressão jugular bilateral (aumenta pressão venosa central, reduz entrada ar), (5) aspirar ar via cateter venoso central se presente, (6) suporte cardiovascular se necessário. Prevenir é melhor: evitar hipovolemia, posicionar minimizar gradiente hidrostático."
+        },
+        {
+            "enunciado": "Recém-nascido de 2 semanas com icterícia apresenta bilirrubina total 18 mg/dL (indireta 16 mg/dL). Necessita cirurgia de urgência para atresia de vias biliares. Qual implicação anestésica é mais relevante?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Aumento da fração livre de drogas ligadas a proteínas (propofol, opioides)",
+                    "correta": true
+                },
+                {
+                    "letra": "B",
+                    "texto": "Contraindicação ao uso de succinilcolina por risco de hipercalemia",
+                    "correta": false
+                },
+                {
+                    "letra": "C",
+                    "texto": "Necessidade de transfusão profilática de plaquetas antes da cirurgia",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Risco aumentado de kernicterus se usar sevoflurano",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Obrigatoriedade de exsanguineotransfusão pré-operatória",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 discute hiperbilirrubinemia neonatal: bilirrubina indireta compete com drogas por sítios de ligação à albumina. IMPLICAÇÃO FARMACOLÓGICA: neonatos com hiperbilirrubinemia têm: (1) menos sítios de albumina disponíveis para drogas (bilirrubina ocupa sítios), (2) aumento da FRAÇÃO LIVRE de drogas altamente ligadas a proteínas (propofol, opioides, midazolam), (3) potencialmente maior efeito clínico com mesma dose. PRÁTICA: considerar redução de doses de drogas altamente ligadas, titular cuidadosamente, monitorizar efeitos clínicos. KERNICTERUS: preocupação é que drogas deslocem bilirrubina da albumina aumentando fração livre → deposição em núcleos da base → neurotoxicidade. Evidência limitada que anestésicos causam isso; preocupação maior com sulfonamidas, furosemida. Sevoflurano (opção D) não comprovadamente aumenta risco kernicterus. ATRESIA BILIAR: ausência/obstrução vias biliares extra-hepáticas → colestase → icterícia. Cirurgia (Kasai portoenterostomia) é tempo-dependente (melhor resultado se <60 dias vida). COAGULOPATIA: déficit vitamina K (não absorvida sem bile) pode ocorrer; verificar INR, corrigir com vitamina K IV pré-operatória. Plaquetas (opção C) geralmente normais a menos que doença hepática avançada."
+        },
+        {
+            "enunciado": "Lactente de 11 meses (peso 9 kg) com infecção de vias aéreas superiores (IVAS) há 2 dias necessita herniorrafia eletiva. Qual evidência deve guiar decisão de adiar cirurgia?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Presença de rinorreia clara sem outros sintomas justifica adiar 4-6 semanas",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Risco de laringoespasmo/broncoespasmo aumenta 2-7× em IVAS ativa, considerar adiar 2-4 semanas",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "Febre >38°C é único critério absoluto para adiar; outros sintomas podem prosseguir",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Anestesia regional elimina risco respiratório, pode prosseguir independente de sintomas",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Não há evidência que IVAS aumente complicações perioperatórias",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 revisa evidências sobre IVAS perioperatória: metanálises demonstram aumento SIGNIFICATIVO de eventos adversos respiratórios (EAR) em crianças com IVAS ativa: laringoespasmo (risco 2-5× aumentado), broncoespasmo (2-10×), dessaturação, tosse. HIPERREATIVIDADE de via aérea persiste 2-6 semanas após IVAS. FATORES DE RISCO para EAR: (1) IVAS ativa (pior), (2) IVAS recente <2 semanas, (3) intubação traqueal (pior que MLAs), (4) cirurgia de via aérea, (5) idade <1 ano, (6) exposição tabaco passivo, (7) prematuridade, (8) reatividade de via aérea (asma). DECISÃO CLÍNICA: balancear risco adiar (progressão doença cirúrgica) vs risco prosseguir (EAR). SINTOMAS LEVES (rinorreia clara, sem febre, sem tosse produtiva, ausculta normal, criança bem): pode prosseguir com CAUTELA. SINTOMAS MODERADOS-GRAVES (febre, tosse produtiva, sibilos, taquipneia, criança irritada): ADIAR 2-4 semanas. ESTRATÉGIAS REDUZIR RISCO: evitar intubação se possível (MLAs), anestesia inalatória suave, broncodilatador pré-indução se história reatividade, lidocaína IV/traqueal, extubação profunda em casos selecionados. Anestesia regional (opção D) reduz mas não elimina risco (ainda pode haver laringoespasmo por secreções)."
+        },
+        {
+            "enunciado": "Criança de 6 anos necessita RM de crânio. Pais preferem que criança não receba sedação/anestesia devido preocupações com neurotoxicidade. Qual informação baseada em evidências você deve compartilhar?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Exposições únicas <1 hora não têm evidência de dano neurocognitivo em humanos",
+                    "correta": true
+                },
+                {
+                    "letra": "B",
+                    "texto": "Sevoflurano é definitivamente neurotóxico em crianças e deve ser evitado",
+                    "correta": false
+                },
+                {
+                    "letra": "C",
+                    "texto": "Propofol é seguro mas todos inalatórios causam déficits cognitivos permanentes",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "FDA contraindica anestesia em crianças <3 anos para procedimentos eletivos",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Estudos humanos comprovam que anestesia causa autismo",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 dedica seção extensa a neurotoxicidade anestésica, tópico complexo e controverso. EVIDÊNCIAS ANIMAIS: anestésicos (inalatórios e IV como propofol, cetamina, benzodiazepínicos) causam apoptose neuronal e déficits comportamentais em animais jovens, especialmente exposições prolongadas/repetidas durante períodos críticos desenvolvimento cerebral. EVIDÊNCIAS HUMANAS: múltiplos estudos observacionais (PANDA, MASK, GAS) investigaram associação anestesia na infância com desfechos neurocognitivos. ACHADOS PRINCIPAIS: (1) exposição ÚNICA breve (<1h) NÃO associada a déficits mensuráveis na maioria dos estudos, (2) exposições MÚLTIPLAS ou PROLONGADAS (>3h) PODEM estar associadas a pequenos déficits em alguns domínios cognitivos, (3) CONFUNDIDORES importantes: condição cirúrgica subjacente, comorbidades, fatores socioeconômicos podem explicar associações. ESTUDO GAS (randomizado): sevoflurano vs anestesia regional em lactentes para herniorrafia NÃO mostrou diferença em QI aos 5 anos. FDA WARNING (2017): anestésicos/sedativos podem afetar desenvolvimento cerebral em crianças <3 anos ou gestantes 3° trimestre, especialmente exposições repetidas/prolongadas >3h. RECOMENDAÇÃO: não adiar cirurgias necessárias; balancear pequeno risco teórico vs benefício procedimento; discutir honestamente limitações evidências."
+        },
+        {
+            "enunciado": "Durante laparoscopia em criança de 10 anos, você observa ETCO2 subindo progressivamente de 35 para 52 mmHg apesar de parâmetros ventilatórios constantes. Qual mecanismo melhor explica este achado?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Broncoespasmo induzido por pneumoperitônio",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Absorção de CO2 do pneumoperitônio via peritônio",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "Embolia gasosa venosa por CO2",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Hipoventilação por restrição diafragmática",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Hipertermia maligna inicial",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 discute fisiologia da laparoscopia pediátrica: pneumoperitônio com CO2 causa: (1) ABSORÇÃO de CO2 através do peritônio vascularizado → aumento CO2 corporal total → aumento produção de CO2 → aumento ETCO2, (2) efeitos mecânicos - compressão diafragmática, aumento pressão intratorácica → comprometimento ventilação, (3) efeitos hemodinâmicos - compressão VCI → redução retorno venoso → queda débito cardíaco especialmente se pressão intra-abdominal >15 mmHg. MANEJO AUMENTO ETCO2: (1) aumentar ventilação minuto (aumentar volume corrente ou frequência respiratória) para compensar absorção CO2, (2) monitorizar pressão intra-abdominal (solicitar ao cirurgião manter <12-15 mmHg quando possível), (3) se ETCO2 continua subindo apesar de ventilação aumentada ou se instabilidade hemodinâmica → considerar desinsuflar temporariamente. DIFERENCIAL: hipoventilação por restrição (opção D) causaria hipercarbia mas não progressiva se parâmetros constantes; embolia gasosa (opção C) causaria QUEDA de ETCO2; HM (opção E) teria outros sinais (rigidez, taquicardia, febre). PEDIÁTRICO específico: crianças pequenas toleram menos pneumoperitônio devido parede abdominal menos complacente; usar pressões mínimas efetivas."
+        },
+        {
+            "enunciado": "Neonato de 3 dias com gastrosquise necessita fechamento cirúrgico. Durante cirurgia, temperatura retal cai para 35°C. Qual consequência metabólica é mais provável?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Alcalose metabólica por hiperventilação",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Hipoglicemia por depleção de glicogênio hepático",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "Hipercalemia por hemólise",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Alcalose respiratória por aumento do drive ventilatório",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Hiponatremia dilucional",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 descreve termorregulação neonatal e consequências da hipotermia. TERMOGÊNESE NEONATAL: neonatos dependem primariamente de termogênese não-tremor via metabolismo de gordura marrom (brown fat), processo que: (1) consome GLICOSE e OXIGÊNIO, (2) gera calor mas também acidose metabólica, (3) depleta reservas de glicogênio (já limitadas em neonatos). HIPOTERMIA → tentativa compensação via termogênese → aumento consumo glicose → HIPOGLICEMIA (opção B). OUTRAS CONSEQUÊNCIAS hipotermia: (1) acidose metabólica (metabolismo anaeróbio, metabolismo gordura marrom), (2) coagulopatia (disfunção enzimática), (3) aumento afinidade Hb por O2 (desvio curva esquerda, prejudica liberação O2 tecidual), (4) prolongamento efeito bloqueadores neuromusculares, (5) vasoconstrição periférica, (6) bradicardia, (7) aumento incidência infecção. PREVENÇÃO crítica: temperatura sala 26-28°C para neonatos, aquecedores radiantes, mantas térmicas, aquecimento fluidos IV, umidificação gases, minimizar exposição, monitorização temperatura contínua. GASTROSQUISE específico: vísceras expostas → enormes perdas evaporativas de calor e fluidos; cobrir com compressas mornas úmidas, proteção térmica agressiva."
+        },
+        {
+            "enunciado": "Criança de 12 anos com paralisia cerebral espástica necessita gastrostomia. Qual consideração anestésica é mais relevante para esta população?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Contraindicação absoluta ao uso de bloqueadores neuromusculares",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Aumento da sensibilidade a bloqueadores neuromusculares não-despolarizantes",
+                    "correta": false
+                },
+                {
+                    "letra": "C",
+                    "texto": "Risco aumentado de aspiração por disfagia e refluxo gastroesofágico",
+                    "correta": true
+                },
+                {
+                    "letra": "D",
+                    "texto": "Necessidade obrigatória de TIVA evitando inalatórios",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Hipersensibilidade à succinilcolina similar a queimados",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 revisa paralisia cerebral (PC): espectro de distúrbios motores por lesão cerebral não-progressiva no desenvolvimento. IMPLICAÇÕES ANESTÉSICAS: (1) DISFAGIA e REFLUXO GASTROESOFÁGICO - comum em PC espástica, aumento risco aspiração → considerar sequência rápida/modificada, manter jejum adequado, profilaxia aspiração (metoclopramida, antagonista H2/IBP), (2) EPILEPSIA - 30-50% têm convulsões; manter anticonvulsivantes perioperatório, evitar drogas pró-convulsivantes (meperidina, flumazenil em altas doses), (3) ESCOLIOSE - comum, dificulta posicionamento/ventilação, (4) CONTRATURAS - difícultam acesso venoso, posicionamento, (5) COMUNICAÇÃO - dificuldade avaliar dor/desconforto. BLOQUEADORES NEUROMUSCULARES: sensibilidade VARIÁVEL dependendo gravidade espasticidade; músculos espásticos podem ter receptores upregulated → resistência; músculos atróficos podem ter sensibilidade aumentada. SUCCINILCOLINA: geralmente SEGURA em PC (diferente de denervação/miopatias onde é contraindicada - opção E incorreta). Inalatórios podem ser usados (opção D incorreta). GASTROSTOMIA em PC: frequentemente por disfagia/desnutrição; procedimento melhora nutrição/qualidade vida. Pós-operatório: analgesia adequada (pacientes comunicação limitada podem não expressar dor claramente)."
+        },
+        {
+            "enunciado": "Lactente de 4 meses com teste de triagem auditiva alterado necessita potenciais evocados auditivos do tronco cerebral (PEATE/BERA) sob sedação. Qual agente anestésico interfere MENOS com os potenciais evocados auditivos?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Sevoflurano",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Óxido nitroso",
+                    "correta": false
+                },
+                {
+                    "letra": "C",
+                    "texto": "Dexmedetomidina",
+                    "correta": true
+                },
+                {
+                    "letra": "D",
+                    "texto": "Propofol",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Midazolam",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 menciona anestesia para procedimentos diagnósticos. PEATE/BERA mede condução neural via tronco cerebral em resposta a estímulos auditivos; usado para avaliar audição em lactentes/crianças não-cooperativas. EFEITO ANESTÉSICOS: (1) DEXMEDETOMIDINA - alfa-2 agonista, mínima interferência com PEATE, preserva amplitudes e latências, excelente escolha para este exame (opção C correta), (2) PROPOFOL - aumenta latências de forma dose-dependente, pode dificultar interpretação, (3) INALATÓRIOS (sevoflurano) - aumentam latências, diminuem amplitudes especialmente em concentrações altas, (4) BENZODIAZEPÍNICOS - aumentam latências, (5) OPIOIDES - efeito mínimo, (6) N2O - aumenta latências. ESTRATÉGIA ANESTÉSICA para PEATE: (1) dexmedetomidina (loading 1-2 mcg/kg em 10 min, infusão 0,5-1 mcg/kg/h) é ideal - sedação, imobilidade, mínima interferência com PEATE, (2) alternativa: propofol em doses baixas tituladas se dexmedetomidina contraindicada, (3) evitar inalatórios se possível ou manter concentrações mínimas, (4) minimizar benzodiazepínicos. OUTROS EXAMES: RM pode usar inalatórios sem preocupação; sedação procedimentos breves pode usar múltiplos agentes; PEATE requer atenção especial pois anestesia PODE interferir com o que está sendo testado."
+        },
+        {
+            "enunciado": "Criança de 5 anos com história de apneia obstrutiva do sono (AOS) necessita ressonância magnética (RM) de encéfalo. Qual agente/técnica de sedação apresenta MAIOR risco para esta criança?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Dexmedetomidina intranasal 2 mcg/kg",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Propofol em infusão contínua com monitorização",
+                    "correta": false
+                },
+                {
+                    "letra": "C",
+                    "texto": "Midazolam oral 0,5 mg/kg + hidrato de cloral 50 mg/kg",
+                    "correta": true
+                },
+                {
+                    "letra": "D",
+                    "texto": "Sevoflurano inalatório via máscara",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Ketamina intramuscular 5 mg/kg",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 e diretrizes ASA discutem sedação em crianças com AOS. RISCO: crianças com AOS têm via aérea anatomicamente comprometida (hipertrofia adenotonsilar) + resposta ventilatória embotada ao CO2 → MAIOR RISCO de obstrução via aérea, apneia, dessaturação durante sedação. AGENTES SEDATIVOS: (1) BENZODIAZEPÍNICOS + HIDRATO DE CLORAL (opção C) - combinação com ALTO RISCO pois ambos causam depressão respiratória sinérgica, sedação profunda imprevisível, sem antagonista para hidrato de cloral, recuperação prolongada → MAIOR RISCO obstrução/apneia em AOS, (2) DEXMEDETOMIDINA - preserva drive respiratório, minimiza obstrução, perfil segurança favorável em AOS, (3) PROPOFOL - depressão respiratória dose-dependente mas recuperação rápida, titulável, profissional experiente pode usar com monitorização adequada, (4) SEVOFLURANO - depressão respiratória mas via aérea pode ser manipulada (jaw thrust, OPA), (5) KETAMINA - preserva drive respiratório, mas pode causar hipersalivação (risco obstrução). DIRETRIZES: sedação em AOS requer: monitorização contínua (SpO2, capnografia se sedação profunda), profissional experiente em manejo de via aérea, equipamento ressuscitação disponível, considerar anestesia geral com via aérea protegida em AOS grave. EVITAR combinações depressores respiratórios, especialmente em setting não-monitorizado."
+        },
+        {
+            "enunciado": "Neonato de 5 dias com diagnóstico de doença cardíaca congênita cianótica ducto-dependente (atresia pulmonar) aguarda cateterismo intervencionista. Durante transporte para hemodinâmica, apresenta dessaturação súbita (SpO2 65%). Qual medida é prioritária?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Aumentar FiO2 para 100%",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Iniciar infusão de prostaglandina E1 imediatamente",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "Administrar bicarbonato para corrigir acidose",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Iniciar dopamina para suporte hemodinâmico",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Intubação traqueal e ventilação mecânica",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 discute cardiopatias congênitas cianóticas. ATRESIA PULMONAR: ausência de continuidade VD-artéria pulmonar → fluxo pulmonar DEPENDENTE de ducto arterioso patente (DAP) → mistura sistêmica-pulmonar via DAP fornece único fluxo pulmonar. FISIOPATOLOGIA: fechamento ductal → cessação fluxo pulmonar → hipoxemia grave → acidose → morte. DESSATURAÇÃO SÚBITA sugere fechamento ductal (processo fisiológico normal que ocorre primeiros dias de vida mas FATAL em lesões ducto-dependentes). MANEJO URGENTE: (1) PROSTAGLANDINA E1 (PGE1) infusão IMEDIATA - reabre/mantém DAP patente, dose inicial 0,01-0,1 mcg/kg/min, titular até resposta (aumento SpO2, melhora perfusão), (2) suporte ventilatório conforme necessário, (3) evitar HIPERÓXIA em algumas lesões ducto-dependentes pois O2 alto pode causar vasodilatação pulmonar excessiva → roubo de fluxo sistêmico (não é o caso em atresia pulmonar onde fluxo pulmonar via DAP é desejado), (4) corrigir acidose/hipotensão após estabilizar. EFEITOS ADVERSOS PGE1: apneia (10-20%, especialmente <2 kg - ter via aérea disponível), hipotensão, febre, convulsões (raras). TODAS cardiopatias cianóticas ducto-dependentes para fluxo pulmonar (atresia pulmonar, atresia tricúspide, tetralogia Fallot crítica) requerem PGE1 até correção definitiva. Aumentar O2 (opção A) pode ajudar marginalmente mas NÃO resolve fechamento ductal."
+        },
+        {
+            "enunciado": "Criança de 7 anos com anemia falciforme (Hb SS) necessita adenotonsilectomia. Qual meta de hemoglobina pré-operatória é recomendada para reduzir complicações perioperatórias?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Hb >7 g/dL",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Hb >10 g/dL",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "Hb >12 g/dL",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Hb >14 g/dL",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Hemoglobina basal da criança é aceitável, não transfundir profilaticamente",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 menciona anemia falciforme. FISIOPATOLOGIA: Hb S polimeriza quando desoxigenada → deformação eritrócitos (células em foice) → vaso-oclusão → crises dolorosas, síndrome torácica aguda, AVE, necrose órgãos. FATORES PRECIPITANTES crises: hipóxia, desidratação, acidose, hipotermia, hipertermia, infecção, estresse. MANEJO PERIOPERATÓRIO: (1) HIDRATAÇÃO agressiva (evitar desidratação), (2) OXIGENAÇÃO adequada (evitar hipóxia), (3) NORMOTERMIA, (4) TRANSFUSÃO - aumentar Hb e/ou diminuir fração HbS. EVIDÊNCIAS TRANSFUSÃO: estudos mostraram redução complicações perioperatórias (vaso-oclusão, síndrome torácica aguda) com transfusão pré-operatória em cirurgias moderado-alto risco. META: Hb >10 g/dL (opção B) é consenso para cirurgias risco moderado-alto. Transfusão SIMPLES (aumentar Hb sem exsanguíneo) é geralmente suficiente; exsanguineotransfusão (reduzir HbS <30%) reservada para cirurgias muito alto risco ou complicações agudas graves. TIPO SANGUE: uso de concentrados de hemácias fenotipados (compatibilidade estendida) reduz aloimunização. CIRURGIA BAIXO RISCO (ex: miringotomia): pode não necessitar transfusão se Hb basal adequada (>8-9). TONSILECTOMIA: risco moderado → geralmente transfundir para Hb >10. OUTRAS MEDIDAS: evitar torniquetes prolongados, ventilação adequada (evitar atelectasia → hipoxemia), analgesia agressiva (dor precipita crises), profilaxia antibiótica se esplenectomizado funcional."
+        },
+        {
+            "enunciado": "Lactente de 6 meses com diagnóstico de laringomalácia grave apresenta estridor inspiratório e retrações. Qual mecanismo fisiopatológico explica estes achados?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Obstrução fixa de via aérea superior por estenose subglótica",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Colapso dinâmico de estruturas supraglóticas durante inspiração",
+                    "correta": true
+                },
+                {
+                    "letra": "C",
+                    "texto": "Broncoespasmo reflexo por irritação de via aérea",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Paralisia bilateral de cordas vocais em posição mediana",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Compressão extrínseca de traqueia por massa mediastinal",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 discute anomalias congênitas de via aérea. LARINGOMALÁCIA: causa MAIS COMUM de estridor em lactentes, caracterizada por cartilagens laríngeas supraglóticas imaturas/flácidas (epiglote, aritenoides) que COLAPSAM DINAMICAMENTE durante inspiração (pressão negativa inspiratória suga estruturas flácidas para dentro da via aérea → obstrução). CLÍNICA: estridor INSPIRATÓRIO (opção B correta), piora com choro/agitação/decúbito dorsal, melhora em prono ou com extensão cervical, início primeiras semanas de vida. GRAVIDADE: maioria casos LEVES, autolimitados (resolve espontaneamente 12-24 meses conforme cartilagens maturam). CASOS GRAVES: desconforto respiratório, dificuldade alimentação, falha de crescimento, apneias, hipoxemia → podem necessitar supraglotoplastia (ressecção tecido redundante). IMPLICAÇÕES ANESTÉSICAS: (1) INDUÇÃO - manter ventilação espontânea (VPP pode piorar colapso), posição supina com extensão cervical pode melhorar patência, CPAP/PEEP pode ajudar, (2) INTUBAÇÃO - visualizar estruturas colapsadas durante laringoscopia, tubo traqueal bypassa obstrução, (3) EXTUBAÇÃO - despertar profundo pode ser preferível para evitar agitação/estridor exacerbado. DIFERENCIAL: estenose subglótica (opção A) causa estridor bifásico fixo; paralisia cordas vocais (opção D) causa estridor inspiratório mas cordas imóveis; laringomalácia tem dinâmica característica de colapso inspiratório."
+        },
+        {
+            "enunciado": "Durante cirurgia de correção de craniossinostose em lactente de 8 meses, você observa perda sanguínea estimada de 200 mL (volume sanguíneo estimado 640 mL). Qual parâmetro melhor guia decisão de transfusão neste momento?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Hemoglobina/hematócrito laboratorial",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Saturação venosa mista de O2 (SvO2)",
+                    "correta": false
+                },
+                {
+                    "letra": "C",
+                    "texto": "Sinais clínicos (taquicardia, hipotensão, tempo de enchimento capilar, débito urinário)",
+                    "correta": true
+                },
+                {
+                    "letra": "D",
+                    "texto": "Cálculo de perda sanguínea máxima permitida (MABL)",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Lactato sérico",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 enfatiza transfusão guiada por parâmetros clínicos e fisiológicos, não apenas por fórmulas ou valores laboratoriais isolados. CONTEXTO: perda 200 mL em volume total 640 mL = 31% do volume sanguíneo, sangramento significativo que pode comprometer perfusão. AVALIAÇÃO MULTIMODAL: (1) SINAIS CLÍNICOS (opção C) - taquicardia (frequência cardíaca), hipotensão (pressão arterial), perfusão periférica (tempo enchimento capilar >2 seg, extremidades frias), débito urinário (<1 mL/kg/h sugere hipoperfusão renal), sensório - são MELHORES indicadores de necessidade transfusão que números isolados, (2) LABORATÓRIO - Hb/Hct úteis mas resultados demoram, hemodiluição aguda pode não refletir imediatamente em Hct, (3) MABL (opção D) - GUIA inicial mas não substitui avaliação clínica; este paciente está próximo/excedeu MABL mas decisão final é clínica, (4) LACTATO/SvO2 - marcadores avançados de perfusão tecidual, úteis se disponíveis mas não essenciais. PRINCÍPIO: transfundir baseado em evidência de HIPOPERFUSÃO TECIDUAL, não apenas em número de mL perdidos. Criança pode compensar perda moderada com taquicardia/vasoconstrição; se compensando bem (PA normal, perfusão adequada, débito urinário preservado), pode tolerar Hct mais baixo com reposição cristaloide. CIRURGIA CRANIOSSINOSTOSE: alto risco sangramento (osso calvárial vascularizado, descolamento periósteo extenso); ter sangue disponível, acesso IV adequado, monitorizar hemodinâmica rigorosamente."
+        },
+        {
+            "enunciado": "Criança de 4 anos submetida a broncoscopia rígida para remoção de corpo estranho em brônquio principal direito. Qual técnica ventilatória é mais apropriada durante o procedimento?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Ventilação espontânea com anestesia inalatória via broncoscópio",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Apneia intermitente com ventilação manual entre períodos de broncoscopia",
+                    "correta": false
+                },
+                {
+                    "letra": "C",
+                    "texto": "Ventilação Jet de alta frequência via broncoscópio",
+                    "correta": true
+                },
+                {
+                    "letra": "D",
+                    "texto": "Intubação traqueal convencional com tubo ao lado do broncoscópio",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Ventilação com máscara laríngea durante todo procedimento",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 discute anestesia para broncoscopia rígida. DESAFIO: via aérea é COMPARTILHADA - anestesiologista e broncoscopista competem pelo mesmo espaço; necessário manter: (1) oxigenação/ventilação, (2) profundidade anestésica adequada, (3) imobilidade, (4) campo cirúrgico desobstruído. TÉCNICAS VENTILATÓRIAS: (1) VENTILAÇÃO JET de alta frequência (opção C) - via lateral do broncoscópio rígido, permite ventilação contínua DURANTE broncoscopia, oxigenação excelente, não interfere com trabalho cirúrgico, TÉCNICA PREFERIDA em muitos centros, requer expertise e monitorização adequada (risco barotrauma se obstrução à exalação), (2) VENTILAÇÃO ESPONTÂNEA (opção A) - possível mas difícil manter profundidade adequada + imobilidade sem comprometer ventilação, (3) APNEIA INTERMITENTE (opção B) - broncoscopista trabalha durante apneia, anestesiologista ventila entre períodos; técnica tradicional mas causa dessaturações intermitentes, menos ideal, (4) INTUBAÇÃO + BRONCOSCÓPIO (opção D) - não viável, não há espaço. INDUÇÃO: inalatória ou IV, manter ventilação espontânea inicialmente até via aérea avançada estabelecida (broncoscópio), relaxamento muscular após broncoscópio inserido. CORPO ESTRANHO: emergência potencial se obstrução completa; ter broncoscopia rígida + equipe experiente; evitar VPP agressiva antes de remover corpo estranho (risco impactar distalmente ou causar obstrução valvular com hiperinsuflação/pneumotórax)."
+        },
+        {
+            "enunciado": "Lactente de 3 meses necessita correção de cardiopatia congênita com circulação extracorpórea (CEC). Qual modificação da CEC é especificamente necessária em lactentes comparado a adultos?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Uso de circuito sem prime (bloodless prime) para evitar hemodiluição",
+                    "correta": false
+                },
+                {
+                    "letra": "B",
+                    "texto": "Hipotermia profunda (15-20°C) raramente é necessária",
+                    "correta": false
+                },
+                {
+                    "letra": "C",
+                    "texto": "Hemodiluição significativa devido prime do circuito em relação ao volume sanguíneo pequeno",
+                    "correta": true
+                },
+                {
+                    "letra": "D",
+                    "texto": "Fluxos de perfusão mais baixos por kg comparado a adultos",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Impossibilidade técnica de realizar parada circulatória total",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 menciona peculiaridades de CEC pediátrica. DESAFIO PRINCIPAL: lactentes têm volume sanguíneo PEQUENO (80 mL/kg × 5 kg = 400 mL exemplo), mas circuito de CEC tem volume de prime (300-400 mL) que representa FRAÇÃO GRANDE do volume sanguíneo → HEMODILUIÇÃO significativa (opção C correta). CONSEQUÊNCIAS hemodiluição: (1) redução Hct (pode necessitar prime com sangue para manter Hct >20-25%), (2) redução proteínas plasmáticas/fatores coagulação (risco sangramento), (3) redução pressão oncótica (edema). ESTRATÉGIAS MINIMIZAR HEMODILUIÇÃO: (1) circuitos miniaturizados (menor volume prime), (2) prime com sangue (concentrado hemácias + plasma/albumina), (3) ultrafiltração durante/pós-CEC para concentrar sangue. OUTRAS DIFERENÇAS CEC PEDIÁTRICA vs ADULTO: (1) FLUXOS PERFUSÃO - lactentes requerem fluxos MAIORES por kg (150-200 mL/kg/min) vs adultos (50-70 mL/kg/min) devido metabolismo aumentado (opção D incorreta), (2) HIPOTERMIA PROFUNDA (opção B) - lactentes toleram melhor e frequentemente usam parada circulatória total com hipotermia profunda (15-18°C) para procedimentos complexos (opção E incorreta), (3) CANULAÇÃO - vasos menores, requer cânulas pediátricas específicas. MONITORIZAÇÃO: temperatura múltiplos sítios, gases sanguíneos frequentes, ACT (tempo coagulação ativado) para heparinização, near-infrared spectroscopy (NIRS) para oxigenação cerebral/somática."
+        },
+        {
+            "enunciado": "Criança de 6 anos com síndrome de Down necessita anestesia para extração dentária. Qual avaliação pré-operatória é MAIS importante devido associação com síndrome de Down?",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "Radiografia cervical para avaliar instabilidade atlantoaxial",
+                    "correta": true
+                },
+                {
+                    "letra": "B",
+                    "texto": "Teste genético para confirmar trissomia do cromossomo 21",
+                    "correta": false
+                },
+                {
+                    "letra": "C",
+                    "texto": "Biópsia muscular para descartar miopatia associada",
+                    "correta": false
+                },
+                {
+                    "letra": "D",
+                    "texto": "Tomografia de crânio para avaliar ventriculomegalia",
+                    "correta": false
+                },
+                {
+                    "letra": "E",
+                    "texto": "Polissonografia para investigar apneia do sono",
+                    "correta": false
+                }
+            ],
+            "explicacao": "Miller Chapter 72 menciona síndromes em pediatria. SÍNDROME DE DOWN (trissomia 21): múltiplas implicações anestésicas. INSTABILIDADE ATLANTOAXIAL (opção A): 10-30% pacientes Down têm frouxidão ligamentar C1-C2 → risco subluxação/luxação durante manipulação cervical (laringoscopia, posicionamento) → compressão medular → tetraplegia/morte. RECOMENDAÇÃO: radiografias cervicais (neutro, flexão, extensão) pré-operatórias para TODOS pacientes Down antes de primeira anestesia; se instabilidade documentada (distância atlas-dente >4-5 mm), CAUTELA EXTREMA durante laringoscopia (manutenção cervical neutra, videolaringoscopia, considerar intubação acordado em casos extremos). OUTRAS COMPLICAÇÕES ASSOCIADAS Down: (1) CARDIOPATIA CONGÊNITA - 40-50% (defeito canal AV, CIA, CIV) → ecocardiograma pré-op, profilaxia endocardite se indicado, (2) APNEIA OBSTRUTIVA DO SONO (opção E) - comum (hipotonia, macroglossia, hipertrofia adenotonsilar, hipoplasia mediofacial) → considerar monitorização prolongada pós-op, (3) VIA AÉREA DIFÍCIL - macroglossia relativa, hipoplasia mandibular, pescoço curto → preparar para via aérea difícil, (4) HIPOTIREOIDISMO - verificar função tireoideana. PROCEDIMENTO: radiografias cervicais (opção A) têm maior impacto imediato na técnica anestésica (manejo de via aérea); polissonografia (opção E) útil mas menos urgente para procedimento eletivo curto."
+        }
+    ]
+}
