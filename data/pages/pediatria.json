@@ -71,7 +71,7 @@
             "title": "Questões Comentadas",
             "description": "Quiz interativo com gabarito comentado sobre anestesiologia pediátrica.",
             "thumbnail": "❓",
-            "link": "questoes/pediatria.html",
+            "link": "auto",
             "tags": [
                 "Interativo"
             ],

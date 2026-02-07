@@ -71,7 +71,7 @@
             "title": "Questões Comentadas",
             "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Monitorização.",
             "thumbnail": "❓",
-            "link": "questoes/monitorizacao.html",
+            "link": "auto",
             "tags": [
                 "Quiz",
                 "Provas"

@@ -33,7 +33,7 @@
             "title": "Questões Comentadas",
             "description": "Quiz interativo com gabarito comentado sobre marcapasso e CDI.",
             "thumbnail": "📝",
-            "link": "questoes/cdi-marcapasso.html",
+            "link": "auto",
             "tags": [
                 "Interativo"
             ],

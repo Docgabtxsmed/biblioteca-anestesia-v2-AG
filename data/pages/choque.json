@@ -71,7 +71,7 @@
             "title": "Questões Comentadas",
             "description": "Quiz interativo com gabarito comentado sobre choque e monitorização hemodinâmica.",
             "thumbnail": "❓",
-            "link": "questoes/choque.html",
+            "link": "auto",
             "tags": [
                 "Interativo"
             ],

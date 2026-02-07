@@ -58,7 +58,7 @@
             "title": "Questões Comentadas",
             "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Anestésicos Locais.",
             "thumbnail": "❓",
-            "link": "questoes/anestesicos-locais.html",
+            "link": "auto",
             "tags": [
                 "Quiz",
                 "Provas"

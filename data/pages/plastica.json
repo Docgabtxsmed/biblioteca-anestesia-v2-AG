@@ -56,7 +56,7 @@
             "title": "Questões Comentadas",
             "description": "Quiz interativo com gabarito comentado sobre cirurgia plástica.",
             "thumbnail": "❓",
-            "link": "questoes/plastica.html",
+            "link": "auto",
             "tags": [
                 "Interativo"
             ],

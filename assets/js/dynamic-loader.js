@@ -69,7 +69,7 @@ function renderPage(data) {
         gridContainer.innerHTML = ''; // Limpa conteúdo atual
 
         data.cards.forEach(card => {
-            const cardHTML = createCardHTML(card);
+            const cardHTML = createCardHTML(card, data.id);
             gridContainer.insertAdjacentHTML('beforeend', cardHTML);
         });
 
@@ -104,13 +104,29 @@ function updateSchema(schemaData) {
     }
 }
 
-function createCardHTML(card) {
+function createCardHTML(card, pageId) {
     const isDisabled = card.disabled ? 'card-disabled' : '';
     const ariaDisabled = card.disabled ? 'aria-disabled="true"' : '';
-    const linkHref = card.disabled ? '#' : card.link;
-    const linkLabel = `Acessar ${card.title}`; // Simplificação
+    
+    let linkHref = card.disabled ? '#' : card.link;
 
-    // Gera tags HTML
+    // Auto-gera link para questões E flashcards
+    if (!card.disabled && card.link === 'auto') {
+        if (card.type === 'questoes') {
+            linkHref = `questoes/questoes.html?tema=${pageId}`;
+        } else if (card.type === 'flashcard') {
+            linkHref = `flashcards/flashcards.html?tema=${pageId}`;
+        }
+    }
+
+    // Adiciona origem automaticamente
+    if (!card.disabled && (card.type === 'questoes' || card.type === 'flashcard')) {
+        const currentPage = window.location.href.split('/').pop();
+        const separator = linkHref.includes('?') ? '&' : '?';
+        linkHref = `${linkHref}${separator}origem=${encodeURIComponent(currentPage)}`;
+    }
+    
+    const linkLabel = `Acessar ${card.title}`;
     const tagsHTML = card.tags.map(tag => `<span class="tag">${tag}</span>`).join('');
 
     return `

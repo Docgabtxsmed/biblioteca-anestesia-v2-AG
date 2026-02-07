@@ -44,7 +44,7 @@
             "title": "Questões Comentadas",
             "description": "Quiz interativo com gabarito comentado sobre hipotermia.",
             "thumbnail": "❓",
-            "link": "questoes/hipotermia.html",
+            "link": "auto",
             "tags": [
                 "Interativo"
             ],

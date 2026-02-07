@@ -1,74 +1,93 @@
 {
-  "id": "buco",
-  "seo": {
-    "title": "Cirurgia Bucomaxilofacial - Biblioteca de Anestesiologia",
-    "description": "Anestesia para Cirurgia Bucomaxilofacial - Via aérea compartilhada, intubação nasotraqueal e manejo de trauma de face.",
-    "keywords": "anestesiologia, bucomaxilofacial, LeFort, Trauma Dentário e Anestesiologia, intubação nasotraqueal, trauma de face, cirurgia oral",
-    "schema": {
-      "name": "Anestesia para Cirurgia Bucomaxilofacial",
-      "description": "Material educacional sobre anestesia em cirurgias de face e boca"
-    }
-  },
-  "header": {
-    "navbarTitle": "🦷 Cirurgia Bucomaxilofacial",
-    "pageTitle": "Anestesia para Cirurgia Bucomaxilofacial",
-    "pageSubtitle": "Técnicas anestésicas em cirurgias de face e boca, via aérea compartilhada, intubação nasotraqueal e manejo de trauma facial."
-  },
-  "cards": [
-    {
-      "id": "resumo-via-aerea",
-      "title": "Resumo: Via Aérea Compartilhada",
-      "description": "Manejo da via aérea compartilhada entre anestesista e cirurgião, técnicas de proteção e comunicação.",
-      "thumbnail": "🫁",
-      "link": "resumos/buco-via-aerea-compartilhada.html",
-      "tags": ["Via Aérea", "Intubação", "Segurança"],
-      "type": "resumo"
+    "id": "buco",
+    "seo": {
+        "title": "Cirurgia Bucomaxilofacial - Biblioteca de Anestesiologia",
+        "description": "Anestesia para Cirurgia Bucomaxilofacial - Via aérea compartilhada, intubação nasotraqueal e manejo de trauma de face.",
+        "keywords": "anestesiologia, bucomaxilofacial, LeFort, Trauma Dentário e Anestesiologia, intubação nasotraqueal, trauma de face, cirurgia oral",
+        "schema": {
+            "name": "Anestesia para Cirurgia Bucomaxilofacial",
+            "description": "Material educacional sobre anestesia em cirurgias de face e boca"
+        }
     },
-    {
-      "id": "resumo-intubacao",
-      "title": "Resumo: Intubação Nasotraqueal",
-      "description": "Técnica de intubação nasotraqueal, indicações, contraindicações e complicações.",
-      "thumbnail": "👃",
-      "link": "resumos/buco-intubacao-nasotraqueal.html",
-      "tags": ["Nasotraqueal", "Técnica", "Complicações"],
-      "type": "resumo"
+    "header": {
+        "navbarTitle": "🦷 Cirurgia Bucomaxilofacial",
+        "pageTitle": "Anestesia para Cirurgia Bucomaxilofacial",
+        "pageSubtitle": "Técnicas anestésicas em cirurgias de face e boca, via aérea compartilhada, intubação nasotraqueal e manejo de trauma facial."
     },
-    {
-      "id": "resumo-trauma",
-      "title": "Resumo: Trauma de Face",
-      "description": "Avaliação e manejo anestésico do trauma maxilofacial, via aérea difícil e sangramento.",
-      "thumbnail": "🚑",
-      "link": "resumos/buco-trauma-face.html",
-      "tags": ["Trauma", "Emergência", "Sangramento"],
-      "type": "resumo"
-    },
-    {
-      "id": "flashcards",
-      "title": "Flashcards de Revisão",
-      "description": "Revisão rápida dos conceitos essenciais de anestesia para cirurgia bucomaxilofacial.",
-      "thumbnail": "🎴",
-      "link": "flashcards/buco.html",
-      "tags": ["Interativo", "Revisão"],
-      "type": "flashcard"
-    },
-    {
-      "id": "questoes",
-      "title": "Questões Comentadas",
-      "description": "Quiz interativo com gabarito comentado sobre cirurgia bucomaxilofacial.",
-      "thumbnail": "❓",
-      "link": "questoes/buco.html",
-      "tags": ["Interativo"],
-      "type": "questoes"
-    },
-    {
-      "id": "videos",
-      "title": "Vídeos Técnicos",
-      "description": "Demonstrações de técnicas de intubação e manejo de via aérea. Em breve!",
-      "thumbnail": "📹",
-      "link": "#",
-      "tags": ["Em breve"],
-      "type": "video",
-      "disabled": true
-    }
-  ]
+    "cards": [
+        {
+            "id": "resumo-via-aerea",
+            "title": "Resumo: Via Aérea Compartilhada",
+            "description": "Manejo da via aérea compartilhada entre anestesista e cirurgião, técnicas de proteção e comunicação.",
+            "thumbnail": "🫁",
+            "link": "resumos/buco-via-aerea-compartilhada.html",
+            "tags": [
+                "Via Aérea",
+                "Intubação",
+                "Segurança"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-intubacao",
+            "title": "Resumo: Intubação Nasotraqueal",
+            "description": "Técnica de intubação nasotraqueal, indicações, contraindicações e complicações.",
+            "thumbnail": "👃",
+            "link": "resumos/buco-intubacao-nasotraqueal.html",
+            "tags": [
+                "Nasotraqueal",
+                "Técnica",
+                "Complicações"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "resumo-trauma",
+            "title": "Resumo: Trauma de Face",
+            "description": "Avaliação e manejo anestésico do trauma maxilofacial, via aérea difícil e sangramento.",
+            "thumbnail": "🚑",
+            "link": "resumos/buco-trauma-face.html",
+            "tags": [
+                "Trauma",
+                "Emergência",
+                "Sangramento"
+            ],
+            "type": "resumo"
+        },
+        {
+            "id": "flashcards",
+            "title": "Flashcards de Revisão",
+            "description": "Revisão rápida dos conceitos essenciais de anestesia para cirurgia bucomaxilofacial.",
+            "thumbnail": "🎴",
+            "link": "flashcards/buco.html",
+            "tags": [
+                "Interativo",
+                "Revisão"
+            ],
+            "type": "flashcard"
+        },
+        {
+            "id": "questoes",
+            "title": "Questões Comentadas",
+            "description": "Quiz interativo com gabarito comentado sobre cirurgia bucomaxilofacial.",
+            "thumbnail": "❓",
+            "link": "auto",
+            "tags": [
+                "Interativo"
+            ],
+            "type": "questoes"
+        },
+        {
+            "id": "videos",
+            "title": "Vídeos Técnicos",
+            "description": "Demonstrações de técnicas de intubação e manejo de via aérea. Em breve!",
+            "thumbnail": "📹",
+            "link": "#",
+            "tags": [
+                "Em breve"
+            ],
+            "type": "video",
+            "disabled": true
+        }
+    ]
 }

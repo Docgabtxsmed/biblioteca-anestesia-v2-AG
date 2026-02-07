@@ -80,7 +80,7 @@
             "title": "Questões Comentadas",
             "description": "Quiz interativo com gabarito comentado sobre dor e analgesia.",
             "thumbnail": "❓",
-            "link": "questoes/dor.html",
+            "link": "auto",
             "tags": [
                 "Interativo"
             ],

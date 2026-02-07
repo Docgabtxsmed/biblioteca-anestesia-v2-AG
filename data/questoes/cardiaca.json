@@ -1,0 +1,1246 @@
+{
+  "titulo": "Cirurgia Cardiaca",
+  "descricao": "Questoes comentadas sobre cirurgia cardiaca com CEC.",
+  "questoes": [
+    {
+      "enunciado": "Paciente masculino, 68 anos, sera submetido a cirurgia de revascularizacao miocardica (CRM) com CEC. Durante a inducao anestesica com propofol e fentanil, administra-se heparina 300 UI/kg IV pelo cateter venoso central. Apos 5 minutos de circulacao, o ACT e medido: 280 segundos (basal era 110 s). Administra-se dose adicional de heparina 100 UI/kg, mas o ACT permanece em 310 segundos apos mais 3 minutos. Qual a causa MAIS provavel da resposta inadequada a heparina e a conduta IMEDIATA apropriada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Deficiencia de fator XII por contato insuficiente com celite → repetir ACT com outro aparelho.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Resistencia a heparina por deficiencia de antitrombina → administrar concentrado de antitrombina.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "Plaquetas ativadas ligando heparina e impedindo sua acao → administrar dose dobrada de heparina.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Hipotermia relativa reduzindo atividade enzimatica da cascata → reaquecer paciente antes de iniciar CEC.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Heparina de baixa qualidade ou dose calculada incorretamente → trocar lote de heparina.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Resistencia a heparina (ou responsividade alterada a heparina) e definida como incapacidade de elevar ACT a niveis terapeuticos (≥400 s) apos doses recomendadas de heparina nao fracionada (300-400 UI/kg, podendo chegar a 600-800 UI/kg). A deficiencia de antitrombina (AT) e a causa que requer tratamento especifico com concentrado de AT para restaurar responsividade a heparina. Fatores de risco: AT <60% do normal, heparina pre-operatoria, plaquetas >300.000/µL. Tratamento: administrar concentrado de AT ou AT recombinante para atingir 80-100% de atividade de AT (Classe I). Apos suplementacao de AT, cuidado com neutralizacao por protamina (AT potencializa heparina e pode aumentar sangramento pos-operatorio). A alternativa A esta incorreta pois o ACT aumentou parcialmente (de 110 para 280-310 s), indicando que a heparina tem algum efeito. A alternativa C esta incorreta porque doses muito altas de heparina sem correcao de AT nao resolverao o problema. A alternativa D esta incorreta pois a inducao acabou de ocorrer e o paciente ainda nao esta hipotermico. A alternativa E esta incorreta porque o padrao de resposta inadequada apesar de doses crescentes sugere deficiencia de cofator (AT)."
+    },
+    {
+      "enunciado": "Paciente feminina, 72 anos, submetida a troca valvar aortica por CEC. Ao final da CEC, apos desclamp aortico e reperfusao miocardica, a equipe prepara para desmame. ACT pre-protamina: 520 segundos. Administra-se protamina na razao de 1,3 mg/100 UI de heparina total administrada. Imediatamente apos termino da infusao de protamina (administrada em 5 minutos), paciente evolui com hipotensao subita e grave (PA 55/30 mmHg), pressao de arteria pulmonar elevada (PAP 55/30 mmHg), e sinais de falencia aguda de VD ao ETE. Qual a classificacao MAIS provavel desta reacao a protamina e a conduta IMEDIATA prioritaria?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Reacao Tipo I (hipotensao isolada) → expandir volume e desacelerar infusao de protamina.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Reacao Tipo II (anafilactoide) → adrenalina 0,1-0,3 mg IV fracionada + anti-histaminicos + broncodilatador.",
+          "correta": false
+        },
+        {
+          "letra": "C",
+          "texto": "Reacao Tipo III (complexos heparina-protamina) → re-heparinizar 70 UI/kg e preparar retorno a CEC.",
+          "correta": true
+        },
+        {
+          "letra": "D",
+          "texto": "Toxicidade direta por overdose de protamina → administrar heparina para neutralizar excesso.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Vasoplegia pos-CEC nao relacionada a protamina → noradrenalina em infusao.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Reacoes a protamina sao classificadas em Tipo I, II e III. Tipo III e causada por grandes complexos heparina-protamina que se alojam na circulacao pulmonar, causam liberacao de mediadores e resultam em hipotensao grave, aumento de pressoes pulmonares e falencia aguda de VD, podendo evoluir para colapso cardiovascular e necessidade de retorno a CEC. Este e o quadro descrito (hipotensao + PAP elevada + falencia VD). Tratamento imediato: (1) Re-heparinizar para reduzir tamanho dos complexos heparina-protamina (70 UI/kg inicialmente se hemodinamica permitir, depois dose plena 300 UI/kg se necessario retorno a CEC - Classe I, Nivel C); (2) Suporte inotropico (epinefrina, norepinefrina, milrinona); (3) Broncodilatador nebulizado (albuterol) se broncoespasmo/↑pressoes de via aerea. Reacao Tipo III e rara mas catastrofica. A alternativa A esta incorreta porque Tipo I e hipotensao isolada com pressoes de enchimento normais/baixas e pressao de via aerea normal. A alternativa B esta incorreta porque embora adrenalina possa ser usada, o quadro tem componente pulmonar/VD predominante (PAP elevada, falencia VD ao ETE), mais compativel com Tipo III. A alternativa D esta incorreta porque nao existe overdose de protamina neste contexto (razao 1,3 mg/100 UI e padrao). A alternativa E esta incorreta porque vasoplegia pos-CEC causa hipotensao com baixa RVS, mas nao explica PAP elevada e falencia aguda de VD imediatamente apos protamina."
+    },
+    {
+      "enunciado": "Paciente masculino, 65 anos, com historia de uso pre-operatorio de heparina nao fracionada (5.000 UI SC 12/12h por 7 dias) para sindrome coronariana aguda, sera submetido a CRM de urgencia. Exames pre-operatorios: plaquetas 280.000/µL, TTPA 38 s (normal: 25-35 s), ACT basal 125 s. Durante a inducao, administra-se heparina 400 UI/kg IV. Apos 5 minutos, ACT e 420 s (alvo ≥480 s). Administra-se dose adicional de 100 UI/kg. ACT permanece em 450 s. Considerando o contexto clinico, qual a conduta MAIS apropriada para iniciar CEC com seguranca?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Aceitar ACT 450 s e iniciar CEC com monitorizacao rigorosa, pois esta proximo do alvo.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Administrar concentrado de antitrombina empiricamente antes de dose adicional de heparina.",
+          "correta": false
+        },
+        {
+          "letra": "C",
+          "texto": "Administrar mais 100 UI/kg de heparina e aguardar; doses maiores podem ser necessarias neste contexto.",
+          "correta": true
+        },
+        {
+          "letra": "D",
+          "texto": "Iniciar CEC em bypass parcial e administrar heparina adicional durante a CEC.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Solicitar dosagem de antitrombina e aguardar resultado antes de prosseguir.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Em estudo de pacientes cardiacos estratificados por uso pre-operatorio de heparina, responsividade alterada a heparina ocorreu em aproximadamente 40% dos que receberam heparina pre-operatoria. Pacientes com uso previo de heparina podem precisar de doses MAIORES de heparina para atingir ACT alvo (≥400-480 s), mesmo sem deficiencia grave de AT. A conduta mais segura e pratica e administrar dose adicional de heparina (ex: mais 100 UI/kg) e aguardar 3-5 minutos, podendo repetir se necessario ate atingir alvo. Doses de ate 600-800 UI/kg podem ser necessarias. Se apos doses crescentes o ACT continuar inadequado E houver evidencia de deficiencia de AT (ex: AT <60%), considerar concentrado de AT. Mas a primeira linha e heparina suplementar. A alternativa A esta incorreta porque ACT 450 s esta ABAIXO do alvo de 480 s e iniciar CEC com ACT inadequado aumenta risco de coagulacao no circuito. A alternativa B esta incorreta porque administrar AT empiricamente sem evidencia de deficiencia e desnecessario e caro. A alternativa D esta incorreta porque iniciar CEC em bypass parcial com ACT inadequado e perigoso e nao resolve o problema. A alternativa E esta incorreta porque solicitar dosagem de AT e aguardar resultado causa atraso desnecessario."
+    },
+    {
+      "enunciado": "Paciente feminina, 58 anos, submetida a CRM com CEC. Tempo de CEC: 95 minutos, tempo de clampeamento aortico: 68 minutos. Ao final da CEC, apos neutralizacao com protamina (dose total 350 mg), paciente apresenta sangramento microvascular difuso. ACT pos-protamina: 145 s (normal). Exames POC (TEG/ROTEM): R normal, K prolongado, angulo alfa reduzido, MA reduzido (38 mm), Ly30 <5%. Plaquetas: 95.000/µL, fibrinogenio: 110 mg/dL. Qual a causa MAIS provavel do sangramento e o tratamento PRIORITARIO?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Hipofibrinogenemia por consumo e hemodiluicao → crioprecipitado ou concentrado de fibrinogenio.",
+          "correta": true
+        },
+        {
+          "letra": "B",
+          "texto": "Disfuncao plaquetaria qualitativa por CEC → transfusao de plaquetas (2 unidades de pool).",
+          "correta": false
+        },
+        {
+          "letra": "C",
+          "texto": "Rebote de heparina por dissociacao tardia de proteinas ligadoras → protamina adicional 50 mg.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Hiperfibrinolise primaria por ativacao de plasmina → acido tranexamico 1 g IV.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Deficiencia de fatores de coagulacao → plasma fresco congelado 10-15 mL/kg.",
+          "correta": false
+        }
+      ],
+      "explicacao": "TEG/ROTEM mostra: R normal (tempo de iniciacao da coagulacao esta normal, indica fatores de coagulacao adequados), K prolongado + angulo alfa reduzido + MA reduzido (38 mm; normal >50 mm) = deficiencia de fibrinogenio E/OU disfuncao plaquetaria. Ly30 <5% descarta hiperfibrinolise. Plaquetas 95.000/µL (baixas mas geralmente suficientes para hemostasia se funcionais). Fibrinogenio 110 mg/dL (baixo; normal >150-200 mg/dL). CEC causa hemodiluicao, consumo de fibrinogenio e disfuncao plaquetaria. Neste caso, fibrinogenio baixo e o achado laboratorial mais critico. Tratamento prioritario: crioprecipitado (cada unidade contem aproximadamente 250 mg de fibrinogenio; administrar 10 unidades = aproximadamente 2,5 g) ou concentrado de fibrinogenio (25-50 mg/kg = 1,5-3 g em adulto de 60 kg). Fibrinogenio e o primeiro fator a cair durante sangramento massivo e o primeiro a ser reposto em algoritmos modernos (ex: ROTEM-guiado). A alternativa B esta incorreta porque embora CEC cause disfuncao plaquetaria, o fibrinogenio baixo (110 mg/dL) e mais critico neste momento. A alternativa C esta incorreta porque rebote de heparina causa TTPA/TT prolongados e ACT prolongado; aqui ACT e normal (145 s). A alternativa D esta incorreta porque Ly30 <5% descarta hiperfibrinolise. A alternativa E esta incorreta porque R normal no TEG/ROTEM indica que fatores de coagulacao estao adequados."
+    },
+    {
+      "enunciado": "Paciente masculino, 70 anos, sera submetido a troca valvar aortica com CEC. Historia de trombocitopenia induzida por heparina (HIT) ha 6 meses, com anticorpo anti-PF4 fortemente positivo na epoca. Atualmente assintomatico, plaquetas 180.000/µL, anticorpo anti-PF4 fracamente positivo (titulo baixo). Cirurgia e eletiva mas indicada por estenose aortica grave sintomatica. Qual a conduta MAIS apropriada para anticoagulacao neste paciente?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Usar heparina nao fracionada em dose plena com ACT >400 s, pois HIT ocorreu ha 6 meses.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Adiar cirurgia por mais 3 meses ate anticorpo anti-PF4 ficar indetectavel ou muito fraco.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "Usar bivalirudina como anticoagulante alternativo para CEC (Classe IIa, Nivel B).",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Usar dose unica de heparina com neutralizacao rapida por protamina + plasmaferese previa.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Usar heparina associada a tirofiban (inibidor plaquetario) para prevenir ativacao plaquetaria.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Diretrizes (STS/SCA/AmSECT) recomendam: E preferivel, se possivel, adiar a operacao ate que os titulos de anticorpos tenham se tornado indetectaveis ou apenas fracamente positivos, o que pode ocorrer apos aproximadamente 90 dias (classe IIa, Nivel de Evidencia C). Paciente tem HIT ha 6 meses (180 dias) mas anticorpo ainda esta fracamente positivo. Cirurgia e eletiva (estenose aortica grave sintomatica, mas nao emergencia). A conduta mais segura e adiar cirurgia por mais 3 meses (total aproximadamente 9 meses = 270 dias) ate anticorpo ficar indetectavel ou muito fraco. Isso minimiza risco de reativacao de HIT e complicacoes tromboticas se heparina for usada. Se cirurgia for urgente/emergencial, considerar bivalirudina. A alternativa A esta incorreta porque usar heparina em paciente com anticorpo anti-PF4 ainda positivo (mesmo fracamente) e arriscado. A alternativa C esta incorreta porque bivalirudina e opcao razoavel para cirurgia urgente com HIT, mas em cirurgia eletiva com anticorpo ainda positivo, e preferivel adiar ate soronegatividade. A alternativa D esta incorreta porque dose unica de heparina + neutralizacao rapida + plasmaferese e estrategia de alto risco reservada para casos urgentes com anticorpo positivo E disfuncao renal significativa. A alternativa E esta incorreta porque heparina + inibidor plaquetario tem risco aumentado de sangramento e e estrategia de ultimo recurso."
+    },
+    {
+      "enunciado": "Paciente feminina, 75 anos, submetida a CRM com CEC. Tempo de CEC: 110 minutos, hipotermia moderada (32°C nadir). Durante o reaquecimento para 36,5°C, paciente apresenta sudorese profusa, movimentos de extremidades e abertura ocular espontanea. BIS: 65. Ultima dose de propofol foi ha 45 minutos, ultima dose de fentanil ha 60 minutos. Ainda em CEC, com temperatura nasofaringea de 36,2°C. Qual a interpretacao MAIS provavel e a conduta IMEDIATA prioritaria?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sudorese e resposta fisiologica normal ao reaquecimento → apenas observar.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Hipertermia maligna por reaquecimento excessivo → interromper aquecimento e administrar dantrolene.",
+          "correta": false
+        },
+        {
+          "letra": "C",
+          "texto": "Awareness intraoperatoria por profundidade anestesica inadequada → administrar propofol/midazolam e opioide.",
+          "correta": true
+        },
+        {
+          "letra": "D",
+          "texto": "Convulsao focal por embolia cerebral durante CEC → administrar benzodiazepínico e solicitar TC cranio.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Tremores por afterdrop de temperatura → administrar bloqueador neuromuscular.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Awareness durante cirurgia cardiaca e mais frequente que em outros tipos de cirurgia. Fatores de risco: reaquecimento (perfusao do centro termorregulador hipotalamico com sangue quente), tempo longo desde ultima dose de sedativo-hipnotico ou opioide, doses pequenas de anestesico durante CEC, paciente jovem. Sudorese durante reaquecimento pode ser normal (termorregulacao) MAS tambem pode indicar awareness se anestesia inadequada. Movimentos de extremidades + abertura ocular + BIS 65 (indica consciencia; BIS <60 e alvo) = AWARENESS. Conduta imediata: administrar sedativo-hipnotico (propofol bolus ou infusao, ou midazolam) E opioide (fentanil, sufentanil) para garantir profundidade anestesica adequada. Estrategia preventiva: iniciar infusao de propofol ou dexmedetomidina no inicio da CEC e manter durante reaquecimento/desmame. A alternativa A esta incorreta porque sudorese isolada pode ser fisiologica, mas movimentos + abertura ocular + BIS 65 indicam awareness. A alternativa B esta incorreta porque hipertermia maligna e diagnostico de exclusao com quadro clinico distinto (hipercapnia grave, acidose metabolica, rigidez muscular, hipercalemia, rabdomiolise). A alternativa D esta incorreta porque convulsao focal causaria movimentos tonico-clonicos, nao abertura ocular espontanea e movimentos coordenados. A alternativa E esta incorreta porque afterdrop causa tremores/shivering APOS saida da CEC, nao DURANTE o reaquecimento."
+    },
+    {
+      "enunciado": "Paciente masculino, 62 anos, submetido a troca valvar mitral com CEC. Desmame da CEC bem-sucedido, hemodinamica estavel. Administra-se protamina na dose de 1,0 mg/100 UI de heparina total (dose conservadora). ACT pos-protamina: 135 s. Apos 45 minutos, paciente apresenta sangramento microvascular progressivo pelos drenos toracicos (150 mL na primeira hora, agora 80 mL/15 min). Novos exames: ACT 185 s, TTPA 52 s (normal: 25-35 s), TT prolongado, anti-fator Xa aumentado. Qual o diagnostico MAIS provavel e a conduta apropriada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Coagulacao de consumo por sangramento cirurgico → exploracao cirurgica e hemostasia.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Rebote de heparina por dissociacao tardia e clearance rapido de protamina → protamina adicional guiada por testes.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "Deficiencia adquirida de fatores de coagulacao → transfusao de plasma fresco congelado.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Hiperfibrinolise primaria tardia → acido tranexamico 1 g IV.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Disfuncao plaquetaria persistente pos-CEC → transfusao de plaquetas.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Rebote de heparina e sangramento clinico que ocorre aproximadamente 1 hora apos neutralizacao com protamina, acompanhado de testes sugerindo heparinizacao residual: TTPA prolongado, TT prolongado, ACT aumentado (de 135 para 185 s), aumento de anti-fator Xa. Mecanismos: dissociacao lenta de heparina ligada a proteinas apos clearance de protamina, clearance mais rapido de protamina que de heparina, retorno linfatico de heparina sequestrada. Fatores de risco: dose de protamina baseada apenas na concentracao residual ao fim da CEC (tende a evitar overdose mas deixa margem para rebote); altas doses de heparina; tempo prolongado de CEC. Tratamento: protamina adicional guiada por monitorizacao da coagulacao. Prevencao: infusao de protamina 25 mg/h ate 6 h apos CEC em pacientes de risco (Classe IIb, Nivel C). A alternativa A esta incorreta porque sangramento cirurgico nao explica ACT prolongado, TTPA prolongado e TT prolongado. A alternativa C esta incorreta porque deficiencia de fatores causaria INR/TP prolongado (via extrinseca/comum), nao apenas TTPA/TT. A alternativa D esta incorreta porque hiperfibrinolise causaria Ly30 elevado no TEG/ROTEM e produtos de degradacao de fibrina elevados. A alternativa E esta incorreta porque disfuncao plaquetaria nao explica ACT/TTPA/TT prolongados."
+    },
+    {
+      "enunciado": "Paciente masculino, 68 anos, submetido a CRM com CEC. Durante o desmame da CEC, TEE mostra VE com boa contratilidade global, mas movimento sistolico anterior (SAM) da cuspide anterior da valva mitral com gradiente de VSVE de 45 mmHg e insuficiencia mitral moderada. Paciente hipotenso (PA 75/45 mmHg) apesar de pre-carga otimizada. FC 95 bpm em ritmo sinusal. Qual a fisiopatologia MAIS provavel e o tratamento PRIORITARIO?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Falencia de VE por protecao miocardica inadequada → iniciar dobutamina e considerar retorno a CEC.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Obstrucao dinamica de VSVE por hiperdinamismo em VE hipertrofico → expansao volemica + betabloqueador + fenilefrina.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "Disfuncao valvar mitral iatrogenica cirurgica → retorno a CEC e reparo mitral.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Insuficiencia mitral funcional por dilatacao de VE → milrinone para reduzir pos-carga.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Hipovolemia grave com colapso de cavidades → expansao volemica agressiva com cristaloide/coloide.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Obstrucao dinamica de VSVE ocorre em 5-10% dos pacientes apos cirurgia de valva mitral, mas tambem pode ocorrer pos-CRM em VE hipertrofico. Causas: hiperdinamismo de VE (contratilidade preservada/aumentada), distancia curta entre ponto de coaptacao mitral e septo interventricular, valva mitral mixomatosa. Apresentacao: SAM (systolic anterior motion) da cuspide anterior da mitral ao ETE, gradiente no VSVE (>30 mmHg), insuficiencia mitral secundaria (coaptacao incompleta por deslocamento anterior da valva), hipotensao paradoxal (aumento da contratilidade piora obstrucao). Tratamento: (1) Expansao volemica para aumentar volume de VE e afastar paredes; (2) Betabloqueador (esmolol bolus) para reduzir contratilidade e diminuir SAM; (3) Fenilefrina (vasoconstritor puro) para aumentar pos-carga e reduzir gradiente; (4) EVITAR inotropicos (pioram SAM). Se refratario: considerar reparo cirurgico (resseccao de bulging septal ou reparo/troca de valva mitral). A alternativa A esta incorreta porque TEE mostra VE com boa contratilidade global, nao falencia de VE. A alternativa C esta incorreta porque nao ha evidencia de lesao cirurgica iatrogenica da valva mitral; SAM e fenomeno dinamico funcional. A alternativa D esta incorreta porque insuficiencia mitral aqui e secundaria ao SAM, nao funcional por dilatacao de VE. A alternativa E esta incorreta porque hipovolemia pode contribuir, mas o diagnostico principal e obstrucao dinamica de VSVE."
+    },
+    {
+      "enunciado": "Paciente feminina, 55 anos, diabetica (HbA1c 8,2%), sera submetida a CRM com CEC. Durante a CEC (tempo 45 minutos), glicemia capilar e 285 mg/dL. Inicia-se infusao de insulina regular a 4 UI/h. Apos mais 30 minutos (tempo total CEC 75 min), glicemia e 180 mg/dL. Perfusionista anuncia que faltam aproximadamente 15 minutos para termino da CEC (reaquecimento quase completo). Qual a conduta MAIS apropriada em relacao a insulina neste momento?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Manter infusao de insulina a 4 UI/h ate o final da CEC para garantir controle glicemico.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Aumentar infusao para 6 UI/h para atingir meta <150 mg/dL antes do desmame da CEC.",
+          "correta": false
+        },
+        {
+          "letra": "C",
+          "texto": "Reduzir ou descontinuar infusao de insulina para evitar hipoglicemia apos desmame da CEC.",
+          "correta": true
+        },
+        {
+          "letra": "D",
+          "texto": "Trocar para insulina NPH subcutanea para efeito mais prolongado no pos-operatorio.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Manter infusao e administrar glicose 50% 20 mL profilaticamente para prevenir hipoglicemia.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Hiperglicemia e comum durante CEC (resposta ao estresse, catecolaminas, cortisol, hipotermia reduzindo efetividade da insulina). POREM, ao final da CEC e durante o reaquecimento, as necessidades de insulina DIMINUEM (normalizacao da temperatura, reducao de catecolaminas, cessacao do estresse da CEC). Se infusao de insulina nao for reduzida/descontinuada, ha risco de hipoglicemia no periodo pos-CEC. Diretrizes STS: manter glicemia <180 mg/dL (alvo 140-180 mg/dL). Glicemia atual e 180 mg/dL (dentro do alvo). Conduta: reduzir ou descontinuar infusao de insulina ao final da CEC para evitar hipoglicemia. Monitorizacao rigorosa de glicemia e obrigatoria. A alternativa A esta incorreta porque manter infusao a 4 UI/h ate o final expoe a risco de hipoglicemia apos desmame. A alternativa B esta incorreta porque aumentar insulina para atingir <150 mg/dL e arriscado e desnecessario. A alternativa D esta incorreta porque insulina NPH SC e de acao lenta e nao e apropriada para manejo agudo. A alternativa E esta incorreta porque administrar glicose profilaticamente sem evidencia de hipoglicemia piora controle glicemico."
+    },
+    {
+      "enunciado": "Paciente masculino, 72 anos, submetido a troca valvar aortica com CEC. Durante o fechamento do esterno, evolui com hipotensao grave (PA 60/35 mmHg) que nao responde a expansao volemica. TEE mostra VD dilatado com disfuncao global, septo interventricular retificado/abaulado para VE, VE com cavidade pequena e boa contratilidade. PAP 55/30 mmHg, PVC 18 mmHg. Qual a causa MAIS provavel da hipotensao e o tratamento PRIORITARIO?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Hipovolemia por sangramento oculto → reabrir torax e explorar sitios de sangramento.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Tamponamento cardiaco por compressao extrinseca → reabrir torax imediatamente.",
+          "correta": false
+        },
+        {
+          "letra": "C",
+          "texto": "Falencia aguda de VD por protecao inadequada ou compressao por fechamento esternal → reabrir torax + suporte inotropico para VD.",
+          "correta": true
+        },
+        {
+          "letra": "D",
+          "texto": "Falencia de VE por isquemia → aumentar inotropicos e considerar balao intra-aortico.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Pneumotorax hipertensivo → drenagem toracica com agulha/dreno.",
+          "correta": false
+        }
+      ],
+      "explicacao": "TEE mostra sinais de falencia de VD: VD dilatado com disfuncao global, septo retificado/abaulado para VE (sobrecarga de pressao de VD), VE com cavidade pequena (compressao por VD dilatado). PAP elevada (55/30 mmHg) e PVC elevada (18 mmHg) confirmam falencia de VD. Timing (durante fechamento esternal) sugere que fechamento do torax piorou a situacao (compressao de VD por edema miocardico significativo, impedindo enchimento/ejecao adequados). Causas de falencia de VD pos-CEC: protecao miocardica inadequada, isquemia/infarto de VD, revascularizacao inadequada, hipertensao pulmonar preexistente, embolia (ar/particulas), doenca valvar mitral cronica, regurgitacao tricuspide. Tratamento: (1) Reabrir torax para aliviar compressao; (2) Suporte inotropico para VD (milrinone, dobutamina, isoproterenol - preferir inodilatadores que reduzem RVP); (3) Vasopressor para manter PAM adequada e perfusao coronariana de VD (noradrenalina, vasopressina); (4) Vasodilatador pulmonar (oxido nitrico inalado, epoprostenol inalado) para reduzir pos-carga de VD; (5) Otimizar pre-carga (cuidado com fluidos excessivos que pioram dilatacao de VD); (6) Manter ritmo sinusal. A alternativa A esta incorreta porque TEE nao mostra sinais de hipovolemia. A alternativa B esta incorreta porque tamponamento cardiaco causa colapso diastolico de AD/VD, nao VD dilatado. A alternativa D esta incorreta porque TEE mostra VE com boa contratilidade. A alternativa E esta incorreta porque pneumotorax hipertensivo nao e evidenciado pelo TEE."
+    },
+    {
+      "enunciado": "Paciente feminina, 58 anos, submetida a CRM com CEC. Exame pre-operatorio: TSH 2,5 µUI/mL, T3 livre 1,8 pg/mL (normal: 2,3-4,2 pg/mL - baixo), T4 livre 1,0 ng/dL (normal: 0,8-1,8). Durante desmame da CEC, paciente apresenta dificuldade de separacao por baixo debito cardiaco (IC 1,8 L/min/m²) apesar de pre-carga otimizada e doses moderadas de inotropicos (dobutamina 5 mcg/kg/min). Considerando os achados laboratoriais pre-operatorios, qual a associacao fisiopatologica MAIS provavel?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Hipotireoidismo subclinico sem relevancia clinica para o quadro atual.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "T3 livre baixo predispoe a baixo debito cardiaco e morte como complicacao de cirurgia cardiaca → paciente deve ter sido perfilada como alto risco.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "T4 livre normal garante funcao tireoidiana adequada independente de T3 baixo.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Valores de T3 e T4 sao artefatos laboratoriais sem correlacao com desfecho cirurgico.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Hipertireoidismo compensado causando hiperdinamismo e arritmias.",
+          "correta": false
+        }
+      ],
+      "explicacao": "T3 livre (triiodotironina) e a forma biologicamente ativa do hormonio tireoidiano. Pacientes cardiacos frequentemente tem T3 livre reduzido por reducao da atividade da 5-monodeiodinase (enzima que converte T4→T3 em tecidos perifericos). Valores baixos de T3 predispoem a baixo debito cardiaco e morte como complicacao de cirurgia cardiaca. Pacientes devem ser perfilados para T3 e rotulados alto risco se niveis pre-operatorios estiverem baixos. T3 influencia debito cardiaco ao afetar: termogenese/consumo de O₂, resistencia vascular, volemia, contratilidade e FC. Neste caso, T3 baixo pre-operatorio pode explicar dificuldade de desmame por baixo debito cardiaco. A alternativa A esta incorreta porque T3 baixo NAO e irrelevante; tem correlacao com desfecho cirurgico (baixo debito cardiaco, morte). A alternativa C esta incorreta porque T4 livre normal nao garante funcao tireoidiana adequada se T3 livre estiver baixo; T3 e a forma ativa. A alternativa D esta incorreta porque valores de T3 baixos nao sao artefatos; estudos mostram correlacao entre T3 baixo pre-operatorio e piores desfechos. A alternativa E esta incorreta porque TSH normal e T3 baixo/T4 normal nao sao compativeis com hipertireoidismo."
+    },
+    {
+      "enunciado": "Paciente masculino, 65 anos, em CEC ha 80 minutos (hipotermia moderada, 28°C nadir). Oximetria cerebral (NIRS) frontal bilateral: baseline acordado em ar ambiente era 68% (D) e 70% (E). Durante CEC, valores atuais: 42% (D) e 68% (E). Paciente normotenso (PAM 70 mmHg), SaO₂ 100%, PaCO₂ 38 mmHg, Hb 8,5 g/dL. Qual a interpretacao MAIS apropriada e a conduta prioritaria?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Dessaturacao cerebral regional bilateral sem significancia clinica → apenas observar.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Dessaturacao cerebral regional direita significativa (>20% do baseline) → investigar e tratar causas de hipoperfusao cerebral direita.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "Valores normais de oximetria cerebral (>50% e aceitavel) → nenhuma intervencao necessaria.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Artefato por interferencia eletrica da bomba de CEC → reposicionar sensores.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Hipoxemia cerebral por baixo debito de bomba → aumentar fluxo da CEC.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Oximetria cerebral (NIRS) mede saturacao regional de O₂ no cortex frontal (predominio de sangue venoso). Baseline e obtido acordado em ar ambiente. Queda >20% do baseline durante procedimento e considerada dessaturacao significativa. Aqui: baseline D era 68%, atual 42% → queda de 26 pontos (38% de reducao) = dessaturacao significativa. Lado esquerdo mantem 68% (sem dessaturacao). Causas de dessaturacao unilateral: malposicao de canula aortica (fluxo preferencial para arco aortico ipsilateral), obstrucao de VCS (compressao, canula), embolia, baixo debito de bomba, hipotensao, anemia grave, hipoxia, hipercapnia. Conduta: investigar causas e tratar: (1) Verificar posicao de canulas (aortica, VCS); (2) Aumentar PAM (>70 mmHg); (3) Aumentar fluxo de bomba; (4) Aumentar Hb (considerar transfusao se <7 g/dL durante CEC); (5) Otimizar PaCO₂ (alguns defendem hipercapnia leve para vasodilatacao cerebral); (6) Verificar SaO₂. Estudos mostram associacao entre duracao/magnitude de dessaturacoes e disfuncao neurocognitiva precoce + tempo de internacao. A alternativa A esta incorreta porque queda de 38% do baseline NAO e sem significancia. A alternativa C esta incorreta porque valor absoluto >50% nao e suficiente se houve queda >20% do baseline. A alternativa D esta incorreta porque artefato bilateral seria esperado, nao unilateral. A alternativa E esta incorreta porque baixo debito de bomba causaria dessaturacao bilateral, nao unilateral."
+    },
+    {
+      "enunciado": "Paciente feminina, 70 anos, submetida a CRM com CEC. Tempo de CEC: 105 minutos, tempo de clampeamento aortico: 75 minutos. Nas primeiras 12 horas de pos-operatorio na UTI, debito urinario progressivamente reduzido (15 mL/h nas ultimas 2 horas). Exames: creatinina 1,8 mg/dL (pre-op era 1,2 mg/dL), ureia 65 mg/dL. Paciente normotenso (PAM 75 mmHg), IC 2,8 L/min/m², SvcO₂ 68%, Hb 9,0 g/dL. PVC 10 mmHg. Qual a causa MAIS provavel da oliguria e a conduta INICIAL apropriada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Hipovolemia relativa → expansao volemica com cristaloide 500 mL e reavaliar.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Lesao renal aguda (LRA) por hipoperfusao durante CEC → manter PAM >65 mmHg e otimizar debito cardiaco; evitar diureticos.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "Obstrucao de sonda vesical → lavar sonda com SF 20 mL e verificar permeabilidade.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Insuficiencia cardiaca de baixo debito → iniciar inotropicos (dobutamina) para aumentar perfusao renal.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Necrose tubular aguda estabelecida → iniciar dialise precocemente.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Lesao renal aguda (LRA) apos cirurgia cardiaca e causa importante de morbidade, aumento de custos, desenvolvimento tardio de DRC e mortalidade (curto/longo prazo). Patogenese e multifatorial: toxinas, fatores metabolicos, isquemia-reperfusao, ativacao neuro-hormonal, inflamacao, estresse oxidativo. Fatores de risco intraoperatorios: cirurgia de emergencia, reoperacao, cirurgia valvar, tempo de CEC >3 horas, hipovolemia, hipotensao (hipovolemia ou baixo DC), fenomenos embolicos. Paciente tem: creatinina aumentada (1,2→1,8 mg/dL = aumento de 50%, criterio para LRA), oliguria (<0,5 mL/kg/h), tempo de CEC prolongado (105 min), clampeamento prolongado (75 min). Hemodinamica esta adequada (PAM 75 mmHg, IC 2,8 L/min/m², SvcO₂ 68%, PVC 10 mmHg) → nao e hipovolemia ou baixo DC. Tratamento: suporte basico: (1) Descontinuar drogas nefrotoxicas (AINEs, aminoglicosideos); (2) Manter DC, pressao de perfusao e volemia adequados; (3) Diureticos NAO sao uteis e podem ser prejudiciais; (4) Terapias farmacologicas nao comprovadas (manitol, BCC, IECA, ANP, N-acetilcisteina). Se dialise necessaria, dialise continua pode ser melhor que intermitente. A alternativa A esta incorreta porque PVC 10 mmHg e IC 2,8 L/min/m² sugerem volemia adequada. A alternativa C esta incorreta porque obstrucao de sonda e diagnostico de exclusao. A alternativa D esta incorreta porque IC 2,8 L/min/m² e adequado. A alternativa E esta incorreta porque LRA e recente e ainda nao ha indicacao de dialise."
+    },
+    {
+      "enunciado": "Paciente masculino, 68 anos, 2º dia pos-operatorio de troca valvar mitral. Evolui com desorientacao, agitacao, alucinacoes visuais e inversao do ciclo sono-vigilia. Nao reconhece familiares. Pupilas isocoricas e fotorreagentes, sem deficits motores focais. Exame neurologico: sem sinais de localizacao. Medicacoes em uso: fentanil em infusao 50 mcg/h, midazolam SOS. Qual o diagnostico MAIS provavel e a conduta INICIAL prioritaria?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "AVC isquemico em territorio de arteria cerebral media → solicitar TC cranio urgente e considerar trombólise.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Delirium pos-operatorio → revisao de medicacoes (suspender/reduzir sedativos-opioides), reorientacao, protocolo nao farmacologico.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "Encefalopatia hepatica por disfuncao hepatica pos-CEC → solicitar enzimas hepaticas e amonia.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Psicose aguda primaria → iniciar antipsicotico (haloperidol) imediatamente.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Overdose de opioides → naloxona 0,4 mg IV e suspender fentanil.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Delirium e definido como mudanca aguda de cognicao e atencao, que pode incluir alteracoes de consciencia e pensamento desorganizado. Incidencia em cirurgia cardiaca: 3-53% (dependendo do metodo de avaliacao). Fatores de risco: comprometimento cognitivo preexistente, status funcional pobre, AVC/AIT previo, depressao, abuso de alcool, valores laboratoriais anormais pre-op (glicose, sodio, potassio, albumina). Fatores precipitantes pos-operatorios: medicacoes (sedativos, opioides), ambiente de UTI (desorientacao, privacao de sono, superestimulacao), complicacoes de hospitalizacao/procedimento, intubacao prolongada, mobilidade reduzida. Tratamento: (1) Revisao de medicacoes (eliminar/reduzir sedativos-opioides e drogas cognitivamente ativas); (2) Estrategias nao farmacologicas (orientacao com relogio/calendario, oculos/aparelhos auditivos, mobilizacao precoce, manejo de dor, hidratacao/nutricao adequadas, protocolo intestinal, remocao precoce de cateter vesical, monitoramento de complicacoes); (3) Tratamento farmacologico (haloperidol) apenas se intervencoes nao farmacologicas forem insuficientes. A alternativa A esta incorreta porque ausencia de sinais neurologicos focais torna AVC menos provavel. A alternativa C esta incorreta porque encefalopatia hepatica causa confusao mas geralmente com asterixis. A alternativa D esta incorreta porque antipsicotico e terapia de primeira linha APENAS se intervencoes nao farmacologicas forem insuficientes. A alternativa E esta incorreta porque overdose de opioides causa miose, depressao respiratoria, sedacao profunda; aqui paciente esta agitado."
+    },
+    {
+      "enunciado": "Paciente feminina, 62 anos, submetida a CRM com CEC. Nas primeiras 6 horas de pos-operatorio, drenagem toracica total: 450 mL (150 mL/h na primeira hora, 180 mL/h na segunda hora, 120 mL/h nas ultimas 4 horas). PA estavel (110/65 mmHg), FC 88 bpm, Hb 9,2 g/dL (pos-operatorio imediato era 10,1 g/dL). Exames de coagulacao: ACT 125 s, TP/INR normais, TTPA 38 s (normal: 25-35 s), plaquetas 110.000/µL, fibrinogenio 180 mg/dL. Qual a conduta MAIS apropriada neste momento?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Observacao clinica rigorosa sem intervencao, pois drenagem <250 mL/h.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Reexploracao cirurgica imediata por sangramento excessivo (>300 mL/h por 2 horas consecutivas).",
+          "correta": false
+        },
+        {
+          "letra": "C",
+          "texto": "Transfusao de plaquetas (2 pools) empiricamente para melhorar hemostasia.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Administrar acido tranexamico 1 g IV para controlar fibrinolise.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Solicitar TEG/ROTEM para guiar terapia hemostatica especifica.",
+          "correta": true
+        }
+      ],
+      "explicacao": "Definicao de sangramento excessivo: >250 mL/h por ≥2 horas consecutivas ou >300 mL em 1 hora. Aqui: 150 mL/h (1ª hora) + 180 mL/h (2ª hora) = nao atinge criterio rigido para reexploracao imediata (ambas <250 mL/h), mas drenagem e significativa e tendencia inicial era preocupante (150→180 mL/h). Nas ultimas 4 horas, drenagem reduziu (aproximadamente 30 mL/h), sugerindo estabilizacao. Hb caiu de 10,1 para 9,2 g/dL (perda de aproximadamente 1 g/dL). Causas de sangramento pos-CEC: inadequacao de hemostasia cirurgica OU coagulopatia (ativacao de contato, disfuncao plaquetaria, fibrinolise). Coagulopatia deve ser excluida antes de reexploracao cirurgica desnecessaria. Testes laboratoriais padrao (ACT, TP, TTPA, plaquetas, fibrinogenio) tem turnaround lento e nao avaliam funcao plaquetaria ou fibrinolise. TEG/ROTEM (testes viscoelasticos) fornecem informacao rapida (<15 min) sobre: iniciacao da coagulacao (fatores), formacao do coagulo (fibrinogenio/plaquetas), firmeza do coagulo (plaquetas/fibrinogenio) e fibrinolise. Permitem terapia guiada (algoritmos POC) ao inves de empirica, reduzindo transfusoes desnecessarias. Diretrizes STS/SCA/AmSECT/SABM: Classe I, Nivel B-NR para uso de testes viscoelasticos guiando terapia. A alternativa A esta incorreta porque coagulopatia deve ser investigada. A alternativa B esta incorreta porque criterio para reexploracao nao foi atingido. A alternativa C esta incorreta porque transfusao empirica de plaquetas sem evidencia de disfuncao expoe a riscos. A alternativa D esta incorreta porque acido tranexamico trata hiperfibrinolise sem evidencia."
+    },
+    {
+      "enunciado": "Paciente masculino, 55 anos, submetido a CRM com CEC. Historia de uso de clopidogrel 75 mg/dia suspenso ha 3 dias antes da cirurgia. No pos-operatorio imediato, apresenta sangramento microvascular difuso. TEG: R normal, K prolongado, angulo alfa reduzido, MA 42 mm (baixo), Ly30 <5%. Teste de funcao plaquetaria POC (agregometria com ADP): resposta reduzida (30 AU; normal >50 AU). Plaquetas: 105.000/µL, fibrinogenio: 190 mg/dL. Qual a causa MAIS provavel do sangramento e o tratamento prioritario?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Disfuncao plaquetaria residual por clopidogrel (suspensao ha apenas 3 dias) → transfusao de plaquetas.",
+          "correta": true
+        },
+        {
+          "letra": "B",
+          "texto": "Hipofibrinogenemia → crioprecipitado ou concentrado de fibrinogenio.",
+          "correta": false
+        },
+        {
+          "letra": "C",
+          "texto": "Disfuncao plaquetaria por CEC → desmopressina 0,3 mcg/kg IV.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Trombocitopenia por consumo → transfusao de plaquetas (2 pools).",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Coagulacao intravascular disseminada (CIVD) → plasma fresco congelado + crioprecipitado.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Clopidogrel (inibidor irreversivel do receptor P2Y12 plaquetario) causa disfuncao plaquetaria que pode persistir por 5-7 dias (tempo para geracao de novas plaquetas). Diretrizes recomendam suspensao ≥3 dias antes de cirurgia (alguns ainda recomendam 5-7 dias). Paciente suspendeu ha apenas 3 dias → risco de disfuncao plaquetaria residual. TEG mostra MA reduzido (42 mm; normal >50 mm) = disfuncao plaquetaria E/OU hipofibrinogenemia. Fibrinogenio 190 mg/dL esta limitrofe mas aceitavel (>150-180 mg/dL). Teste de funcao plaquetaria POC (agregometria com ADP) mostra resposta reduzida (30 AU; normal >50 AU) = disfuncao plaquetaria confirmada (provavelmente por clopidogrel residual + disfuncao induzida por CEC). Tratamento: transfusao de plaquetas para fornecer plaquetas funcionais (clopidogrel liga-se irreversivelmente as plaquetas circulantes; transfusao fornece plaquetas virgens funcionais). Teste POC pre-operatorio de funcao plaquetaria pode identificar pacientes de alto risco para sangramento (Classe IIa para realizar medicao laboratorial/POC de efeito de droga antiagregante em pacientes que receberam terapia antiagregante dupla recente pode ser util para avaliar risco de sangramento). A alternativa B esta incorreta porque fibrinogenio 190 mg/dL e limitrofe mas geralmente adequado. A alternativa C esta incorreta porque desmopressina nao trata disfuncao por clopidogrel. A alternativa D esta incorreta porque trombocitopenia (105.000/µL) e leve; o problema e disfuncao qualitativa. A alternativa E esta incorreta porque nao ha evidencia de CIVD."
+    },
+    {
+      "enunciado": "Paciente feminina, 60 anos, submetida a troca valvar aortica com CEC. Tempo de CEC: 125 minutos. Durante o reaquecimento (temperatura 35°C), monitorizacao cerebral com BIS mostra: BIS 72 (alvo <60). Ultima dose de propofol foi ha 50 minutos. Paciente sem movimentos, sem abertura ocular. PA 105/60 mmHg, FC 82 bpm. Qual a interpretacao MAIS provavel e a conduta apropriada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "BIS 72 indica awareness → administrar propofol bolus 50 mg imediatamente.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "BIS 72 pode ser falsamente elevado por interferencia da bomba de CEC ou hipotermia → correlacionar com sinais clinicos e considerar dose suplementar de anestesico.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "BIS 72 e aceitavel durante CEC pois nao ha risco de awareness enquanto em bypass.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "BIS 72 indica despertar iminente → administrar bloqueador neuromuscular para prevenir movimentos.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "BIS nao e confiavel durante cirurgia cardiaca → ignorar valor e nao ajustar anestesia.",
+          "correta": false
+        }
+      ],
+      "explicacao": "BIS (indice bispectral) e monitor de profundidade anestesica amplamente estudado. Alvo geralmente e BIS <60 (alguns usam 40-60) para prevenir awareness. BIS 72 esta acima do alvo, sugerindo anestesia superficial. POREM, em cirurgia cardiaca, BIS tem limitacoes importantes: (1) Valores falsamente elevados podem ocorrer por interferencia de rotacao da cabeca da bomba, marcapassos e hipotermia (paciente esta a 35°C); (2) BIS pode nao ser melhor que protocolo de concentracao expirada de anestesico inalatorio para prevenir awareness; (3) Processamento do EEG e geracao do BIS tem lag de 15-30 s. Conduta apropriada: correlacionar BIS com sinais clinicos (movimentos, sudorese, taquicardia, hipertensao). Se paciente esta imovel, sem sinais de awareness E hipotermico, BIS elevado pode ser artefato. Se ha suspeita clinica de anestesia superficial (tempo longo desde ultima dose, BIS persistentemente elevado), considerar dose suplementar de sedativo-hipnotico (propofol bolus ou infusao) ou reiniciar volatil (se ventilacao ja foi reestabelecida). Estrategia preventiva: iniciar infusao de propofol/dexmedetomidina no inicio da CEC e manter durante reaquecimento. A alternativa A esta incorreta porque BIS 72 isolado nao confirma awareness. A alternativa C esta incorreta porque BIS 72 NAO e aceitavel. A alternativa D esta incorreta porque bloqueador neuromuscular mascara sinais de awareness sem resolver o problema. A alternativa E esta incorreta porque BIS tem limitacoes mas nao deve ser ignorado."
+    },
+    {
+      "enunciado": "Paciente masculino, 58 anos, diabetico, sera submetido a CRM com CEC. Glicemia pre-operatoria: 180 mg/dL. Durante a CEC (tempo 60 minutos), glicemia: 240 mg/dL. Inicia-se infusao de insulina regular para manter glicemia entre 140-180 mg/dL. Apos 30 minutos, glicemia: 165 mg/dL. Considerando as diretrizes atuais, qual a meta de controle glicemico MAIS apropriada durante todo o periodo perioperatorio?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "<100 mg/dL (controle rigido) para prevenir infeccoes e melhorar desfechos.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "80-100 mg/dL (controle intensivo) durante intraoperatorio, <150 mg/dL no pos-operatorio.",
+          "correta": false
+        },
+        {
+          "letra": "C",
+          "texto": "<180 mg/dL durante todo o periodo perioperatorio (recomendacao STS).",
+          "correta": true
+        },
+        {
+          "letra": "D",
+          "texto": "120-180 mg/dL (controle liberal) vs <100 mg/dL (controle rigido) nao faz diferenca em sobrevida.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Nao controlar glicemia ativamente, pois hiperglicemia e resposta fisiologica ao estresse cirurgico.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Diretrizes STS (Society of Thoracic Surgeons): manter glicemia <180 mg/dL durante todo o periodo perioperatorio. Estudo classico (intensive intraoperative insulin, alvo 80-100 mg/dL, vs standard, alvo <200 mg/dL) mostrou aumento nao significativo de morte e AVC no grupo intensivo. Glicemia persistentemente elevada (mal controlada) durante/apos procedimento prediz maior tempo de internacao e aumento de morbimortalidade em diabeticos e nao diabeticos. Em diabeticos, manter glicemia ≤180 mg/dL reduz morbidade, mortalidade, infeccoes de ferida operatoria, tempo de internacao e melhora sobrevida a longo prazo. Em nao diabeticos, manter <180 mg/dL tambem melhorou desfechos perioperatorios. Estudo Ad et al. nao mostrou diferenca em sobrevida de 1 ano entre controle liberal (120-180 mg/dL) e controle mais rigido, mas controle rigido pode aumentar risco de hipoglicemia e AVC. Conclusao: meta <180 mg/dL e segura e efetiva (equilibrio entre beneficio e risco de hipoglicemia). A alternativa A esta incorreta porque controle muito rigido (<100 mg/dL) aumenta risco de hipoglicemia sem beneficio adicional demonstrado. A alternativa B esta incorreta porque controle intensivo intraoperatorio (80-100 mg/dL) foi associado a aumento de AVC. A alternativa D esta incorreta porque a recomendacao STS continua sendo <180 mg/dL. A alternativa E esta incorreta porque hiperglicemia persistente esta associada a piores desfechos."
+    },
+    {
+      "enunciado": "Paciente feminina, 65 anos, submetida a CRM com CEC. Usa IECA (enalapril 20 mg/dia) para hipertensao. Na manha da cirurgia, recebeu enalapril 20 mg VO com gole de agua, conforme rotina domiciliar. Durante a inducao anestesica com propofol e fentanil, evolui com hipotensao (PA 75/40 mmHg) que responde parcialmente a efedrina e fenilefrina, mas requer doses frequentes de vasopressores. Qual a associacao MAIS provavel entre uso de IECA no dia da cirurgia e hipotensao durante inducao?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "IECA no dia da cirurgia nao tem relacao com hipotensao; causa e dose excessiva de propofol.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "IECA no dia da cirurgia pode aumentar propensao a hipotensao durante inducao e procedimento.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "IECA no dia da cirurgia reduz risco de hipotensao por bloquear sistema renina-angiotensina.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Enalapril tem meia-vida curta e nao causa hipotensao se administrado >6 horas antes da inducao.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Hipotensao e por depletao volemica isolada, nao relacionada a IECA; tratamento e expansao volemica.",
+          "correta": false
+        }
+      ],
+      "explicacao": "IECA (inibidores da enzima conversora de angiotensina), se administrados no dia da cirurgia, podem aumentar a propensao do paciente a hipotensao. IECA bloqueia conversao de angiotensina I → angiotensina II (vasoconstritor potente), reduzindo tonus vascular e resposta compensatoria a hipotensao. Durante inducao anestesica (que ja reduz tonus simpatico e causa vasodilatacao), IECA potencializa hipotensao. Paciente pode necessitar de doses maiores/mais frequentes de vasopressores. Condutas em pacientes em uso cronico de IECA: (1) Alguns defendem suspender IECA na manha da cirurgia (especialmente se procedimento eletivo); (2) Outros mantem e tratam hipotensao com vasopressores conforme necessario; (3) Ter vasopressores prontamente disponiveis (fenilefrina, noradrenalina, vasopressina). Nao ha contraindicacao absoluta a IECA no dia da cirurgia, mas deve-se estar ciente do risco aumentado de hipotensao. A alternativa A esta incorreta porque IECA no dia da cirurgia TEM relacao com hipotensao. A alternativa C esta incorreta porque IECA AUMENTA risco de hipotensao (bloqueia mecanismo compensatorio de vasoconstricao via angiotensina II), nao reduz. A alternativa D esta incorreta porque enalapril tem meia-vida de aproximadamente 11 horas; efeito persiste por 24-48 horas. A alternativa E esta incorreta porque contexto sugere que IECA e fator contribuinte importante."
+    },
+    {
+      "enunciado": "Paciente masculino, 70 anos, 3º dia pos-operatorio de CRM com CEC. Evolui com febre (38,5°C), tosse produtiva, taquipneia (FR 28 irpm), hipoxemia (SaO₂ 88% em ar ambiente). Raio-X de torax: infiltrado em lobo inferior direito. Gasometria: PaO₂ 58 mmHg, PaCO₂ 48 mmHg. Paciente foi extubado no 1º dia pos-operatorio e estava bem ate ontem. Qual a causa MAIS provavel da insuficiencia respiratoria e o fator contribuinte relacionado a cirurgia cardiaca?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Pneumonia aspirativa por aspiracao durante extubacao → antibioticoterapia empirica e suporte ventilatorio.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Pneumonia nosocomial por atelectasia e clearance inadequado de secrecoes (favorecido por dor de esternotomia) → antibioticos + fisioterapia respiratoria + analgesia adequada.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "Edema pulmonar cardiogenico por disfuncao de VE → diureticos e reducao de pos-carga.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Embolia pulmonar por trombose venosa profunda pos-operatoria → anticoagulacao terapeutica.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "SARA (sindrome do desconforto respiratorio agudo) por sindrome pos-perfusao → suporte ventilatorio com PEEP.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Complicacoes respiratorias pos-cirurgia cardiaca incluem: atelectasia, broncoespasmo, hemotorax, pneumotorax, edema pulmonar, disfuncao pulmonar (aumento de gradiente alveolo-arterial de O₂ ate SARA/sindrome pos-perfusao). Atelectasia e causa comum de reducao de SaO₂ no periodo pos-bypass (pulmoes nao ventilados ou com volumes tidais muito baixos durante CEC). Pneumonia e complicacao tardia (geralmente >48-72h pos-op). Fatores contribuintes: (1) Dor de esternotomia → limita capacidade de tossir e realizar exercicios de respiracao profunda (splinting) → favorece colapso lobar, pneumonia; (2) Intubacao/ventilacao mecanica; (3) Imobilizacao; (4) Clearance inadequado de secrecoes. Apresentacao clinica (febre, tosse produtiva, infiltrado lobar, hipoxemia) e compativel com pneumonia nosocomial. Tratamento: (1) Antibioticoterapia empirica (guiada por microbiologia local, geralmente cobertura para Gram-negativos e Staphylococcus); (2) Fisioterapia respiratoria (drenagem postural, tapotagem, incentivador respiratorio); (3) Analgesia adequada para permitir tosse efetiva e respiracao profunda (opioides, analgesia multimodal, considerar bloqueios regionais). Prevencao: otimizacao pre-operatoria de funcao pulmonar, analgesia adequada pos-op, mobilizacao precoce, fisioterapia respiratoria. A alternativa A esta incorreta porque apresentacao no 3º dia pos-op sugere pneumonia nosocomial adquirida no pos-op, nao aspiracao durante extubacao. A alternativa C esta incorreta porque edema pulmonar cardiogenico causa dispneia, crepitacoes difusas, infiltrado bilateral; aqui infiltrado e lobar direito + febre + tosse produtiva = pneumonia. A alternativa D esta incorreta porque TEP causa dispneia subita, taquipneia, hipoxemia, dor pleuritica, sem febre; infiltrado lobar + febre sugerem pneumonia. A alternativa E esta incorreta porque SARA causa infiltrados bilaterais difusos, hipoxemia refrataria, reducao de complacencia pulmonar; ocorre precocemente (primeiras 24-48h pos-CEC)."
+    },
+    {
+      "enunciado": "Paciente masculino, 72 anos, com estenose aortica grave sintomatica (area valvar 0,7 cm², gradiente medio 48 mmHg), sera submetido a troca valvar aortica (TVA) com CEC. Durante a inducao anestesica com propofol e fentanil, evolui com hipotensao (PA 65/40 mmHg) e taquicardia sinusal (FC 105 bpm). TEE mostra VE hipertrofico com boa contratilidade e cavidade pequena. Qual a fisiopatologia da hipotensao e o tratamento PRIORITARIO?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Vasodilatacao por anestesico → fenilefrina em bolus + infusao para restaurar RVS e perfusao coronariana.",
+          "correta": true
+        },
+        {
+          "letra": "B",
+          "texto": "Hipovolemia relativa → expansao volemica rapida com cristaloide 500 mL.",
+          "correta": false
+        },
+        {
+          "letra": "C",
+          "texto": "Depressao miocardica por propofol → reduzir profundidade anestesica e iniciar dobutamina.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Taquicardia reduzindo tempo de enchimento diastolico → betabloqueador (esmolol) para FC <70 bpm.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Isquemia miocardica aguda → nitroglicerina IV e considerar revascularizacao emergencial.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Em estenose aortica grave, VE e hipertrofico e nao complacente, dependente de pre-carga adequada. Perfusao coronariana depende criticamente de pressao de perfusao coronariana (PAM diastolica - PDFVE). Hipotensao reduz perfusao coronariana → isquemia subendocardica → reducao de contratilidade → espiral descendente (hipotensao → isquemia → reducao de DC → mais hipotensao). Fisiopatologia da hipotensao aqui: vasodilatacao por propofol + possivel hipovolemia relativa + perda do tonus simpatico. Taquicardia piora (reducao de tempo diastolico → reducao de perfusao coronariana + aumento de consumo O₂). Tratamento prioritario: Fenilefrina (vasoconstritor puro alfa-1-agonista) em bolus (50-100 mcg) seguido de infusao (0,5-1 mcg/kg/min) para: (1) Restaurar PAM e perfusao coronariana; (2) Manter RVS elevada (compensar vasodilatacao anestesica); (3) Evitar taquicardia reflexa (fenilefrina pode causar bradicardia reflexa, que e benefica em EA). Manter PAM >70-80 mmHg e FC 60-70 bpm (ritmo sinusal preferivel; contracao atrial contribui com aproximadamente 40% do enchimento de VE nao complacente). A alternativa B esta incorreta porque expansao volemica pode ajudar se houver hipovolemia, mas em VE hipertrofico nao complacente, sobrecarga de volume pode precipitar edema pulmonar. A alternativa C esta incorreta porque TEE mostra boa contratilidade, nao depressao miocardica. A alternativa D esta incorreta porque betabloqueador na vigencia de hipotensao pode piorar hipotensao e reduzir DC. A alternativa E esta incorreta porque nitroglicerina (vasodilatador) PIORA hipotensao e perfusao coronariana."
+    },
+    {
+      "enunciado": "Paciente feminina, 58 anos, com insuficiencia mitral grave (regurgitacao 4+/4+, dilatacao de AE), sera submetida a plastia mitral com CEC. Durante o desmame da CEC, TEE pos-reparo mostra insuficiencia mitral residual 2+/4+ e jato excentrico. PAP 45/25 mmHg, POAP 18 mmHg. Hemodinamica estavel com suporte inotropico moderado (dobutamina 5 mcg/kg/min). Qual a conduta MAIS apropriada neste momento?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Aceitar resultado do reparo (IM 2+ residual e aceitavel) e concluir cirurgia.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Retornar a CEC para re-reparo ou troca valvar, pois IM residual >1+ esta associada a piores desfechos.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "Aumentar inotropicos e reduzir pos-carga para reduzir regurgitacao mitral funcional.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Administrar nitroglicerina IV para reduzir pre-carga e volume regurgitante.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Observar por 10 minutos; regurgitacao pode diminuir apos estabilizacao hemodinamica.",
+          "correta": false
+        }
+      ],
+      "explicacao": "TEE intraoperatorio e essencial para avaliar sucesso do reparo mitral. Presenca de insuficiencia mitral residual >1+ esta associada a: (1) Reoperacao precoce; (2) Progressao de insuficiencia mitral; (3) Piores desfechos clinicos a longo prazo. Criterios de reparo bem-sucedido: ausencia de regurgitacao valvar ou apenas regurgitacao traco residual + ausencia de leak paravalvar. IM residual 2+ com jato excentrico sugere reparo inadequado (possivel problema tecnico: prolapso residual, ruptura de cordas, anulus mitral nao adequadamente reduzido). Conduta: retornar a CEC para: (1) Re-reparo (corrigir problema tecnico); (2) Se re-reparo nao for factivel, considerar troca valvar. Decisao deve ser tomada no intraoperatorio com TEE, pois reoperacao precoce (dias/semanas apos) tem morbimortalidade muito maior. Se leak paravalvar significativo ou disfuncao valvar residual, deve-se retornar a CEC para revisao. A alternativa A esta incorreta porque IM residual 2+ NAO e aceitavel; estudos mostram que IM residual >1+ esta associada a piores desfechos. A alternativa C esta incorreta porque IM aqui e estrutural (reparo inadequado), nao funcional. A alternativa D esta incorreta porque nitroglicerina reduz pre-carga e pos-carga, mas nao corrige defeito estrutural. A alternativa E esta incorreta porque regurgitacao estrutural nao desaparece com estabilizacao hemodinamica."
+    },
+    {
+      "enunciado": "Paciente masculino, 80 anos, com estenose aortica grave sintomatica (area valvar 0,6 cm², gradiente medio 52 mmHg), FEVE 30%, STS risk score 8% (alto risco cirurgico), sera submetido a TAVI (implante valvar aortico transcateter) por acesso transfemoral. Durante a liberacao da protese, evolui com bloqueio atrioventricular total (BAVT) com FC 35 bpm, hipotensao (PA 70/45 mmHg). Qual a causa MAIS provavel do BAVT e a conduta IMEDIATA apropriada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Isquemia miocardica por hipoperfusao coronariana → nitroglicerina e revascularizacao.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Compressao mecanica do sistema de conducao (no AV/feixe de His) pela protese → marcapasso transcutaneo emergencial ou transvenoso temporario.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "Hipercalemia por sindrome de lise tumoral → cloreto de calcio 1 g IV.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Overdose de betabloqueador → atropina 1 mg IV e glucagon.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Embolizacao distal da protese → reposicionamento por cateter.",
+          "correta": false
+        }
+      ],
+      "explicacao": "BAVT (bloqueio atrioventricular total) e complicacao frequente de TAVI, ocorrendo em 5-25% dos casos (dependendo do tipo de protese). Fisiopatologia: compressao mecanica do sistema de conducao (no AV, feixe de His, ramo esquerdo) pela protese expandida (especialmente proteses autoexpansiveis, implante profundo, calcificacao importante do anulo/VSVE). Risco aumentado em: valvula autoexpansivel, implante profundo, calcificacao septal, BRD preexistente. Manifestacao: BAVT ou bloqueio de ramo esquerdo novo (BRE novo ocorre em aproximadamente 20-40%). BAVT com FC 35 bpm + hipotensao e emergencia hemodinamica. Conduta imediata: (1) Marcapasso transcutaneo emergencial (pacing pads ja devem estar posicionados profilaticamente em todos os TAVI) para restaurar FC adequada (70-80 bpm); (2) Se marcapasso transcutaneo inefetivo ou mal tolerado, inserir marcapasso transvenoso temporario; (3) Tratar hipotensao com vasopressores (fenilefrina, noradrenalina); (4) Aproximadamente 30-50% dos BAVT pos-TAVI sao transitorios (recuperacao em horas/dias); aproximadamente 10-30% necessitam de marcapasso definitivo (decisao geralmente apos 3-7 dias de observacao). A alternativa A esta incorreta porque BAVT imediatamente apos liberacao da protese sugere compressao mecanica, nao isquemia. A alternativa C esta incorreta porque hipercalemia causa alargamento de QRS, ondas T apiculadas, eventual assistolia; BAVT agudo pos-TAVI e por compressao mecanica. A alternativa D esta incorreta porque atropina pode ser tentada para bloqueios AV de grau menor, mas em BAVT por compressao mecanica, atropina e inefetiva. A alternativa E esta incorreta porque embolizacao distal causaria ausencia de funcao valvar (regurgitacao grave), hipotensao, mas nao necessariamente BAVT."
+    },
+    {
+      "enunciado": "Paciente feminina, 68 anos, sera submetida a CRM com CEC. Apresenta marcapasso definitivo DDDR implantado ha 2 anos por doenca do no sinusal. Interrogacao do marcapasso: dependencia de marcapasso 80% do tempo, sem ritmo de escape confiavel. Limiar de captura: 0,5 V. Qual a conduta perioperatoria MAIS apropriada em relacao ao marcapasso?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Desligar marcapasso antes da cirurgia para evitar interferencia com eletrocauterio.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Reprogramar para modo assincrono (DOO ou VOO) antes da cirurgia para evitar inibicao inapropriada por interferencia eletromagnetica.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "Manter modo DDDR sem alteracoes; marcapassos modernos sao imunes a interferencia.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Remover marcapasso cirurgicamente antes da CEC e reimplantar apos.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Trocar para marcapasso transcutaneo externo durante cirurgia.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Pacientes com marcapasso/CDI submetidos a cirurgia cardiaca requerem manejo especifico. Riscos: (1) Interferencia eletromagnetica (EM) por eletrocauterio/bisturi eletrico monopolar → pode ser interpretada como atividade cardiaca → inibicao inapropriada de marcapasso em paciente dependente (assistolia); (2) Dano direto ao gerador ou eletrodos por eletrocauterio; (3) Alteracao de parametros (reset, mudanca de modo); (4) Em CDI, EMI pode causar terapias inapropriadas (choques). Manejo perioperatorio: (1) Interrogacao pre-operatoria para determinar: dependencia de marcapasso, ritmo de escape, limiares, modo de programacao, indicacao original; (2) Em paciente DEPENDENTE de marcapasso, reprogramar para modo assincrono (DOO, VOO, DDD→DOO) para prevenir inibicao inapropriada por EMI; (3) Ter marcapasso transcutaneo/transvenoso disponivel como backup; (4) Posicionar placa de eletrocauterio longe do gerador (preferencialmente nas costas, nao no torax anterior); (5) Usar cauterio bipolar sempre que possivel; (6) Reinterrogar e reprogramar ao modo original apos cirurgia; (7) Em CDI, desabilitar terapias antitaquicardia (desfibrilacao/cardioversao) para evitar choques inapropriados; ter desfibrilador externo disponivel. A alternativa A esta incorreta porque desligar marcapasso em paciente dependente (80% do tempo) pode causar assistolia e morte. A alternativa C esta incorreta porque marcapassos modernos tem filtros de EMI, mas interferencia ainda pode ocorrer. A alternativa D esta incorreta porque remover e reimplantar marcapasso e desnecessario, arriscado e impraticavel. A alternativa E esta incorreta porque marcapasso transcutaneo deve estar disponivel como backup, mas nao substitui marcapasso transvenoso permanente."
+    },
+    {
+      "enunciado": "Paciente masculino, 55 anos, submetido a CRM com CEC (3 enxertos: ATIE para DA, veia safena para Diagonal e Circunflexa). Tempo de CEC: 95 minutos, clampeamento aortico: 68 minutos. Durante desmame da CEC, TEE mostra nova alteracao de contratilidade segmentar (acinesia de parede anterior e septo anterior). ECG: supradesnivelamento de ST em V2-V4. Hemodinamica: hipotensao (PA 70/45 mmHg), baixo debito (IC 1,9 L/min/m²). Qual a causa MAIS provavel e a conduta PRIORITARIA?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Isquemia miocardica por protecao inadequada durante CEC → otimizar inotropicos e aguardar recuperacao (stunning miocardico).",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Oclusao aguda de enxerto (ATIE para DA) → retornar a CEC, re-explorar e revisar anastomose.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "Sindrome de baixo debito pos-CEC por disfuncao miocardica difusa → balao intra-aortico e suporte inotropico.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Tamponamento cardiaco por sangramento pericardico → drenagem pericardica emergencial.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Embolia aerea para coronaria esquerda → manobras de remocao de ar (Trendelenburg, aspiracao de raiz aortica).",
+          "correta": false
+        }
+      ],
+      "explicacao": "Nova alteracao de contratilidade segmentar no territorio de arteria coronaria revascularizada (parede anterior e septo anterior = territorio de DA) + supradesnivelamento de ST em derivacoes anteriores (V2-V4) + baixo debito imediatamente apos desmame da CEC = oclusao aguda de enxerto. Causas: (1) Problema tecnico na anastomose (estenose, torcao, disseccao); (2) Trombose; (3) Kinking (dobra) do enxerto; (4) Vasoespasmo (mais comum em arteria radial ou ATIE). Apresentacao: alteracao de contratilidade regional nova (territorio correspondente), alteracoes de ST, arritmias, baixo debito. Conduta: retornar a CEC, re-explorar cirurgicamente e revisar anastomose (corrigir problema tecnico ou realizar nova anastomose). Tempo e essencial (cada minuto de isquemia aumenta area de infarto). TEE intraoperatorio + ECG continuo permitem diagnostico imediato. Se suspeita de vasoespasmo (menos provavel em ATIE, mais em arteria radial), tentar tratamento farmacologico (nitroglicerina intracoronariana, bloqueadores de canal de calcio), mas se sem resposta → revisar anastomose. A alternativa A esta incorreta porque stunning miocardico geralmente nao causa alteracao segmentar TAO focal + supradesnivelamento de ST. A alternativa C esta incorreta porque disfuncao miocardica difusa causaria hipocinesia global no TEE, nao acinesia segmentar focal. A alternativa D esta incorreta porque tamponamento causa colapso diastolico de camaras direitas, equalizacao de pressoes; TEE aqui mostra acinesia segmentar (isquemia). A alternativa E esta incorreta porque embolia aerea pode causar isquemia regional, mas geralmente ocorre durante enchimento de camaras esquerdas/aorta (inicio do desmame); contexto sugere problema de enxerto."
+    },
+    {
+      "enunciado": "Paciente feminina, 62 anos, submetida a CRM com CEC. Cardioplegia utilizada: solucao de del Nido (dose unica, 20 mL/kg, infundida na raiz aortica apos clampeamento). Tempo de clampeamento: 52 minutos. Durante desmame da CEC, coracao apresenta fibrilacao ventricular refrataria a cardioversao eletrica (3 choques de 20-30-50 J internos). Qual a causa MAIS provavel da FV refrataria e a conduta apropriada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Protecao miocardica inadequada → administrar cardioplegia adicional, aguardar e tentar nova cardioversao.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Hipotermia miocardica (<28°C) favorecendo arritmias → aquecer coracao a 35-37°C e tentar cardioversao.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "Hipercalemia residual por cardioplegia → administrar cloreto de calcio 1 g IV e tentar cardioversao.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Isquemia miocardica por tempo de clampeamento prolongado → revascularizacao adicional.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Depletacao de ATP miocardico → administrar adenosina 6 mg IV.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Apos remocao do clamp aortico e reperfusao miocardica com sangue oxigenado quente, coracao geralmente retoma atividade eletrica espontanea (ritmo sinusal ou fibrilacao ventricular/taquicardia ventricular → cardioversao). Fibrilacao ventricular refrataria a cardioversao pode ocorrer se: (1) Temperatura miocardica <28-30°C (hipotermia favorece arritmias ventriculares e dificulta cardioversao); (2) Isquemia/hipoxia miocardica persistente; (3) Disturbios eletroliticos (hipo/hipercalemia, hipomagnesemia); (4) Protecao miocardica inadequada. Solucao de del Nido e cardioplegia de dose unica que proporciona protecao por ate 60-90 minutos. Tempo de clampeamento (52 min) esta dentro da janela. Se FV refrataria apos 3 choques: (1) Verificar temperatura miocardica (inserir termometro no miocardio) → se <28-30°C, aquecer coracao com irrigacao de solucao salina morna (35-37°C) sobre epicardio e aguardar ate temperatura ≥32-34°C; (2) Corrigir eletrolitos (administrar cloreto de calcio 500-1000 mg, sulfato de magnesio 1-2 g); (3) Otimizar oxigenacao/perfusao (manter em CEC com fluxo adequado durante ressuscitacao); (4) Tentar cardioversao novamente apos aquecimento; (5) Se ainda refrataria, considerar antiarritmicos (amiodarona 150 mg, lidocaina 1 mg/kg) e repetir cardioversao; (6) Excluir isquemia (graft patency). A alternativa A esta incorreta porque cardioplegia adicional (hipercalemica, fria) PIORA FV ao causar mais hipotermia e hipercalemia. A alternativa C esta incorreta porque hipercalemia por cardioplegia e transitoria e rapidamente corrigida pela perfusao com sangue normocalemico durante reperfusao. A alternativa D esta incorreta porque tempo de clampeamento 52 min com cardioplegia de del Nido (protecao ate 60-90 min) nao e prolongado. A alternativa E esta incorreta porque adenosina e antiarritmico para TSV (bloqueio transitorio do no AV); nao trata FV."
+    },
+    {
+      "enunciado": "Paciente masculino, 70 anos, com flutter atrial de longa data (>2 anos), refratario a cardioversao eletrica e antiarritmicos, sera submetido a ablacao cirurgica de flutter + CRM com CEC. Cirurgiao planeja realizar lesoes de ablacao por radiofrequencia no atrio direito (linha cavotricuspidea) durante a cirurgia. Qual o objetivo da ablacao cirurgica do flutter atrial e qual a principal complicacao a ser monitorizada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Restaurar ritmo sinusal → principal complicacao: perfuracao atrial com tamponamento.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Prevenir acidente vascular embolico → principal complicacao: sangramento por anticoagulacao excessiva.",
+          "correta": false
+        },
+        {
+          "letra": "C",
+          "texto": "Reduzir frequencia ventricular → principal complicacao: bradicardia extrema.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Isolar veias pulmonares → principal complicacao: estenose de veias pulmonares.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Abolir circuito de reentrada do flutter → principal complicacao: bloqueio AV por lesao inadvertida do no AV ou feixe de His.",
+          "correta": true
+        }
+      ],
+      "explicacao": "Flutter atrial tipico (cavotricuspideo, istmo-dependente) e arritmia de reentrada no atrio direito, cujo circuito gira ao redor do istmo cavotricuspideo (entre VCI e anel tricuspide). Ablacao cirurgica cria linha de lesao transmural no istmo cavotricuspideo (ou outras linhas no AD, dependendo do tipo de flutter) para interromper circuito de reentrada e prevenir recorrencia. Metodos: radiofrequencia (RF), crioablacao, ultrassom focalizado, bisturi. Ablacao cirurgica pode ser realizada concomitantemente com cirurgia cardiaca (CRM, valvar) se paciente tem flutter refratario. Objetivo: restaurar e manter ritmo sinusal. Principal complicacao: lesao inadvertida do sistema de conducao (no AV, feixe de His, ramos) → bloqueio AV (geralmente de 1º ou 2º grau, ocasionalmente BAVT) → pode necessitar marcapasso definitivo. Outras complicacoes: sangramento, lesao de arteria coronaria direita (proxima ao istmo), disfuncao sinusal. Taxa de sucesso: >90% para flutter tipico. Recorrencia: 5-15%. A alternativa A esta incorreta porque perfuracao atrial com tamponamento e complicacao de ablacao percutanea (cateter); em ablacao cirurgica (coracao aberto, visao direta), risco de perfuracao e minimo. A alternativa B esta incorreta porque prevenir AVC e beneficio indireto (ritmo sinusal reduz risco tromboembolico), mas nao e objetivo primario da ablacao. A alternativa C esta incorreta porque reduzir FC e tratamento paliativo; objetivo da ablacao e curar flutter (restaurar ritmo sinusal), nao apenas controlar FC. A alternativa D esta incorreta porque isolamento de veias pulmonares e objetivo da ablacao de fibrilacao atrial (FA), nao flutter atrial."
+    },
+    {
+      "enunciado": "Paciente feminina, 75 anos, com estenose aortica grave sintomatica, sera submetida a TAVI por acesso transfemoral. Durante a fase de posicionamento da protese (pacing ventricular rapido a 180-220 bpm para reduzir debito cardiaco), evolui com hipotensao grave (PA 50/30 mmHg) e perda de pulso femoral ipsilateral. Qual a complicacao vascular MAIS provavel e a conduta apropriada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Disseccao de aorta ascendente → interromper procedimento e converter para cirurgia aberta.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Ruptura de arteria femoral ou iliaca → controle vascular (compressao, reparo cirurgico endovascular ou aberto) e transfusao.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "Trombose de arteria femoral por bainha de grande calibre → anticoagulacao terapeutica e trombectomia.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Vasoespasmo de arteria femoral → administrar nitroglicerina intra-arterial e remover bainha.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Oclusao de ostio coronariano por protese mal posicionada → reposicionar protese.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Complicacoes vasculares em TAVI transfemoral sao relativamente comuns (5-15%, dependendo da definicao e geracao de dispositivo). Causas: (1) Bainha de grande calibre (14-20 French) em arterias pequenas ou calcificadas; (2) Tortuosidade/calcificacao de arterias iliacas/femorais; (3) Tecnica de puncao inadequada. Tipos de complicacoes vasculares: (a) Ruptura/laceracao de arteria femoral ou iliaca (pode causar sangramento retroperitoneal/pelvico macico); (b) Disseccao; (c) Hematoma/pseudoaneurisma; (d) Trombose/oclusao; (e) Embolizacao distal. Apresentacao: hipotensao (hipovolemia por sangramento), perda de pulso distal (oclusao/disseccao), dor/distensao abdominal ou em flanco (retroperitoneal), hematoma inguinal. Conduta: (1) Controle vascular imediato (compressao manual se sangramento externo, balao de oclusao intra-arterial se ruptura); (2) Reparo endovascular (stent coberto, embolizacao) ou cirurgia vascular aberta (reparo arterial, bypass femoro-femoral) conforme anatomia e gravidade; (3) Ressuscitacao volemica e hemotransfusao; (4) Angiografia para localizar lesao. Prognostico: complicacoes vasculares maiores aumentam mortalidade 30 dias (aproximadamente 10-20%). A alternativa A esta incorreta porque disseccao de aorta ascendente causaria dor toracica, sinais de malperfusao de orgaos; perda de pulso femoral sugere problema vascular periferico. A alternativa C esta incorreta porque trombose e possivel, mas hipotensao GRAVE sugere sangramento (ruptura) como causa mais provavel. A alternativa D esta incorreta porque vasoespasmo causa pulso diminuido, nao perda total de pulso + hipotensao grave. A alternativa E esta incorreta porque oclusao de ostio coronariano causaria alteracao de ST, isquemia miocardica, arritmias; nao explica perda de pulso femoral isolada."
+    },
+    {
+      "enunciado": "Paciente masculino, 63 anos, submetido a CRM com CEC. Estrategia de manejo de temperatura durante CEC: pH-stat. Gasometria arterial durante CEC (temperatura 28°C): pH 7,40, PaCO₂ 40 mmHg, PaO₂ 250 mmHg (valores corrigidos para temperatura de 28°C). Qual a interpretacao CORRETA e o racional fisiologico da estrategia pH-stat?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "pH-stat mantem pH 7,40 em qualquer temperatura → vasoconstricao cerebral e menor fluxo cerebral.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "pH-stat adiciona CO₂ para manter pH 7,40 corrigido para temperatura → vasodilatacao cerebral e fluxo cerebral preservado.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "pH-stat remove CO₂ para compensar acidose respiratoria → alcalose e hipoperfusao cerebral.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "pH-stat e estrategia obsoleta; alfa-stat e universalmente superior.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "pH-stat e alfa-stat sao equivalentes; nao ha diferenca fisiologica.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Durante CEC hipotermica, ha duas estrategias de manejo acido-base: (1) Alfa-stat: gasometria NAO e corrigida para temperatura do paciente (medida a 37°C). A medida que paciente esfria, pH aumenta (alcalose relativa) e PaCO₂ diminui. Objetivo: manter pH aproximadamente 7,40 e PaCO₂ aproximadamente 40 mmHg medidos a 37°C (corresponde a pH aproximadamente 7,50-7,55 e PaCO₂ aproximadamente 25-30 mmHg se corrigidos para 28°C). Racional: preservar estado de ionizacao de proteinas (alfa-imidazol da histidina), autorregulacao cerebral preservada, vasoconstricao cerebral relativa (reducao de PaCO₂). (2) pH-stat: gasometria E corrigida para temperatura do paciente. Objetivo: manter pH aproximadamente 7,40 e PaCO₂ aproximadamente 40 mmHg quando corrigidos para temperatura real (28°C). Para atingir isso em paciente hipotermico, e necessario adicionar CO₂ ao oxigenador (aumento de PaCO₂ medida a 37°C para aproximadamente 50-60 mmHg → PaCO₂ aproximadamente 40 mmHg quando corrigida para 28°C). Racional: vasodilatacao cerebral (aumento de PaCO₂), aumento de fluxo sanguineo cerebral, distribuicao mais uniforme de fluxo (pode ser benefico em criancas ou pacientes com doenca cerebrovascular), facilita resfriamento. Vantagem de pH-stat: protecao neurologica em criancas (cerebro imaturo), facilita resfriamento. Desvantagem: vasodilatacao cerebral pode aumentar embolia cerebral (microembolos gasosos/solidos). Alfa-stat e mais usado em adultos; pH-stat em criancas/cirurgia de aorta com parada circulatoria hipotermica profunda. A alternativa A esta incorreta porque pH-stat causa vasodilatacao cerebral (aumento de PaCO₂), nao vasoconstricao. A alternativa C esta incorreta porque pH-stat adiciona CO₂, nao remove. A alternativa D esta incorreta porque pH-stat nao e obsoleta; continua sendo usada em cirurgia pediatrica cardiaca, parada circulatoria hipotermica profunda. A alternativa E esta incorreta porque pH-stat e alfa-stat tem diferencas fisiologicas importantes."
+    },
+    {
+      "enunciado": "Paciente feminina, 58 anos, com insuficiencia aortica grave cronica, sera submetida a troca valvar aortica com CEC. TEE pre-operatorio: regurgitacao aortica 4+/4+, VE dilatado (DDVE 68 mm), FEVE 45%, hipertrofia de VE, dilatacao de raiz aortica (45 mm). Qual o objetivo hemodinamico MAIS importante no manejo anestesico intraoperatorio?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Manter FC baixa (50-60 bpm) para maximizar tempo de enchimento diastolico.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Manter FC relativamente elevada (80-100 bpm) para minimizar tempo de regurgitacao diastolica.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "Manter RVS elevada para aumentar pressao de perfusao coronariana.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Evitar vasodilatadores para prevenir hipotensao.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Promover bradicardia com betabloqueadores para reduzir consumo de O₂ miocardico.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Insuficiencia aortica (IA) cronica causa sobrecarga de volume de VE (sangue regurgita da aorta para VE durante diastole → aumento de pre-carga). Fisiopatologia: aumento de DDVE, aumento de volume sistolico total (anterogrado + retrogrado), eventualmente reducao de FEVE por dilatacao excessiva. Objetivos hemodinamicos: (1) Manter FC relativamente elevada (70-90 bpm ou mais) para minimizar duracao da diastole (menor tempo para regurgitacao) e manter debito cardiaco anterogrado (DC = FC × VS; VS pode estar limitado, entao FC compensa); (2) Reduzir pos-carga (RVS) para facilitar ejecao anterograda e reduzir regurgitacao (vasodilatadores como nitroglicerina, nitroprussiato); (3) Evitar bradicardia (aumento de tempo diastolico → aumento de regurgitacao → aumento de dilatacao de VE → aumento de PDFVE → edema pulmonar); (4) Manter pre-carga adequada (mas evitar sobrecarga, pois VE ja esta dilatado); (5) Evitar aumento de RVS (dificulta ejecao anterograda). Contraste com estenose aortica: EA requer FC baixa, RVS alta; IA requer FC alta, RVS baixa. A alternativa A esta incorreta porque FC baixa (50-60 bpm) PIORA IA ao aumentar tempo de diastole (mais regurgitacao) e reduzir debito cardiaco anterogrado. A alternativa C esta incorreta porque manter RVS elevada dificulta ejecao anterograda de VE e aumenta volume regurgitante. A alternativa D esta incorreta porque vasodilatadores sao beneficos em IA (reducao de pos-carga → aumento de ejecao anterograda). A alternativa E esta incorreta porque bradicardia piora IA; betabloqueadores podem ser prejudiciais (reducao de FC, reducao de contratilidade)."
+    },
+    {
+      "enunciado": "Paciente masculino, 68 anos, submetido a CRM com CEC. Anticoagulacao pre-operatoria: warfarin (INR 2,5) suspenso ha 3 dias, substituido por heparina nao fracionada IV. Ultima dose de heparina IV foi ha 2 horas (suspensa conforme protocolo). ACT pre-CEC (antes de dose de heparina): 145 s. Administra-se heparina 300 UI/kg. ACT 3 minutos apos: 280 s (alvo ≥400 s). Qual a interpretacao MAIS provavel e a conduta apropriada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Dose insuficiente de heparina → administrar dose adicional de heparina 100 UI/kg e verificar ACT.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Responsividade alterada a heparina (exposicao previa a heparina) → administrar dose adicional de heparina baseada em dose-resposta e verificar ACT.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "Resistencia a heparina por deficiencia de antitrombina → administrar concentrado de antitrombina ou plasma fresco congelado.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "ACT falsamente baixo por hipotermia → aquecer paciente e verificar ACT novamente.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Coagulopatia por warfarin residual → administrar vitamina K 10 mg IV.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Responsividade alterada a heparina (tambem chamada heparina resistance por alguns autores, mas melhor termo e altered responsiveness) ocorre em pacientes com exposicao previa recente a heparina (como este paciente, que estava em heparina IV ate 2 horas antes). Mecanismo: reducao do numero de receptores de heparina (antitrombina), aumento de clearance de heparina, aumento de proteinas ligadoras de heparina. Diferenca de resistencia verdadeira a heparina (deficiencia de antitrombina, AT <60%): responsividade alterada tem niveis normais de AT, mas necessita de doses maiores de heparina para atingir ACT alvo. Conduta: administrar dose adicional de heparina (incremental, guiada por dose-resposta: ex: 100 UI/kg inicialmente, verificar ACT, repetir conforme necessario ate ACT ≥400-480 s). Doses cumulativas de heparina podem chegar a 500-700 UI/kg em pacientes com responsividade alterada. Diretrizes STS: In patients with altered heparin responsiveness... additional heparin doses should be administered based on individual dose-response relationship. Se doses cumulativas muito altas sem resposta adequada → considerar deficiencia de AT (dosagem de AT; se <60%, administrar concentrado de AT). A alternativa A esta incorreta porque dose inicial de 300 UI/kg e padrao; ACT 280 s apos dose padrao sugere responsividade alterada (nao apenas dose insuficiente). A alternativa C esta incorreta porque resistencia verdadeira por deficiencia de AT causaria ACT muito baixo (<250 s) mesmo com doses altas de heparina; aqui ACT foi 280 s apos dose inicial (resposta parcial). A alternativa D esta incorreta porque paciente ainda nao esta em CEC (e pre-CEC), entao nao esta hipotermico. A alternativa E esta incorreta porque warfarin afeta fatores de coagulacao da via extrinseca/comum (II, VII, IX, X), nao interfere com ACT (que mede via intrinseca e efeito de heparina)."
+    },
+    {
+      "enunciado": "Paciente feminina, 65 anos, com CDI (cardioversor-desfibrilador implantavel) implantado ha 3 anos por taquicardia ventricular sustentada, sera submetida a plastia mitral com CEC. Interrogacao pre-operatoria do CDI: ultimo evento de TV ha 6 meses (choque apropriado); bateria com 40% de carga; limiares de deteccao adequados; terapias ativadas (cardioversao e desfibrilacao). Qual a conduta perioperatoria MAIS apropriada em relacao ao CDI?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Remover CDI antes da CEC e reimplantar apos, pois CEC danifica dispositivo.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Desabilitar terapias antitaquicardia (cardioversao/desfibrilacao) antes da cirurgia; ter desfibrilador externo disponivel; reabilitar apos cirurgia.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "Manter CDI ativado durante toda cirurgia para tratar possiveis arritmias ventriculares.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Trocar bateria do CDI antes da cirurgia (carga <50% e contraindicacao para cirurgia).",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Desligar CDI completamente; arritmias ventriculares nao ocorrem durante CEC.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Manejo perioperatorio de CDI (cardioversor-desfibrilador implantavel): (1) Interrogacao pre-operatoria para avaliar: indicacao, frequencia de terapias, bateria, limiares, presenca de terapia de ressincronizacao (CRT); (2) Desabilitar terapias antitaquicardia (cardioversao, desfibrilacao) antes da cirurgia para prevenir: (a) Choques inapropriados por interferencia eletromagnetica de eletrocauterio (EMI pode ser interpretada como TV/FV); (b) Choques durante procedimento (arritmias intraoperatorias sao comuns e esperadas, ex: FV apos liberacao de clamp aortico → tratadas com cardioversao eletrica externa programada, nao choque de CDI). (3) Ter desfibrilador externo disponivel e pronto (pas/pads estereis no campo ou pads adesivos externos); (4) Reinterrogar e reabilitar terapias apos cirurgia (geralmente na UTI ou no dia seguinte); (5) Se paciente tem marcapasso + CDI (ou CRT-D), e e dependente de marcapasso, tratar como marcapasso (reprogramar funcao de marcapasso para modo assincrono se dependente). Desabilitar CDI e seguro se desfibrilador externo esta disponivel (muito mais provavel que arritmias sejam tratadas pelo anestesiologista/cirurgiao com cardioversao externa do que necessitem do CDI). A alternativa A esta incorreta porque remover e reimplantar CDI e desnecessario, caro, arriscado (complicacoes de remocao/reimplante: infeccao, sangramento, pneumotorax). A alternativa C esta incorreta porque manter CDI ativado expoe a risco de choques inapropriados por EMI (eletrocauterio) e choques durante arritmias intraoperatorias esperadas. A alternativa D esta incorreta porque bateria com 40% de carga e adequada para cirurgia eletiva; troca de bateria e indicada quando carga esta proxima de esgotamento (<10-20% ou indicador de troca). A alternativa E esta incorreta porque desligar CDI completamente desliga marcapasso tambem (se presente), o que pode ser perigoso em paciente dependente; arritmias ventriculares PODEM ocorrer durante/apos CEC."
+    },
+    {
+      "enunciado": "Paciente masculino, 55 anos, submetido a CRM com CEC. Durante a CEC, equipe de perfusao utiliza estrategia de fluxo nao pulsatil a 2,4 L/min/m², PAM 65 mmHg, temperatura 32°C. Apos 80 minutos de CEC, diurese esta oligurica (10 mL/h). Lactato arterial: 2,8 mmol/L (elevado). SvcO₂: 72%. Qual a interpretacao MAIS provavel e a conduta apropriada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Fluxo de CEC inadequado (baixo debito) → aumentar fluxo para 2,8-3,0 L/min/m².",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Hipoperfusao tecidual apesar de fluxo adequado (PAM 65 mmHg pode ser insuficiente) → aumentar PAM para 70-80 mmHg com vasoconstritor.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "Oliguria fisiologica durante CEC; lactato 2,8 mmol/L e aceitavel; SvcO₂ 72% indica perfusao adequada → nenhuma intervencao necessaria.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Hipotermia causando oliguria e hiperlactatemia → reaquecer paciente imediatamente.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Hemolise por succao/bomba → trocar circuito de CEC.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Perfusao durante CEC e guiada por: (1) Fluxo (indexed): 2,2-2,8 L/min/m² (adultos normotermicos), pode ser reduzido a aproximadamente 1,8-2,0 L/min/m² em hipotermia moderada. (2) PAM: tradicionalmente 50-70 mmHg era considerado aceitavel, mas evidencias recentes sugerem que PAM >70 mmHg pode melhorar perfusao de orgaos (cerebro, rins) e reduzir complicacoes (AKI, delirium). (3) SvcO₂: >65-70% indica balanco adequado entre entrega e consumo de O₂. (4) Lactato: <2 mmol/L e normal; 2-4 mmol/L sugere hipoperfusao tecidual leve; >4 mmol/L e preocupante. Neste caso: fluxo 2,4 L/min/m² (adequado), SvcO₂ 72% (adequado), MAS oliguria + lactato 2,8 mmol/L sugerem perfusao de orgaos subotima. PAM 65 mmHg pode estar na faixa aceitavel tradicional, mas pode ser insuficiente para alguns pacientes (perda de autorregulacao renal/cerebral, hipertensao cronica com curva de autorregulacao desviada para direita). Conduta: aumentar PAM para 70-80 mmHg com vasoconstritor (fenilefrina, noradrenalina adicionada ao circuito de CEC ou administrada sistemicamente) para melhorar perfusao de orgaos. Monitorizar resposta: melhora de diurese, reducao de lactato. A alternativa A esta incorreta porque fluxo 2,4 L/min/m² e adequado; SvcO₂ 72% confirma balanco O₂ adequado. A alternativa C esta incorreta porque oliguria durante CEC e comum, mas oliguria + lactato elevado sugerem hipoperfusao; SvcO₂ adequado nao garante perfusao regional de orgaos. A alternativa D esta incorreta porque hipotermia moderada (32°C) reduz metabolismo e consumo de O₂, permitindo fluxos menores; oliguria em hipotermia e esperada, mas lactato 2,8 mmol/L sugere hipoperfusao que nao e explicada apenas por hipotermia. A alternativa E esta incorreta porque hemolise causaria hemoglobinuria (urina vermelha/marrom), aumento de hemoglobina livre plasmatica, hipercalemia; oliguria + lactato elevado sugerem hipoperfusao, nao hemolise."
+    },
+    {
+      "enunciado": "Paciente feminina, 72 anos, submetida a troca valvar mitral com CEC. No 2º dia pos-operatorio, evolui com confusao mental, desorientacao e agitacao. Exame neurologico: sem deficits focais, pupilas isocoricas e fotorreagentes. TC cranio sem contraste: sem sinais de AVC ou sangramento. Paciente em uso de fentanil 50 mcg/h IV (infusao continua desde intraoperatorio) e midazolam 2 mg IV de resgate (2 doses nas ultimas 12 horas). Qual a causa MAIS provavel do quadro neurologico e a conduta INICIAL prioritaria?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "AVC embolico (TC ainda nao mostra; aguardar 24-48h) → anticoagulacao terapeutica.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Delirium pos-operatorio → revisar medicacoes (reduzir/suspender fentanil e midazolam), protocolo nao farmacologico, considerar haloperidol se refratario.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "Encefalopatia hipoxica por baixo debito durante CEC → suporte neuroprotetor (hipotermia, controle de glicemia).",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Convulsoes nao convulsivas (status epilepticus) → EEG urgente e anticonvulsivantes.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Hemorragia intracraniana nao detectada por TC → solicitar RM cranio.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Quadro clinico (confusao, desorientacao, agitacao, inversao do ciclo sono-vigilia, sem deficits focais) e tipico de delirium pos-operatorio. Fatores precipitantes: medicacoes (sedativos: midazolam, opioides: fentanil → principais culpados), ambiente de UTI, privacao de sono, dor, imobilizacao. TC cranio sem alteracoes descarta AVC agudo/sangramento. Manejo de delirium: (1) Revisar medicacoes → reduzir ou suspender sedativos-opioides (fentanil infusao continua no 2º PO e excessivo; trocar para analgesia multimodal: paracetamol, AINEs se funcao renal adequada, opioides de resgate apenas); suspender benzodiazepinicos (midazolam); (2) Protocolo nao farmacologico: orientacao com relogio/calendario, oculos/aparelhos auditivos, mobilizacao precoce, fisioterapia, ciclo sono-vigilia adequado (luz natural de dia, escuridao a noite, minimizar despertares noturnos), controle de dor, hidratacao/nutricao, remocao de cateter vesical, manejo intestinal; (3) Tratamento farmacologico (haloperidol 0,5-2 mg IV/VO) apenas se intervencoes nao farmacologicas forem insuficientes e paciente estiver em risco (auto/heteroagressao). A alternativa A esta incorreta porque TC cranio sem alteracoes no contexto de delirium (sem sinais focais) torna AVC improvavel; delirium e muito mais comum (3-53%) que AVC (1-3%) pos-cirurgia cardiaca. A alternativa C esta incorreta porque encefalopatia hipoxica causaria coma ou rebaixamento de consciencia profundo, nao agitacao/desorientacao isoladas. A alternativa D esta incorreta porque status epilepticus nao convulsivo causa rebaixamento de consciencia, movimentos sutis (nistagmo, automatismos), nao agitacao com confusao flutuante. A alternativa E esta incorreta porque TC sem contraste detecta hemorragias agudas (hiperdensas); RM e mais sensivel para AVCs isquemicos pequenos, mas nao e urgente; delirium explica quadro."
+    },
+    {
+      "enunciado": "Paciente masculino, 60 anos, com estenose mitral grave (area valvar 0,9 cm², gradiente medio 12 mmHg), fibrilacao atrial cronica, sera submetido a troca valvar mitral com CEC. Durante a inducao anestesica, paciente apresenta FC de 140 bpm (fibrilacao atrial com resposta ventricular rapida), PA 90/60 mmHg. Qual a conduta MAIS apropriada para controle da frequencia cardiaca?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Cardioversao eletrica imediata para restaurar ritmo sinusal.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Administrar esmolol em bolus (0,5 mg/kg) para reduzir FC para <100 bpm.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "Administrar diltiazem IV para controle de FC.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Administrar amiodarona 150 mg IV para controle de FC e ritmo.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Nao intervir; FC 140 bpm e benefica em estenose mitral para manter debito cardiaco.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Estenose mitral (EM) causa obstrucao ao fluxo de AE→VE (area valvar normal 4-6 cm²; EM grave <1,0 cm²). Fisiopatologia: aumento de pressao de AE → congestao pulmonar (dispneia), eventual hipertensao pulmonar, eventual disfuncao de VD. Fluxo atraves de valva estenotica depende de: (1) Gradiente de pressao AE-VE; (2) Tempo de enchimento diastolico (diastole mais longa → mais tempo para sangue passar pela valva estenotica → enchimento adequado de VE). Objetivos hemodinamicos em EM: (1) Manter FC baixa-normal (60-80 bpm) para maximizar tempo diastolico; taquicardia (FC >100 bpm, especialmente >120 bpm) reduz tempo diastolico → reducao de enchimento de VE → reducao de debito cardiaco + aumento de pressao de AE/capilar pulmonar → edema pulmonar; (2) Manter ritmo sinusal se possivel (contracao atrial contribui com enchimento de VE; perda em FA reduz DC em aproximadamente 20-30%); (3) Manter pre-carga adequada (evitar hipovolemia); (4) Evitar aumento de RVP (piora hipertensao pulmonar). Neste caso: FA com FC 140 bpm + hipotensao (PA 90/60) = taquicardia esta reduzindo DC. Conduta: controle de FC com betabloqueador (esmolol bolus 0,5 mg/kg IV em 1 min, pode repetir; ou infusao 50-300 mcg/kg/min) para reduzir FC para <100 bpm (idealmente 70-90 bpm). Esmolol e preferivel (acao rapida, meia-vida curta, titular facilmente). A alternativa A esta incorreta porque cardioversao eletrica em FA cronica (sem anticoagulacao previa adequada por 3-4 semanas ou TEE excluindo trombo) tem risco de AVC embolico; controle de FC e prioridade agora, nao cardioversao. A alternativa C esta incorreta porque diltiazem (bloqueador de canal de calcio) controla FC em FA, mas causa vasodilatacao e depressao miocardica → pode piorar hipotensao. A alternativa D esta incorreta porque amiodarona IV tem inicio de acao lento (15-30 min para efeito de FC, horas para efeito antiarritmico); em emergencia (FC 140 bpm + hipotensao), esmolol (inicio em 1-2 min) e mais apropriado. A alternativa E esta incorreta porque FC 140 bpm NAO e benefica em EM; reduz tempo diastolico, piora enchimento de VE e reduz DC."
+    },
+    {
+      "enunciado": "Paciente feminina, 68 anos, submetida a TAVI por acesso transfemoral. Durante a liberacao da protese (rapid pacing ventricular a 200 bpm), hemodinamica se deteriora. Apos liberacao da protese e cessacao do pacing, ritmo sinusal retorna, mas TEE mostra jato de regurgitacao aortica periprotesica moderada (2-3+/4+) e gradiente transprotesico elevado (medio 25 mmHg). Hemodinamica: hipotensao (PA 85/50 mmHg), taquicardia (FC 105 bpm). Qual a causa MAIS provavel da regurgitacao paravalvar e a conduta apropriada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Protese subdimensionada ou malposicionada → considerar implante de segunda protese valve-in-valve ou pos-dilatacao com balao.",
+          "correta": true
+        },
+        {
+          "letra": "B",
+          "texto": "Ruptura de anulo aortico → cirurgia aberta emergencial para reparo.",
+          "correta": false
+        },
+        {
+          "letra": "C",
+          "texto": "Disseccao de aorta ascendente → cirurgia aberta emergencial.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Embolizacao distal da protese → reposicionar protese por cateter.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Regurgitacao paravalvar leve e esperada e aceitavel → nenhuma intervencao necessaria.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Regurgitacao aortica paravalvar (PVL) pos-TAVI ocorre em 10-30% dos casos (dependendo de gravidade e geracao de dispositivo). Causas: (1) Protese subdimensionada (diametro da protese menor que anulo aortico → gap entre protese e anulo); (2) Calcificacao severa do anulo aortico (impede aposicao completa da protese); (3) Malposicionamento (protese muito alta ou muito baixa); (4) Anatomia desfavoravel (anulo eliptico, bicuspide). Classificacao de PVL: traco/leve (aceitavel), moderada (2+), grave (3-4+). PVL ≥moderada esta associada a: aumento de mortalidade 30 dias e 1 ano, aumento de readmissoes por IC. Gradiente transprotesico elevado (medio >20 mmHg) sugere: (1) Mismatch protese-paciente; (2) Malposicao com obstrucao parcial; (3) Protese subdimensionada. Conduta: (1) Avaliar causa por TEE/angiografia: subdimensionamento vs malposicao vs calcificacao; (2) Pos-dilatacao com balao (inflar balao dentro da protese para melhorar aposicao e reduzir PVL) → pode reduzir PVL de moderada para leve; risco: ruptura de anulo (aproximadamente 1%), AVC por embolizacao de calcio; (3) Implante de segunda protese valve-in-valve se PVL grave ou pos-dilatacao insuficiente; (4) Se refratario, considerar cirurgia aberta (raro). Decisao deve ser tomada no intraoperatorio (PVL ≥moderada nao deve ser aceita). A alternativa B esta incorreta porque ruptura de anulo e complicacao rara (<1%) e catastrofica; apresentacao: deterioracao hemodinamica subita e grave (choque), tamponamento cardiaco; aqui PVL moderada + gradiente elevado sugerem problema de dimensionamento/posicao. A alternativa C esta incorreta porque disseccao de aorta causaria dor toracica subita, sinais de malperfusao, imagem de flap intimal no TEE/angiografia. A alternativa D esta incorreta porque embolizacao distal (protese migra para aorta descendente ou VE) causaria ausencia de funcao valvar (regurgitacao grave, nao paravalvar), colapso hemodinamico. A alternativa E esta incorreta porque PVL moderada (2-3+/4+) NAO e aceitavel; apenas traco ou leve e aceitavel; PVL ≥moderada esta associada a piores desfechos."
+    },
+    {
+      "enunciado": "Paciente masculino, 58 anos, submetido a CRM com CEC. Cardioplegia utilizada: solucao sanguinea fria hipercalemica (blood cardioplegia) infundida de forma anterograda (raiz aortica) e retrograda (seio coronario). Durante infusao retrograda de cardioplegia, perfusionista observa pressao elevada no cateter de seio coronario (>40 mmHg) e retorno inadequado de solucao pelos ostios coronarianos. Qual a causa MAIS provavel e a conduta apropriada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Cateter de seio coronario malposicionado (nao esta no seio coronario) → reposicionar cateter sob visao direta ou com TEE.",
+          "correta": true
+        },
+        {
+          "letra": "B",
+          "texto": "Oclusao de arteria coronaria por embolo → interromper cardioplegia retrograda e usar apenas anterograda.",
+          "correta": false
+        },
+        {
+          "letra": "C",
+          "texto": "Pressao elevada e normal em cardioplegia retrograda → continuar infusao normalmente.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Vasoespasmo coronariano → administrar nitroglicerina na solucao de cardioplegia.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Hipertrofia ventricular esquerda causando compressao do seio coronario → reduzir velocidade de infusao.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Cardioplegia retrograda (infusao via seio coronario) e usada como adjuvante a cardioplegia anterograda (raiz aortica) para garantir protecao miocardica uniforme, especialmente em: (1) Doenca coronariana grave (estenoses podem impedir distribuicao anterograda); (2) Insuficiencia aortica (cardioplegia anterograda pode regurgitar para VE); (3) Reoperacao (anatomia distorcida). Tecnica: cateter e inserido no atrio direito e avancado para seio coronario (desembocadura no AD, proxima a valva tricuspide). Pressao no cateter de seio coronario durante infusao: normal 20-40 mmHg; se >40 mmHg sugere: (1) Malposicionamento do cateter (cateter nao esta no seio coronario, mas em outra estrutura: veia cava inferior, ventriculo direito, parede atrial) → pressao elevada por resistencia/obstrucao; (2) Balao do cateter excessivamente insuflado (oclusao completa do seio coronario); (3) Lesao/disseccao de seio coronario. Sinais de malposicionamento: pressao >40-50 mmHg, retorno inadequado pelos ostios coronarianos (sangue cardioplegico normalmente retorna pelos ostios e e aspirado pelo cirurgiao). Conduta: interromper infusao, desinflar balao parcialmente e reposicionar cateter sob visao direta (cirurgiao verifica posicao) ou com TEE (visualizar seio coronario e cateter). Lesao de seio coronario (rara) pode causar sangramento no pericardio. A alternativa B esta incorreta porque oclusao embolica de coronaria nao explica pressao elevada no cateter de seio coronario. A alternativa C esta incorreta porque pressao >40 mmHg NAO e normal; sugere problema (malposicionamento ou oclusao excessiva por balao). A alternativa D esta incorreta porque vasoespasmo coronariano nao causa pressao elevada no cateter de seio coronario (vasoespasmo afeta arterias, nao veias/seio coronario). A alternativa E esta incorreta porque HVE nao causa compressao significativa do seio coronario."
+    },
+    {
+      "enunciado": "Paciente feminina, 55 anos, com fibrilacao atrial persistente refrataria, sera submetida a ablacao cirurgica (procedimento de Cox-Maze IV modificado) concomitante com troca valvar mitral por IM grave. Cirurgiao planeja criar linhas de ablacao no atrio esquerdo (isolamento de veias pulmonares, linha mitral, linha do teto) e atrio direito (linha cavotricuspidea). Qual o objetivo do procedimento de Cox-Maze e qual o beneficio esperado a longo prazo?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Reduzir frequencia ventricular em fibrilacao atrial → melhor controle de sintomas.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "Compartimentalizar atrios para interromper circuitos de reentrada da FA → restaurar e manter ritmo sinusal, reduzir risco de AVC.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "Prevenir flutter atrial pos-operatorio → reduzir arritmias atriais.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "Facilitar cardioversao eletrica no pos-operatorio → maior taxa de sucesso.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Reduzir tamanho do atrio esquerdo → melhorar funcao diastolica.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Fibrilacao atrial e a arritmia sustentada mais comum. Fisiopatologia: multiplos circuitos de reentrada caoticos no atrio (especialmente atrio esquerdo), frequentemente com gatilhos nas veias pulmonares. Procedimento Cox-Maze (originalmente Cox-Maze III com incisoes cirurgicas; atualmente Cox-Maze IV com ablacao por RF/crioablacao): cria multiplas linhas de ablacao transmurais no AE e AD para: (1) Isolar veias pulmonares (eliminar gatilhos); (2) Compartimentalizar atrios em segmentos pequenos que nao conseguem sustentar reentrada (area critica minima necessaria para reentrada); (3) Direcionar impulso eletrico do no sinusal para no AV atraves de corredores de conducao preservados (manter ritmo sinusal). Linhas tipicas de ablacao: isolamento de 4 veias pulmonares, linha mitral (anel mitral → veia pulmonar inferior esquerda), linha do teto (entre veias pulmonares superiores), linha cavotricuspidea (AD, para prevenir flutter). Objetivo: restaurar e manter ritmo sinusal. Beneficios: (1) Eliminacao de sintomas de FA (palpitacoes, dispneia); (2) Reducao de risco tromboembolico/AVC (ritmo sinusal reduz estase em AE/apendice atrial); (3) Melhora de funcao cardiaca (FA causa taquimiocardiopatia); (4) Possibilidade de descontinuar anticoagulacao oral a longo prazo (se ritmo sinusal estavel e sem outros fatores de risco). Taxa de sucesso: 70-90% livre de FA em 1-5 anos (maior em Cox-Maze cirurgico que ablacao percutanea isolada). A alternativa A esta incorreta porque reduzir FC e tratamento paliativo; objetivo de Cox-Maze e curar FA (restaurar ritmo sinusal), nao apenas controlar FC. A alternativa C esta incorreta porque prevenir flutter e beneficio secundario (linha cavotricuspidea previne flutter tipico), mas objetivo principal e tratar FA. A alternativa D esta incorreta porque facilitar cardioversao nao e objetivo; Cox-Maze elimina substrato da FA. A alternativa E esta incorreta porque reducao de tamanho de AE e consequencia do retorno ao ritmo sinusal (remodelamento reverso), nao objetivo direto."
+    },
+    {
+      "enunciado": "Paciente masculino, 70 anos, submetido a CRM com CEC. Tempo de CEC: 90 minutos. Nas primeiras 6 horas de pos-operatorio, debito urinario progressivamente reduzido (total 80 mL em 6 horas = aproximadamente 13 mL/h). Exames: creatinina 1,9 mg/dL (pre-op: 1,1 mg/dL), ureia 68 mg/dL, potassio 5,2 mEq/L. Hemodinamica: PAM 72 mmHg, IC 2,6 L/min/m², PVC 12 mmHg, POAP 14 mmHg. Urina: densidade 1.025 (alta), Na⁺ urinario 18 mEq/L (baixo), FENa 0,6% (baixo). Qual a interpretacao MAIS apropriada dos achados urinarios?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Lesao renal aguda (LRA) pre-renal (hipovolemia/hipoperfusao) → expansao volemica.",
+          "correta": true
+        },
+        {
+          "letra": "B",
+          "texto": "Necrose tubular aguda (NTA) por LRA intrinseca → suporte conservador, evitar diureticos.",
+          "correta": false
+        },
+        {
+          "letra": "C",
+          "texto": "Obstrucao de sonda vesical → lavar sonda e verificar permeabilidade.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "LRA pos-renal por obstrucao bilateral de ureteres → USG renal urgente.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Sindrome hepatorrenal → suporte hepatico e vasodilatadores renais.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Oliguria pos-cirurgia cardiaca pode ser por: (1) LRA pre-renal (hipoperfusao renal por hipovolemia, baixo DC, hipotensao, vasoconstricao renal); (2) LRA intrinseca (necrose tubular aguda por isquemia/toxinas durante CEC); (3) Obstrucao (sonda vesical, calculo, coagulo). Distincao entre pre-renal e intrinseca e feita por analise de urina: LRA pre-renal (rim tentando reter Na⁺ e agua para compensar hipovolemia/hipoperfusao): densidade urinaria alta (>1.020), Na⁺ urinario baixo (<20 mEq/L), FENa baixo (<1%), ureia/creatinina serica proporcao >20:1 (reabsorcao de ureia preservada). NTA/LRA intrinseca (tubulos lesados, incapazes de reabsorver Na⁺): densidade proxima de plasma (1.010), Na⁺ urinario alto (>40 mEq/L), FENa alto (>2%), ureia/creatinina proporcao <20:1. Neste caso: densidade 1.025 (alta), Na⁺ urinario 18 mEq/L (baixo), FENa 0,6% (baixo) = LRA pre-renal. Hemodinamica parece adequada (PAM 72, IC 2,6, PVC 12, POAP 14), MAS: (1) PVC/POAP podem nao refletir volemia real (complacencia alterada); (2) Rim pode estar hipoperfundido apesar de PAM adequada (vasoconstricao renal, redistribuicao de fluxo). Conduta: expansao volemica cautelosa (cristaloide/coloide 250-500 mL, reavaliar resposta: diurese, PAM, PVC); se melhora de diurese → confirma pre-renal; se sem resposta ou sinais de sobrecarga → parar expansao e considerar LRA intrinseca (suporte conservador). A alternativa B esta incorreta porque NTA causaria Na⁺ urinario alto e FENa alto (>2%); aqui FENa 0,6% sugere pre-renal, nao intrinseca. A alternativa C esta incorreta porque obstrucao de sonda pode ser verificada (lavar sonda), mas achados urinarios (densidade alta, Na⁺ baixo) sugerem rim funcionante com resposta pre-renal. A alternativa D esta incorreta porque LRA pos-renal (obstrucao bilateral de ureteres) causaria hidronefrose bilateral no USG; contexto (pos-cirurgia cardiaca) torna obstrucao bilateral improvavel. A alternativa E esta incorreta porque sindrome hepatorrenal ocorre em cirrose avancada com insuficiencia hepatica; nao ha mencao de doenca hepatica."
+    },
+    {
+      "enunciado": "Paciente feminina, 62 anos, submetida a troca valvar aortica com CEC. Sera realizado desmame da CEC. TEE mostra VE com boa contratilidade global, valva protesica aortica funcionando adequadamente, sem regurgitacao. Hemodinamica: PAM 85 mmHg com suporte de noradrenalina 0,08 mcg/kg/min, FC 75 bpm em ritmo sinusal, PVC 10 mmHg, POAP 12 mmHg. Qual o parametro que indica que a pre-carga esta adequada para iniciar tentativa de desmame?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "PAM 85 mmHg.",
+          "correta": false
+        },
+        {
+          "letra": "B",
+          "texto": "PVC 10 mmHg e POAP 12 mmHg.",
+          "correta": true
+        },
+        {
+          "letra": "C",
+          "texto": "FC 75 bpm em ritmo sinusal.",
+          "correta": false
+        },
+        {
+          "letra": "D",
+          "texto": "VE com boa contratilidade no TEE.",
+          "correta": false
+        },
+        {
+          "letra": "E",
+          "texto": "Uso de vasopressor (noradrenalina) indica pre-carga inadequada; expandir antes de desmamar.",
+          "correta": false
+        }
+      ],
+      "explicacao": "Desmame de CEC requer otimizacao de condicoes: (1) Pre-carga adequada; (2) Contratilidade adequada; (3) Pos-carga adequada; (4) Ritmo cardiaco adequado; (5) Ausencia de ar em camaras esquerdas; (6) Correcao de disturbios metabolicos (acidose, eletrolitos, temperatura). Pre-carga adequada e avaliada por: (a) Pressoes de enchimento: PVC (AD/VD) e POAP/PAD (AE/VE); alvos tipicos: PVC 8-12 mmHg, POAP 10-15 mmHg (variam conforme funcao ventricular); (b) TEE: volume de VE ao final da diastole (VDFVE), sem colapso de cavidades. Neste caso: PVC 10 mmHg e POAP 12 mmHg estao adequados para tentativa de desmame (dentro das faixas-alvo). TEE mostra VE sem colapso (boa contratilidade sugere enchimento adequado). PAM, FC e ritmo tambem estao adequados. Uso de vasopressor (noradrenalina 0,08 mcg/kg/min, dose baixa-moderada) NAO contraindica desmame; e comum necessitar de vasopressor apos CEC (vasoplegia por resposta inflamatoria sistemica, reaquecimento). Desmame e iniciado reduzindo fluxo de CEC gradualmente (ex: 80% → 60% → 40% → 0%) enquanto se monitora hemodinamica (PAM, PVC, POAP, TEE). Se hipotensao/baixo DC durante desmame: aumentar pre-carga (volume), inotropicos, vasopressor; ou retornar a CEC completo e reavaliar. A alternativa A esta incorreta porque PAM 85 mmHg indica pos-carga e perfusao adequadas, mas nao avalia pre-carga diretamente; pre-carga e avaliada por pressoes de enchimento (PVC, POAP) e TEE. A alternativa C esta incorreta porque FC 75 bpm em ritmo sinusal indica ritmo adequado, mas nao avalia pre-carga. A alternativa D esta incorreta porque boa contratilidade sugere funcao sistolica adequada, mas nao avalia pre-carga isoladamente; VE pode ter boa contratilidade mesmo com pre-carga inadequada (hipovolemia → cavidade pequena, mas contratilidade preservada). A alternativa E esta incorreta porque uso de vasopressor nao indica pre-carga inadequada; vasoplegia pos-CEC e comum; vasopressor mantem PAM adequada apesar de RVS baixa; pre-carga e avaliada por PVC/POAP, nao por uso de vasopressor."
+    }
+  ]
+}

@@ -71,7 +71,7 @@
             "title": "Questões Comentadas",
             "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Farmacologia Geral.",
             "thumbnail": "❓",
-            "link": "questoes/farmacologia-geral.html",
+            "link": "auto",
             "tags": [
                 "Quiz",
                 "Provas"

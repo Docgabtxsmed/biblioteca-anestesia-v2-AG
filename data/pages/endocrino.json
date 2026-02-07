@@ -92,7 +92,7 @@
             "title": "Questões Comentadas",
             "description": "Banco com perguntas e gabarito comentado sobre endocrinologia perioperatória.",
             "thumbnail": "❓",
-            "link": "questoes/endocrino.html",
+            "link": "auto",
             "tags": [
                 "Interativo"
             ],

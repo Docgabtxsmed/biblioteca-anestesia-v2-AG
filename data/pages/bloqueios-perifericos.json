@@ -58,7 +58,7 @@
             "title": "Questões Comentadas",
             "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Bloqueios Periféricos.",
             "thumbnail": "❓",
-            "link": "questoes/bloqueios-perifericos.html",
+            "link": "auto",
             "tags": [
                 "Quiz",
                 "Provas"

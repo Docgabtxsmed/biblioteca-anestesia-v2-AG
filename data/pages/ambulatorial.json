@@ -71,7 +71,7 @@
             "title": "Questões Comentadas",
             "description": "Quiz interativo com gabarito comentado sobre anestesia ambulatorial.",
             "thumbnail": "❓",
-            "link": "questoes/ambulatorial.html",
+            "link": "auto",
             "tags": [
                 "Interativo"
             ],

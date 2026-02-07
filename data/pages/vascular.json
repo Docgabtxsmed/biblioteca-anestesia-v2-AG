@@ -68,7 +68,7 @@
             "title": "Questões Comentadas",
             "description": "Quiz interativo com gabarito comentado sobre cirurgia vascular.",
             "thumbnail": "❓",
-            "link": "questoes/vascular.html",
+            "link": "auto",
             "tags": [
                 "Interativo"
             ],

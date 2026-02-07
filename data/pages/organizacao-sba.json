@@ -58,7 +58,7 @@
             "title": "Questões Comentadas",
             "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Organização da SBA.",
             "thumbnail": "❓",
-            "link": "questoes/organizacao-sba.html",
+            "link": "auto",
             "tags": [
                 "Quiz",
                 "Provas"

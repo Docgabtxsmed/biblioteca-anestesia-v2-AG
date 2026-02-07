@@ -71,7 +71,7 @@
             "title": "Questões Comentadas",
             "description": "Quiz interativo com gabarito comentado sobre ventilação mecânica.",
             "thumbnail": "❓",
-            "link": "questoes/ventilacao-mecanica.html",
+            "link": "auto",
             "tags": [
                 "Interativo"
             ],

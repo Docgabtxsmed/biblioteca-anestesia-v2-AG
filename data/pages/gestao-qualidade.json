@@ -58,7 +58,7 @@
             "title": "Questões Comentadas",
             "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Gestão e Qualidade.",
             "thumbnail": "❓",
-            "link": "questoes/gestao-qualidade.html",
+            "link": "auto",
             "tags": [
                 "Quiz",
                 "Provas"

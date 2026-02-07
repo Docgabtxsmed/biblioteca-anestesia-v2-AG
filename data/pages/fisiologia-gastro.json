@@ -58,7 +58,7 @@
             "title": "Questões Comentadas",
             "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Fisiologia - Gastrointestinal.",
             "thumbnail": "❓",
-            "link": "questoes/fisiologia-gastro.html",
+            "link": "auto",
             "tags": [
                 "Quiz",
                 "Provas"

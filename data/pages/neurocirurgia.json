@@ -97,7 +97,7 @@
             "title": "Questões Comentadas",
             "description": "Quiz interativo com gabarito comentado sobre neuroanestesia.",
             "thumbnail": "❓",
-            "link": "questoes/neurocirurgia.html",
+            "link": "auto",
             "tags": [
                 "Interativo"
             ],

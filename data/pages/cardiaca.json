@@ -59,7 +59,7 @@
             "title": "Questões Comentadas",
             "description": "Questões de múltipla escolha com explicações detalhadas, baseadas em provas de residência e concursos.",
             "thumbnail": "❓",
-            "link": "questoes/cardiaca.html",
+            "link": "auto",
             "tags": [
                 "Questões",
                 "30+ itens",
@@ -72,7 +72,7 @@
             "title": "Flashcards",
             "description": "Cartões de revisão espaçada para fixar conceitos-chave de anestesia cardiovascular. Sistema de repetição inteligente.",
             "thumbnail": "🎴",
-            "link": "flashcards/cardiaca.html",
+            "link": "auto",
             "tags": [
                 "Interativo",
                 "50+ cards",

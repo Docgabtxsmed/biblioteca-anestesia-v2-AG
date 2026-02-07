@@ -1,0 +1,490 @@
+/* css/flashcards.css - Tema Blue Anki */
+@import url('base.css');
+
+/* ==================== ESTILOS PARA O BODY (PERSONALIZADO) ==================== */
+
+.body-flashcards {
+    padding: 10px;
+}
+
+.main-flashcards {
+    margin: auto;
+    max-width: 700px;
+}
+
+.navbar {
+    background: rgba(247, 247, 247, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: var(--shadow-sm);
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    z-index: 100; 
+    padding: 15px;
+    border-radius: 12px; 
+    margin-bottom: 20px;
+}
+
+/* ======================================================
+   2. AJUSTES PARA DESKTOP (Telas maiores que 768px)
+   Aqui decidimos se no PC ela fixa ou também rola
+   ====================================================== */
+   @media (min-width: 768px) {       
+    .navbar {
+        position: sticky; /* No PC ela cola no teto ao rolar */
+        top: 0;
+        margin-bottom: 30px;
+    }
+}
+
+
+/* css/flashcards.css */
+
+.nav-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px; 
+}
+
+.logo {
+    font-size: 1.2em;
+    font-weight: bold;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    white-space: nowrap;
+    overflow: hidden;         
+    text-overflow: ellipsis;   
+    flex: 1;  
+}
+
+/*=================================BOTÃO VOLTAR
+=====================*/
+
+.back-link {
+    width: 40%;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: var(--gray-700);
+    font-size: 0.95em;
+    font-weight: 550;
+    text-align: center;
+    text-decoration: none;
+    background: var(--gray-200);
+    flex-shrink: 0;       
+    white-space: nowrap;
+    min-height: 44px;
+    min-width: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-link:hover {
+    background: var(--primary-color);
+    color: var(--white);
+    transform: translateY(-2px);
+}
+
+/* 3. CONTAINER PRINCIPAL */
+
+
+/* 4. BARRA DE PROGRESSO */
+.progress-container {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: var(--shadow-sm);
+}
+
+.progress-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.progress-text {
+    font-size: 1.1em;
+    color: var(--dark-blue);
+    font-weight: 600;
+}
+
+.cards-count {
+    font-size: 0.95em;
+    color: var(--gray-600);
+}
+
+.progress-bar {
+    height: 10px;
+    background: var(--gray-300);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    border-radius: 10px;
+    transition: width 0.5s ease;
+}
+
+/* 5. O FLASHCARD (Estilo 3D) */
+.flashcard-stage {
+    perspective: 1000px; /* Necessário para o efeito 3D */
+    margin-bottom: 30px;
+}
+
+.flashcard-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+
+.flashcard-container.flipped {
+    transform: rotateY(180deg);
+}
+
+.card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 16px;
+    box-shadow: var(--shadow-lg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Frente Branca */
+.card-front {
+    background: var(--white);
+    z-index: 2;
+}
+
+/* Verso Azul Degradê */
+.card-back {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: var(--white);
+    transform: rotateY(180deg);
+}
+
+.card-label {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 0.85em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.7;
+}
+
+.card-content {
+    font-size: 1.6em; /* Aumentado para leitura */
+    line-height: 1.6;
+    color: var(--dark-blue);
+    font-weight: 500;
+}
+
+.card-back .card-content {
+    color: var(--white);
+}
+
+.flip-hint {
+    position: absolute;
+    bottom: 20px;
+    font-size: 0.9em;
+    opacity: 0.6;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* 6. BOTÕES (Estilo Anki Colorido) */
+.buttons-container {
+    height: 50%;
+    background: var(--white);
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: var(--shadow-sm);
+    margin-bottom: 20px;
+    
+    /* Controle de estado para JS */
+    transition: opacity 0.3s;
+}
+
+.buttons-container.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/* Grid para os botões de Dificuldade */
+.difficulty-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 Colunas */
+    gap: 10px; /* Espaço entre eles */
+    /* Isso gera automaticamente 2 linhas quando tem 4 itens */
+}
+
+.difficulty-btn {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.difficulty-btn:hover { transform: translateY(-3px); }
+
+/* Cores específicas */
+.btn-again { background: #fee2e2; color: #dc2626; }
+.btn-again:hover { box-shadow: 0 6px 20px rgba(220, 38, 38, 0.3); }
+
+.btn-hard { background: #fef3c7; color: #f59e0b; }
+.btn-hard:hover { box-shadow: 0 6px 20px rgba(245, 158, 11, 0.3); }
+
+.btn-good { background: #d1fae5; color: #059669; }
+.btn-good:hover { box-shadow: 0 6px 20px rgba(5, 150, 105, 0.3); }
+
+.btn-easy { background: #dbeafe; color: #2563eb; }
+.btn-easy:hover { box-shadow: 0 6px 20px rgba(37, 99, 235, 0.3); }
+
+.btn-time {
+    font-size: 0.85em;
+    opacity: 0.8;
+    font-weight: normal;
+}
+
+/* Botões de EMBARALHAR E PRÓXIMO) */
+.action-buttons {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+    /*
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}*/
+
+.action-btn {
+    background: #f1f5f9;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 20px;
+    text-decoration: none;
+    width: 100%;
+    height: 200%;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #475569;
+    gap: 8px;
+}
+
+.action-btn:hover {
+    background: var(--gray-300);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(48, 89, 239, 0.4);
+}
+
+.action-btn.passar {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: var(--white);
+    font-weight: 600;
+}
+
+.action-btn.passar:hover {
+    box-shadow: 0 4px 15px rgba(48, 89, 239, 0.3);
+}
+
+/* Container de Estatísticas (O Placar) */
+.stats-container {
+    background: var( --gray-300);
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: var(--shadow-sm);
+    margin-top: 20px;
+    margin-bottom: 15px;
+    animation: fadeInUp 0.5s ease;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    background: #f8fafc;
+    border: 1px solid #eee;
+}
+
+.stat-value {
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.stat-label {
+    font-size: 0.75em;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+/* Cores dos Números */
+.stat-again .stat-value { color: #dc2626; }
+.stat-hard .stat-value { color: #f59e0b; }
+.stat-good .stat-value { color: #059669; }
+.stat-easy .stat-value { color: #2563eb; }
+
+
+/* 7. TELA DE FINALIZAÇÃO */
+.completion-screen {
+    display: none;
+    text-align: center;
+    background: var(--white);
+    border-radius: 16px;
+    padding: 60px 40px;
+    box-shadow: var(--shadow-lg);
+}
+
+.completion-screen.active {
+    display: block;
+}
+
+footer {
+    background: var(--dark-blue);
+    color: var(--gray-300);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+/* Animaçãozinha suave */
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation: none;
+        transition: none;
+    }
+}
+
+
+
+
+/* css/flashcards.css */
+
+/* ... (resto do código acima) ... */
+
+/* ==================== AJUSTES MOBILE ==================== */
+@media (max-width: 768px) {
+    
+    /* 1. Navbar rolando junto (como definimos antes) */
+    .navbar {
+        position: sticky;
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        font-size: 1em;
+    }
+
+    .backlink{
+        width: 100%;
+    }
+    
+    .page-flashcards {
+        padding: 15px
+
+    }
+
+    /* 2. Botões de Dificuldade em UMA LINHA e MENORES */
+    .difficulty-buttons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px; 
+    }
+
+    .difficulty-btn {
+        margin: 0px;
+        padding: 10px 10px 20px 20px;
+        font-size: 1rem; 
+        flex: 1; /* Garante que todos tenham a mesma largura */
+        min-width: 0; /* Permite que o botão encolha se necessário */
+    }
+
+    /* Ajuste fino para o texto do tempo (ex: < 10min) */
+    .btn-time {
+        font-size: 0.8em; /* Deixa o tempo bem pequeno */
+        white-space: nowrap; /* Evita quebra de linha no tempo */
+        margin-top: 2px;
+    }
+
+    /* 3. Ajuste da altura do card para caber em telas pequenas */
+    .flashcard-container {
+        height: 300px;
+        font-size: 12px; /* Reduzi de 400px para 300px no mobile */
+    }
+
+    /* 4. Ajuste da grade de estatísticas */
+    .stats-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5px;
+    }
+
+    .stat-item {
+        padding: 20px;
+    }
+    
+    .stat-value {
+        font-size: 1.2em; 
+        margin-bottom: 0;/* Números menores no placar */
+    }
+    
+    .stat-label {
+        font-size: 0.6em;
+        display: block;
+    }
+}

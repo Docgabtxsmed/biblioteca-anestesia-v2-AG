@@ -58,7 +58,7 @@
             "title": "Questões Comentadas",
             "description": "Quiz interativo com gabarito comentado sobre cirurgia torácica, baseado em casos clínicos reais e questões de residência médica em anestesiologia.",
             "thumbnail": "❓",
-            "link": "questoes/toracica.html",
+            "link": "auto",
             "tags": [
                 "Interativo"
             ],
@@ -69,7 +69,7 @@
             "title": "Flashcards de Revisão",
             "description": "Memorize conceitos-chave de fisiologia, VMP e farmacologia torácica com nosso sistema de repetição espaçada.",
             "thumbnail": "🎴",
-            "link": "flashcards/toracica.html",
+            "link": "auto",
             "tags": [
                 "Interativo",
                 "Revisão"

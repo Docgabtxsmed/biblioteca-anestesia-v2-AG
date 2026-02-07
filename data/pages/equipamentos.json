@@ -58,7 +58,7 @@
             "title": "Questões Comentadas",
             "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Equipamentos.",
             "thumbnail": "❓",
-            "link": "questoes/equipamentos.html",
+            "link": "auto",
             "tags": [
                 "Quiz",
                 "Provas"

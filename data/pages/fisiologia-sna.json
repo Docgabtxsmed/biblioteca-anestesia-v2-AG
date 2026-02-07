@@ -58,7 +58,7 @@
             "title": "Questões Comentadas",
             "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Fisiologia - SNA.",
             "thumbnail": "❓",
-            "link": "questoes/fisiologia-sna.html",
+            "link": "auto",
             "tags": [
                 "Quiz",
                 "Provas"

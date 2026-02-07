@@ -58,7 +58,7 @@
             "title": "Questões Comentadas",
             "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Anestesia Urológica.",
             "thumbnail": "❓",
-            "link": "questoes/urologia.html",
+            "link": "auto",
             "tags": [
                 "Quiz",
                 "Provas"

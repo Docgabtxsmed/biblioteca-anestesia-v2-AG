@@ -58,7 +58,7 @@
             "title": "Questões Comentadas",
             "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Anestesia para Oftalmologia.",
             "thumbnail": "❓",
-            "link": "questoes/oftalmologia.html",
+            "link": "auto",
             "tags": [
                 "Quiz",
                 "Provas"

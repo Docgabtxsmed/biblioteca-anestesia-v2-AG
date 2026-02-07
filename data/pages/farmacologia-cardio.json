@@ -46,7 +46,7 @@
             "title": "Flashcards de Revisão",
             "description": "Revisão espaçada e memorização ativa dos principais tópicos de Farmacologia Cardiovascular.",
             "thumbnail": "🎴",
-            "link": "flashcards/farmacologia-cardio.html",
+            "link": "auto",
             "tags": [
                 "Interativo",
                 "Memorização"
@@ -58,7 +58,7 @@
             "title": "Questões Comentadas",
             "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Farmacologia Cardiovascular.",
             "thumbnail": "❓",
-            "link": "questoes/farmacologia-cardio.html",
+            "link": "auto",
             "tags": [
                 "Quiz",
                 "Provas"

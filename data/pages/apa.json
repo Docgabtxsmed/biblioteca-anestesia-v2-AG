@@ -71,7 +71,7 @@
             "title": "Questões Comentadas",
             "description": "Banco de questões de provas (TEA/TSA) comentadas sobre Avaliação Pré-Anestésica.",
             "thumbnail": "❓",
-            "link": "questoes/apa.html",
+            "link": "auto",
             "tags": [
                 "Quiz",
                 "Provas"

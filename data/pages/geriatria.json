@@ -45,7 +45,7 @@
             "title": "Questões Comentadas",
             "description": "Quiz interativo com gabarito comentado sobre geriatria e cuidados perioperatórios do idoso.",
             "thumbnail": "❓",
-            "link": "questoes/geriatria.html",
+            "link": "auto",
             "tags": [
                 "Interativo"
             ],
